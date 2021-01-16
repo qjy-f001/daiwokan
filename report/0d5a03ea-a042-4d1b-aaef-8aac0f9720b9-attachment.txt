@@ -1,0 +1,17 @@
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_me_info_add_skill') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_me_info_add_skill')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.widget.EditText[1]') 超时时间：10 访问频率：0.5
+base.py                     48 INFO     正在对元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.widget.EditText[1]') 执行清空操作
+base.py                     51 INFO     对元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.widget.EditText[1]') 执行 输入：大学带看
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@text="按分钟计费"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@text="按分钟计费"]')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[3]/android.view.View[3]/android.widget.EditText[1]') 超时时间：10 访问频率：0.5
+base.py                     48 INFO     正在对元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[3]/android.view.View[3]/android.widget.EditText[1]') 执行清空操作
+base.py                     51 INFO     对元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[3]/android.view.View[3]/android.widget.EditText[1]') 执行 输入：0.1
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@text="视频"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@text="视频"]')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[5]/android.view.View[1]/android.widget.EditText[1]') 超时时间：10 访问频率：0.5
+base.py                     48 INFO     正在对元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[5]/android.view.View[1]/android.widget.EditText[1]') 执行清空操作
+base.py                     51 INFO     对元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[5]/android.view.View[1]/android.widget.EditText[1]') 执行 输入：随便看看
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@text="发布服务"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@text="发布服务"]')

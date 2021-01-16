@@ -1,0 +1,45 @@
+dwk_login_001:
+  phone: "13511112222"
+  pwd: "123456"
+  expect: "2222"
+  success: True
+dwk_login_002:
+  phone: "13511112222"
+  pwd: "123456"
+  expect: "2222"
+  success: True
+dwk_login_003:
+  phone: ""
+  pwd: "123456"
+  expect: "请输入正确的手机号码"
+  success: False
+dwk_login_004:
+  username: "13511112222"
+  pwd: "1234567"
+  expect: "密码错误"
+  success: False
+dwk_login_005:
+  username: "13511112222"
+  pwd: "123456f"
+  expect: "密码错误"
+  success: False
+dwk_login_006:
+  username: "13511112222"
+  pwd: "123456F"
+  expect: "密码错误"
+  success: False
+dwk_login_007:
+  username: "13511112222"
+  pwd: "123456 "
+  expect: "密码错误"
+  success: False
+dwk_login_008:
+  phone: "13511112222"
+  pwd: ""
+  expect: "密码输入有误，请重新输入"
+  success: False
+dwk_login_009:
+  username: "13511112222"
+  pwd: "123456@"
+  expect: "密码输入有误，请重新输入"
+  success: False

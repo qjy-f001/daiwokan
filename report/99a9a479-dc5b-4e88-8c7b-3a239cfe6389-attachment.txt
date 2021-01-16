@@ -1,0 +1,54 @@
+base.py                     18 INFO     获取driver对象：<appium.webdriver.webdriver.WebDriver (session="fe41b57f-6ff4-4df1-ad91-1b0a3d16ff80")>
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@text="校园"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@text="校园"]')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[7]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[7]/android.view.View[1]/android.view.View[1]')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@text = "修改我的学校"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@text = "修改我的学校"]')
+base.py                     25 INFO     正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[10]/android.view.View[1]/android.view.View[2]/android.widget.EditText') 超时时间：10 访问频率：0.5
+base.py                     48 INFO     正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[10]/android.view.View[1]/android.view.View[2]/android.widget.EditText') 执行清空操作
+base.py                     51 INFO     对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[10]/android.view.View[1]/android.view.View[2]/android.widget.EditText') 执行 输入：清华大学
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.view.View[2]/android.view.View[1]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.view.View[2]/android.view.View[1]')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@text="校园"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@text="校园"]')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[7]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[7]/android.view.View[1]/android.view.View[1]')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@text = "发布带看订单"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@text = "发布带看订单"]')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/tv_home_recommend_details_launch"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/tv_home_recommend_details_launch"]')
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@text="按分钟计费"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@text="按分钟计费"]')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
+base.py                     48 INFO     正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
+base.py                     51 INFO     对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
+base.py                     48 INFO     正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
+base.py                     51 INFO     对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
+base.py                     18 INFO     获取driver对象：<appium.webdriver.webdriver.WebDriver (session="fe41b57f-6ff4-4df1-ad91-1b0a3d16ff80")>
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
+base.py                     32 INFO     正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：2 访问频率：0.5
+base.py                     32 INFO     正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：2 访问频率：0.5
+base.py                     32 INFO     正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：2 访问频率：0.5
+base.py                     25 INFO     正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', '//*[@text="等待接单"]')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
