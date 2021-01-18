@@ -75,6 +75,7 @@ class PageHometown(Base):
         self.base_click(page.add_hometown)
         # print(self.driver.current_context)
         # print(self.driver.contexts)
+        sleep(1)
         self.base_click(page.add_hometown_icon)
         self.base_click(page.add_hometown_my)
         self.base_click(page.add_hometown_bj)
