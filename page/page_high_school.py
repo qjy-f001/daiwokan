@@ -2,6 +2,9 @@ from time import sleep
 
 import page
 from base.base import Base
+from tool.get_log import GetLog
+
+log = GetLog.get_log()
 
 
 class PageHighSchool(Base):
@@ -74,6 +77,44 @@ class PageHighSchool(Base):
     def page_click_add_skill_share_minute_charging(self):
         self.base_click(page.add_skill_share_minute_charging)
 
+    # 查询修改后大学名称
+    def page_git_add_high_school_after_modification(self):
+        self.base_get_text(page.add_high_school_after_modification)
+
+    # 断言修改后学校名称
+    def page_assertion_school_after_modification(self, qh):
+        data = self.base_get_text(page.add_high_school_after_modification)
+        # data = 1
+        print(data)
+        if qh == data:
+            try:
+                self.base_get_text(page.add_high_school_after_modification)
+                preview_type = self.base_get_text(page.add_high_school_after_modification)
+                print("获取正确的学校名称为：", preview_type)
+                assert self.base_get_text(page.add_high_school_after_modification) == qh
+            except Exception as e:
+                # 截图 、日志
+                self.base_get_img()
+                log.error(e)
+                # 抛异常
+                raise
+            finally:
+                pass
+        else:
+            try:
+                self.base_get_text(page.add_high_school_after_modification)
+                preview_type = self.base_get_text(page.add_high_school_after_modification)
+                print("获取错误的学校名称为：", preview_type)
+                assert self.base_get_text(page.add_high_school_after_modification) == qh
+            except Exception as e:
+                # 截图 、日志
+                self.base_get_img()
+                log.error(e)
+                # 抛异常
+                raise
+            finally:
+                pass
+
     # 组合修改我的学校业务
     def page_modify_my_school(self, qh):
         self.base_click(page.hair_letter)
@@ -88,6 +129,7 @@ class PageHighSchool(Base):
         self.base_input(page.add_high_school_search, qh)
         #
         self.base_click(page.add_high_school_search_qh)
+        self.page_assertion_school_after_modification(qh)
 
     # 组合修改我的学校发单业务
     def page_my_school_order(self, money, demand):

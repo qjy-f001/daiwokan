@@ -287,6 +287,10 @@ add_high_school_search = By.XPATH, '/hierarchy/android.widget.FrameLayout/androi
 
 # 搜索清华
 add_high_school_search_qh = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.view.View[2]/android.view.View[1]'
+
+# 查询修改后大学名称
+add_high_school_after_modification = By.XPATH, '//*[@text="清华大学"]'
+
 """以下为推荐分页元素模块配置数据"""
 
 # 家乡分页

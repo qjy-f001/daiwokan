@@ -175,6 +175,7 @@ class PagePagination(Base):
         self.page_assertion_preview_type(expect)
         self.page_assert_demand(demand)
         self.base_click(page.add_billing_home_preview_issue)
+        sleep(1)
         self.driver.tap([(394, 1333)])
 
     # 组合发单分页输入订单信息业务
