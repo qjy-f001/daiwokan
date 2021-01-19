@@ -43,6 +43,11 @@ login_confirm = By.ID, "com.qjy.teleeye:id/btn_pos"
 # 点击 返回
 login_sign_out = By.ID, "com.qjy.teleeye:id/iv_chat_back"
 
+# 注册手机号
+login_register_phone = By.ID, "com.qjy.teleeye:id/tv_register_phone_title"
+
+# 点击 返回
+login_register_phone_back = By.ID, "com.qjy.teleeye:id/tv_action_bar_menu_back"
 """以下为发单模块配置数据"""
 
 # 点击 首页主页
@@ -413,7 +418,6 @@ position_manage_click_describe = By.XPATH, '//*[@text="点击这里输入针对�
 
 # 选择图片
 position_manage_select_picture = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View"
-
 
 # 选择图片
 position_manage_select_picture2 = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[3]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View"

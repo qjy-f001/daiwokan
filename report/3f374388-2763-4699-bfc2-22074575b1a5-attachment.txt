@@ -1,1 +1,0 @@
-('xpath', '//*[@resource-id="com.qjy.teleeye:id/tv_home_recommend_details_launch"]')

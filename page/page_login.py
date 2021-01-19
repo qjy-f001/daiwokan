@@ -62,6 +62,10 @@ class PageLogin(Base):
     def page_get_toast(self, msg):
         return self.base_get_toast(msg)
 
+    # 返回注册手机号
+    def page_get_register_phone(self):
+        return self.base_get_text(page.login_register_phone)
+
     # 点击 配置
     def page_click_login_setting(self):
         self.base_click(page.login_setting)
@@ -74,8 +78,13 @@ class PageLogin(Base):
     def page_login_confirm(self):
         self.base_click(page.login_confirm)
 
+    # 点击 返回
     def page_login_sign_out(self):
         self.base_click(page.login_sign_out)
+
+    # 取消注册新账号，点击返回
+    def page_login_register_phone_back(self):
+        self.base_click(page.login_register_phone_back)
 
     # 退出登陆业务方法
     def page_logout(self):

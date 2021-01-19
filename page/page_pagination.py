@@ -88,36 +88,76 @@ class PagePagination(Base):
 
     # 断言标题
     def page_assertion_preview_type(self, expect):
-        try:
-            preview_type = self.page_get_add_billing_home_preview_type()
-            print("获取的服务标题为：", preview_type)
-            assert self.page_get_add_billing_home_preview_type() == expect
+        data = self.page_get_add_billing_home_preview_type()
+        # data = 1
+        # print(data)
+        if expect == data:
+            try:
+                preview_type = self.page_get_add_billing_home_preview_type()
+                print("获取正确的服务标题为：", preview_type)
+                assert self.page_get_add_billing_home_preview_type() == expect
+                # data = self.page_get_add_billing_home_preview_type()
+                # return data
 
-        except Exception as e:
-            # 截图 、日志
-            self.base_get_img()
-            log.error(e)
-            # 抛异常
-            raise
-        finally:
-            pass
+            except Exception as e:
+                # 截图 、日志
+                self.base_get_img()
+                log.error(e)
+                # 抛异常
+                raise
+            finally:
+                pass
+
+        else:
+            try:
+                preview_type = self.page_get_add_billing_home_preview_type()
+                print("获取错误的服务标题为：", preview_type)
+
+            except Exception as e:
+                # 截图 、日志
+                self.base_get_img()
+                log.error(e)
+                # 抛异常
+                raise
+
+            finally:
+                pass
 
     # 断言需求
-    def page_assassertion_demand(self, demand):
-        try:
-            preview_demand = self.page_get_add_billing_home_preview_demand()
-            print("获取的需求为：", preview_demand)
-            assert self.page_get_add_billing_home_preview_demand() == demand
+    def page_assert_demand(self, demand):
+        data = self.page_get_add_billing_home_preview_demand()
+        # data = 2
+        # print(data)
+        if demand == data:
+            try:
+                preview_demand = self.page_get_add_billing_home_preview_demand()
+                print("获取正确的需求为：", preview_demand)
+                # self
+                assert self.page_get_add_billing_home_preview_demand() == demand
 
-        except Exception as e:
-            # 截图 、日志
-            self.base_get_img()
-            log.error(e)
-            # 抛异常
-            raise
-        finally:
-            pass
-        pass
+            except Exception as e:
+                # 截图 、日志
+                self.base_get_img()
+                log.error(e)
+                # 抛异常
+                raise
+            finally:
+                pass
+        else:
+            try:
+                preview_demand = self.page_get_add_billing_home_preview_demand()
+                print("获取的错误的需求为：", preview_demand)
+                # self
+                assert self.page_get_add_billing_home_preview_demand() == demand
+
+            except Exception as e:
+                # 截图 、日志
+                self.base_get_img()
+                log.error(e)
+                # 抛异常
+                raise
+            finally:
+                pass
 
     # 组合发单分页业务
     def page_add_billing_home_combination(self, search, money, demand, expect):
@@ -133,7 +173,7 @@ class PagePagination(Base):
         self.base_input(page.add_billing_home_demand, demand)
         self.base_click(page.add_billing_home_create_pay)
         self.page_assertion_preview_type(expect)
-        self.page_assassertion_demand(demand)
+        self.page_assert_demand(demand)
         self.base_click(page.add_billing_home_preview_issue)
         self.driver.tap([(394, 1333)])
 
@@ -181,6 +221,7 @@ class PagePagination(Base):
 
         self.base_click(page.hair_map_use_location)
         self.base_click(page.add_earn_money_location_classification)
+        sleep(1)
         self.driver.tap([(69, 375)])
 
     # 挣钱主页按订单发单业务
@@ -203,5 +244,6 @@ class PagePagination(Base):
         # print(page1)
         # self.get_data(text="")
         # print(self.get_data(text=""))
+        sleep(1)
         self.driver.tap([(69, 375)])
         # self.driver.implicitly_wait(10)

@@ -1,10 +1,6 @@
 [
-  "scripts/test_add_skiil.py::TestSkiil::()::test01_add_skiil[\\u5927\\u5b66\\u5e26\\u770b-0.1-\\u968f\\u4fbf\\u770b\\u770b]",
-  "scripts/test_add_skiil.py::TestSkiil::()::test02_add_delete_of_order",
-  "scripts/test_hair.py::TestHair::()::test01_add_hair[0.1-\\u8dd1\\u817f\\u4ee3\\u8d2d1]",
-  "scripts/test_high_school.py::TestLogin::()::test_high_school",
-  "scripts/test_hometown.py::TestHometown::()::test01_hometown",
-  "scripts/test_pagination.py::TestOrderPagination::()::test4",
-  "scripts/test_position_administer.py::TestHair::()::test02",
-  "scripts/test_recommendation.py::TestRecommendation::()::test_recommendation_order"
+  "scripts/test_pagination.py::TestOrderPagination::()::test_order_pagination[\\u897f\\u4e8c\\u65d7-0.1-\\u968f\\u4fbf\\u770b\\u770b-\\u5e26\\u6211\\u770b>\\u897f\\u4e8c\\u65d7-\\u5730\\u94c1\\u7ad9]",
+  "scripts/test_pagination.py::TestOrderPagination::()::test2_add_hair",
+  "scripts/test_pagination.py::TestOrderPagination::()::test3_page_earn_money_order",
+  "scripts/test_pagination.py::TestOrderPagination::()::test4"
 ]

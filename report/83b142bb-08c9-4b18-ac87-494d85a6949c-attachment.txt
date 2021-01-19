@@ -1,1 +1,0 @@
-('id', 'com.qjy.teleeye:id/bt_addimage_photo')
