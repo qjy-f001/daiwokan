@@ -427,7 +427,7 @@ position_manage_select_picture = By.XPATH, "/hierarchy/android.widget.FrameLayou
 position_manage_select_picture2 = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[3]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View"
 
 # 输入描述信息（北京西二旗地铁站123）
-position_manage_describe_information = By.XPATH, '	/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[5]/android.view.View[2]/android.widget.EditText'
+position_manage_describe_information = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[5]/android.view.View[2]/android.widget.EditText'
 
 # 点击保存
 position_manage_preservation = By.XPATH, '//*[@text="保存"]'
@@ -439,7 +439,7 @@ position_manage_found_position_information = By.XPATH, '//*[@text="创建位置�
 position_manage_delete = By.XPATH, '//*[@text="删除"]'
 
 # 点击5A景区
-position_manage_5a = By.XPATH, '//*[@text="5A景区"]'
+position_manage_5a = By.XPATH, '//*[@text="景区"]'
 
 # 北京颐和园
 position_manage_bj_summer_palace = By.XPATH, '//*[@text="北京颐和园"]'
