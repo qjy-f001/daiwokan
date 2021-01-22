@@ -168,7 +168,9 @@ class PagePositionAdminister(Base):
     # 组合添加图片业务方法（没有权限）
     def page_select_picture(self):
         self.base_click(page.position_manage_select_picture)
+        sleep(1)
         self.driver.tap([(80, 1990)])
+        sleep(1)
         self.driver.tap([(80, 1990)])
         # self.base_click(page.position_manage_select_picture)
         self.base_click(page.position_manage_photo)

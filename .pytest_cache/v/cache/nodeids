@@ -1,22 +1,3 @@
 [
-  "scripts/test_add_skiil.py::TestSkiil::()::test01_add_skiil[\\u5927\\u5b66\\u5e26\\u770b-0.1-\\u968f\\u4fbf\\u770b\\u770b]",
-  "scripts/test_add_skiil.py::TestSkiil::()::test02_add_delete_of_order",
-  "scripts/test_hair.py::TestHair::()::test01_add_hair[0.1-\\u8dd1\\u817f\\u4ee3\\u8d2d1]",
-  "scripts/test_high_school.py::TestLogin::()::test_high_school",
-  "scripts/test_hometown.py::TestHometown::()::test01_hometown",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456-2222-10]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456-2222-11]",
-  "scripts/test_login.py::TestLogin::()::test_login[-123456-\\u8bf7\\u8f93\\u5165\\u6b63\\u786e\\u7684\\u624b\\u673a\\u53f7\\u7801-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-1234567-\\u5bc6\\u7801\\u9519\\u8bef-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456f-\\u5bc6\\u7801\\u9519\\u8bef-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456F-\\u5bc6\\u7801\\u9519\\u8bef-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456 -\\u5bc6\\u7801\\u9519\\u8bef-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13512341234-123456-\\u6ce8\\u518c\\u65b0\\u8d26\\u53f7-3]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222--\\u5bc6\\u7801\\u8f93\\u5165\\u6709\\u8bef\\uff0c\\u8bf7\\u91cd\\u65b0\\u8f93\\u5165-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456@-\\u5bc6\\u7801\\u8f93\\u5165\\u6709\\u8bef\\uff0c\\u8bf7\\u91cd\\u65b0\\u8f93\\u5165-2]",
-  "scripts/test_pagination.py::TestOrderPagination::()::test_order_pagination[\\u897f\\u4e8c\\u65d7-0.1-\\u968f\\u4fbf\\u770b\\u770b-\\u5e26\\u6211\\u770b>\\u897f\\u4e8c\\u65d7-\\u5730\\u94c1\\u7ad9]",
-  "scripts/test_pagination.py::TestOrderPagination::()::test2_add_hair",
-  "scripts/test_pagination.py::TestOrderPagination::()::test3_page_earn_money_order",
-  "scripts/test_pagination.py::TestOrderPagination::()::test4",
-  "scripts/test_position_administer.py::TestHair::()::test01_position_manage"
+  "scripts/test_recommendation.py::TestRecommendation::()::test_recommendation_order"
 ]

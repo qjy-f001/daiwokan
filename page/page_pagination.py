@@ -182,6 +182,7 @@ class PagePagination(Base):
 
     # 组合发单分页输入订单信息业务
     def page_add_recommendation_order(self, money, demand, ):
+        self.base_click(page.hair_btn_pos)
         self.base_click(page.add_billing_home_billing_time)
         sleep(1)
         self.base_input(page.add_billing_home_service_money, money)
