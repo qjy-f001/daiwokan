@@ -159,6 +159,10 @@ class PageHair(Base):
     def page_click_hair_map_use_location(self):
         self.base_click(page.hair_map_use_location)
 
+    # 疫情提示（知道了）
+    def page_click_hair_btn_pos(self):
+        self.base_click(page.hair_btn_pos)
+
     # 进入APP登陆页面
     def page_get_into_app(self):
         self.page_login_agree()
@@ -203,6 +207,7 @@ class PageHair(Base):
         self.base_click(page.hair_big_school)
         self.base_click(page.hair_bj_university)
         self.base_click(page.hai_details_launch)
+        self.base_click(page.hair_btn_pos)
         self.base_input(page.hair_service_input_box, money)
         self.base_input(page.hair_requirement_input_box, demand)
         self.base_click(page.hair_next_step)

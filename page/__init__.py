@@ -137,6 +137,10 @@ hair_choice_place_name = By.XPATH, '//*[@text="阿克塞哈萨克族自治县(�
 # 使用该位置
 hair_map_use_location = By.ID, "com.qjy.teleeye:id/tv_help_map_use_location"
 
+# 疫情提示（知道了）
+hair_btn_pos = By.ID, "com.qjy.teleeye:id/btn_pos"
+
+
 """以下为发服务模块配置数据"""
 
 # 点击 添加技能和服务	id

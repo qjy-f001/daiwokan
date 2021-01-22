@@ -31,11 +31,11 @@ class TestHometown:
         self.hometown.page_my_hometown()
 
         # 发布我的家乡订单
-        # self.hometown.page_my_hometown_modify()
-        #
-        # self.hair = PageIn().page_get_pagehair()
-        # self.hometown.page_my_hometown_order(money, demand)
-        # self.hair.page_login_me()
-        # self.hair.page_click_hair_billing_record()
-        # sleep(2)
-        # self.hair.if_order()
+        self.hometown.page_my_hometown_modify()
+
+        self.hair = PageIn().page_get_pagehair()
+        self.hometown.page_my_hometown_order(money, demand)
+        self.hair.page_login_me()
+        self.hair.page_click_hair_billing_record()
+        sleep(2)
+        self.hair.if_order()
