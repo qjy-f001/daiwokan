@@ -39,5 +39,6 @@ class PageRecommendation(Base):
         self.base_click(page.add_recommended_pagination)
         self.page_recommended_pagination_swipe()
         self.base_click(page.add_recommended_pagination_return)
-        self.driver.tap([(170, 1606)])
+        sleep(1)
+        self.driver.tap([(69, 1691)])
         self.base_click(page.add_recommended_pagination_release_order)
