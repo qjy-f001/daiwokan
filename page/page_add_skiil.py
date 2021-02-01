@@ -108,6 +108,64 @@ class PageSkiil(Base):
     def page_click_add_skill_menu_back(self):
         self.base_click(page.add_skill_menu_back)
 
+    # 服务主页
+    def page_click_add_skill_category_help(self):
+        self.base_click(page.add_skill_category_help)
+
+    # 服务
+    def page_click_add_skill_list_first(self):
+        self.base_click(page.add_skill_list_first)
+
+    # 头像
+    def page_click_add_skill_head_portrait(self):
+        self.base_click(page.add_skill_head_portrait)
+
+    # 个人技能
+    def page_click_add_skill_personal_person(self):
+        self.base_click(page.add_skill_personal_person)
+
+    # 技能服务
+    def page_click_add_skill_personal_skill(self):
+        self.base_click(page.add_skill_personal_skill)
+
+    # 他的技能服务
+    def page_click_add_skill_skills_services(self):
+        self.base_click(page.add_skill_skills_services)
+
+    # 查询服务列表技能名称
+    def page_find_add_skill_query_service_list_skill_name(self):
+        self.base_find(page.add_skill_query_service_list_skill_name)
+
+    # 查询服务列表技能服务介绍
+    def page_find_add_skill_query_service_list_skill_introduce(self):
+        self.base_find(page.add_skill_query_service_list_skill_introduce)
+
+    # 查询技能标题
+    def page_click_add_skill_personal_skill_adapter_title(self):
+        self.base_find(page.add_skill_personal_skill_adapter_title)
+
+    # 服务介绍
+    def page_click_add_skill_personal_skill_adapter_demand(self):
+        self.base_find(page.add_skill_personal_skill_adapter_demand)
+
+    # 立即下单
+    def page_click_add_skill_order_now(self):
+        self.base_click(page.add_skill_order_now)
+
+    # 支付服务费
+    def page_click_add_skill_order_payment(self):
+        self.base_click(page.add_skill_order_payment)
+
+    # 选择支付宝支付
+    def page_click_add_skill_order_payment_ali(self):
+        self.base_click(page.add_skill_order_payment_ali)
+
+    # 取消订单
+    def page_click_add_skill_order_payment_cancel(self):
+        self.base_click(page.add_skill_order_payment_cancel)
+
+    # def page_click_
+
     # 进入APP登陆页面
     def page_get_into_app(self):
         self.page_login_agree()
@@ -150,3 +208,22 @@ class PageSkiil(Base):
             self.base_click(page.add_skill_btn_pos)
             sleep(1)
         self.base_click(page.add_skill_menu_back)
+
+    # 查看服务业务方法
+    def page_see_skiil(self):
+        self.base_click(page.add_skill_category_help)
+        self.base_click(page.add_skill_list_first)
+        self.base_click(page.add_skill_head_portrait)
+        self.base_click(page.add_skill_personal_person)
+        self.base_click(page.add_skill_personal_skill)
+
+        self.base_click(page.add_skill_skills_services)
+
+        self.base_click(page.add_skill_order_now)
+        self.base_click(page.add_skill_order_payment)
+        sleep(1)
+        self.driver.tap([(889, 1931)])
+        sleep(1)
+        self.driver.tap([(355, 2087)])
+        # self.base_click(page.add_skill_order_payment_ali)
+        # self.base_click(page.add_skill_order_payment_cancel)

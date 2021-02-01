@@ -113,8 +113,8 @@ hair_waiting_for_order = By.XPATH, '//*[@text="等待接单"]'
 # 对方已接单/未付款
 hair_order_details_pay_no = By.XPATH, '//*[@text="对方已接单/未付款"]'
 
-# 我要取消订单
-hair_order_details_pay_noo = By.ID, "com.qjy.teleeye:id/tv_order_details_pay_no"
+# 取消
+hair_order_details_pay_noo = By.ID, "com.qjy.teleeye:id/tv_order_details_over_order"
 
 # 确定 id
 hair_determine = By.ID, "com.qjy.teleeye:id/btn_pos"
@@ -139,7 +139,6 @@ hair_map_use_location = By.ID, "com.qjy.teleeye:id/tv_help_map_use_location"
 
 # 疫情提示（知道了）
 hair_btn_pos = By.ID, "com.qjy.teleeye:id/btn_pos"
-
 
 """以下为发服务模块配置数据"""
 
@@ -187,6 +186,54 @@ add_skill_menu_back = By.ID, "com.qjy.teleeye:id/tv_action_bar_menu_back"
 
 # 获取服务标签
 add_skill_category_title = By.XPATH, '//*[contains(@text(),"服务费：")]'
+
+# 服务主页
+add_skill_category_help = By.ID, "com.qjy.teleeye:id/iv_tabbar_help"
+
+# 服务
+add_skill_list_first = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]'
+
+# 111111111111111111111111111111111111
+
+# 头像
+add_skill_head_portrait = By.ID, "com.qjy.teleeye:id/iv_seek_help_details_head"
+
+# 个人技能
+add_skill_personal_person = By.ID, "com.qjy.teleeye:id/rb_personal_person"
+
+# 技能服务
+add_skill_personal_skill = By.ID, "com.qjy.teleeye:id/rb_personal_skill"
+
+
+add_skill_query_service_list_skill_name = By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.view.ViewGroup/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout'
+# 查询服务列表技能名称
+
+# 他的技能服务
+add_skill_skills_services = By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.view.ViewGroup/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout'
+
+# 查询服务列表技能服务介绍
+add_skill_query_service_list_skill_introduce = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View[3]'
+
+# 查询技能标题
+add_skill_personal_skill_adapter_title = By.ID, "com.qjy.teleeye:id/tv_personal_skill_adapter_title"
+
+# 服务介绍
+add_skill_personal_skill_adapter_demand = By.ID, "com.qjy.teleeye:id/tv_personal_skill_adapter_demand"
+
+
+# 11111111111111111111111111111111111111
+
+# 立即下单
+add_skill_order_now = By.ID, "com.qjy.teleeye:id/tv_seekhelp_place"
+
+# 支付服务费
+add_skill_order_payment = By.ID, "com.qjy.teleeye:id/tv_seekhelp_create_pay"
+
+# 选择支付宝支付
+add_skill_order_payment_ali = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/rb_popup_play_ali"]'
+
+# 取消订单
+add_skill_order_payment_cancel = By.ID, "com.qjy.teleeye:id/tv_popup_play_cancel"
 
 """以下为发单分页元素模块配置数据"""
 

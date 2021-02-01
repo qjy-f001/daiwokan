@@ -2,7 +2,7 @@ import sys
 import os
 
 sys.path.append(os.getcwd())
-
+from time import sleep
 import pytest
 from tool.get_log import GetLog
 
@@ -63,3 +63,11 @@ class TestSkiil:
             log.error(e)
             # 抛异常
             raise
+
+    def test03_see_skiil(self):
+        self.add_skiil.page_see_skiil()
+        self.hair = PageIn().page_get_pagehair()
+        self.hair.page_login_me()
+        self.hair.page_click_hair_billing_record()
+        sleep(2)
+        self.hair.if_order()
