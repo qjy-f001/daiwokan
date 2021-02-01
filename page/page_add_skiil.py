@@ -225,5 +225,4 @@ class PageSkiil(Base):
         self.driver.tap([(889, 1931)])
         sleep(1)
         self.driver.tap([(355, 2087)])
-        # self.base_click(page.add_skill_order_payment_ali)
-        # self.base_click(page.add_skill_order_payment_cancel)
+
