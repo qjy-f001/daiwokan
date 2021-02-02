@@ -204,12 +204,11 @@ add_skill_personal_person = By.ID, "com.qjy.teleeye:id/rb_personal_person"
 # 技能服务
 add_skill_personal_skill = By.ID, "com.qjy.teleeye:id/rb_personal_skill"
 
-
-add_skill_query_service_list_skill_name = By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.view.ViewGroup/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout'
+add_skill_query_service_list_skill_name = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.view.ViewGroup/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout'
 # 查询服务列表技能名称
 
 # 他的技能服务
-add_skill_skills_services = By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.view.ViewGroup/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout'
+add_skill_skills_services = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.view.ViewGroup/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout'
 
 # 查询服务列表技能服务介绍
 add_skill_query_service_list_skill_introduce = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View[3]'
@@ -219,7 +218,6 @@ add_skill_personal_skill_adapter_title = By.ID, "com.qjy.teleeye:id/tv_personal_
 
 # 服务介绍
 add_skill_personal_skill_adapter_demand = By.ID, "com.qjy.teleeye:id/tv_personal_skill_adapter_demand"
-
 
 # 11111111111111111111111111111111111111
 
@@ -475,7 +473,8 @@ position_manage_click_describe = By.XPATH, '//*[@text="点击这里输入针对�
 position_manage_select_picture = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View"
 
 # 选择图片
-position_manage_select_picture2 = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[3]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View"
+position_manage_select_picture2 = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View"
+
 
 # 输入描述信息（北京西二旗地铁站123）
 position_manage_describe_information = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[5]/android.view.View[2]/android.widget.EditText'
@@ -509,3 +508,9 @@ position_manage_remarks = By.XPATH, '/hierarchy/android.widget.FrameLayout/andro
 
 # 提交
 position_manage_submit = By.XPATH, '//*[@text="提交"]'
+
+# 景区搜索框
+position_manage_spot_search = By.ID, "com.qjy.teleeye:id/et_spot_search"
+
+# 景区添加景点
+position_manage_spot_add = By.ID, "com.qjy.teleeye:id/tv_spot_add"

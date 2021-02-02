@@ -19,5 +19,6 @@
   "scripts/test_pagination.py::TestOrderPagination::()::test2_add_hair",
   "scripts/test_pagination.py::TestOrderPagination::()::test3_page_earn_money_order",
   "scripts/test_pagination.py::TestOrderPagination::()::test4",
-  "scripts/test_position_administer.py::TestHair::()::test01_position_manage"
+  "scripts/test_position_administer.py::TestHair::()::test01_position_manage",
+  "scripts/test_position_administer.py::TestHair::()::test_02_add_unknown_scenic_spot"
 ]

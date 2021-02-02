@@ -39,32 +39,60 @@ class TestHair:
         self.position_manage.page_click_position_manage()
         self.position_manage.page_position_manage_nuw_position(search, describe)
 
+    def test_02_add_unknown_scenic_spot(self, search="北京西二旗5A景区", search1="西二旗", describe="北京西二旗地铁站123"):
+        self.hair.page_hair_add_place()
+        # 新增地点
+        self.position_manage = PageIn().page_get_positionadminister()
+        self.position_manage.page_add_unknown_scenic_spot(search, search1, describe)
+        # 删除新增地点
+        self.position_manage.page_click_position_manage_back()
+        self.hair.page_login_me()
+        sleep(1)
+        self.position_manage.page_click_position_manage()
+        self.position_manage.page_delete_position_manage_nuw_my()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ----------------------------------------------------------------------------------------
     # def test02(self, name="123", phone="13511112222", remarks="北京颐和园，随便看看"):
     #     self.position_manage = PageIn().page_get_positionadminister()
     #     self.position_manage.page_click_position_manage()
     #     self.position_manage.page_click_modify_existing_location_information(name, phone, remarks)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        # self.hair = PageIn().page_get_pagehair()
-        #
-        # self.hair.page_hair(money, demand)
-        # self.hair.page_login_me()
-        # self.hair.page_click_hair_billing_record()
-        # sleep(2)
-        # self.hair.if_order()
+    #
+    #     self.hair = PageIn().page_get_pagehair()
+    #
+    #     self.hair.page_hair(money, demand)
+    #     self.hair.page_login_me()
+    #     self.hair.page_click_hair_billing_record()
+    #     sleep(2)
+    #     self.hair.if_order()

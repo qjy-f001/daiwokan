@@ -86,6 +86,14 @@ class PagePagination(Base):
     def page_click_add_earn_money_location_site_unlimited(self):
         self.base_click(page.add_earn_money_location_site_unlimited)
 
+    # 景区搜索框
+    def page_input_scenic_spot_search_box(self, search):
+        self.base_input(page.position_manage_spot_search, search)
+
+    # 景区添加景点
+    def page_click_position_manage_spot_add(self):
+        self.base_click(page.position_manage_spot_add)
+
     # 断言标题
     def page_assertion_preview_type(self, expect):
         data = self.page_get_add_billing_home_preview_type()
@@ -251,3 +259,12 @@ class PagePagination(Base):
         sleep(1)
         self.driver.tap([(69, 375)])
         # self.driver.implicitly_wait(10)
+
+    # # 景区添加地点前置业务方法
+    # def page_search_add_place(self, search):
+    #     self.base_click(page.hair_letter)
+    #     self.base_click(page.add_billing_home_page)
+    #
+    #
+    #     self.base_input(page.position_manage_spot_search, search)
+    #     self.base_click(page.position_manage_spot_add)

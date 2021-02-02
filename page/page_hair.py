@@ -63,6 +63,10 @@ class PageHair(Base):
     def page_click_hair_big_school(self):
         self.base_click(page.hair_big_school)
 
+    # 点击景区
+    def page_click_hair_search(self):
+        self.base_click(page.position_manage_scenic_spot)
+
     # 点击地图指定
     def page_click_map_assignment(self):
         self.base_click(page.hair_university_map_assignment)
@@ -251,3 +255,8 @@ class PageHair(Base):
         # sleep(2)
         self.base_click(page.hair_return_order_details)
         self.base_click(page.hair_return_Billing_record)
+
+    def page_hair_add_place(self):
+        self.base_click(page.hair_letter)
+        self.base_click(page.hair_take_look)
+        self.base_click(page.position_manage_scenic_spot)
