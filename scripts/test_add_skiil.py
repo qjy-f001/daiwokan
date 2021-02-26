@@ -14,10 +14,10 @@ from tool.get_driver import GetDriver
 log = GetLog.get_log()
 
 
-def get_data(key):
+def get_data():
     arrs = []
-    data = read_yaml("add_skiil.yaml").get(key)
-    arrs.append(tuple(data.values()))
+    for data in read_yaml("add_skiil.yaml").values():
+        arrs.append(tuple(data.values()))
     return arrs
 
 
@@ -35,7 +35,7 @@ class TestSkiil:
         GetDriver.quit_driver()
 
     # 测试添加技能和服务方法
-    @pytest.mark.parametrize("description, money, demand", get_data("dwk_add_skiil_001"))
+    @pytest.mark.parametrize("description, money, demand", get_data())
     def test01_add_skiil(self, description, money, demand):
         self.add_skiil.page_add_skill_service_description(description, money, demand)
         try:

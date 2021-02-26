@@ -66,7 +66,7 @@ hair_run_shopping = By.XPATH, "//*[@text=找人带看']"
 hair_view_single = By.ID, "com.qjy.teleeye:id/tv_adapter_helpleter_text"
 
 # 点击 带看大学
-hair_big_school = By.XPATH, '//*[@text="16076590382858"]'
+hair_big_school = By.XPATH, '//*[@text="大学"]'
 
 # 点击地图指定
 hair_university_map_assignment = By.XPATH, '//*[@text="15994817921857"]'
@@ -78,7 +78,7 @@ hair_bj_university = By.XPATH, '//*[@text="北京大学"]'
 hair_qh_university = By.XPATH, "//*[@text='清华大学']"
 
 # 点击 发布带看订单
-hai_details_launch = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/tv_home_recommend_details_launch"]'
+hai_details_launch = By.XPATH, '//*[@text="带我看"]'
 
 # 点击视频方式
 hair_video = By.ID, "com.qjy.teleeye:id/rb_order_create_service_video"
@@ -283,10 +283,10 @@ add_billing_home_popup_order_ok = By.ID, "com.qjy.teleeye:id/tv_popup_order_ok"
 add_recommended_pagination = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/tab_action_bar"]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]'
 
 # 返回
-add_recommended_pagination_return = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]'
+add_recommended_pagination_return = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View'
 
 # 发布带看订单
-add_recommended_pagination_release_order = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/tv_home_recommend_details_launch"]'
+add_recommended_pagination_release_order = By.XPATH, '//*[@text="带我看"]'
 
 """以下为校园分页元素模块配置数据"""
 # 校园分页
@@ -308,7 +308,7 @@ add_high_school_search_box = By.XPATH, '//*[@resource-id="app"]/android.view.Vie
 add_high_school_qh = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.view.View[2]/android.view.View[1]'
 
 # 发布带看订单
-add_high_school_release_order_android = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/tv_home_recommend_details_launch"]'
+add_high_school_release_order_android = By.XPATH, '/*[@text="带我看"]'
 
 # 校园活动
 add_high_school_campus_activities = By.XPATH, '//android.widget.Image'
@@ -477,7 +477,7 @@ position_manage_select_picture2 = By.XPATH, "/hierarchy/android.widget.FrameLayo
 
 
 # 输入描述信息（北京西二旗地铁站123）
-position_manage_describe_information = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[5]/android.view.View[2]/android.widget.EditText'
+position_manage_describe_information = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[5]/android.view.View[1]/android.widget.EditText'
 
 # 点击保存
 position_manage_preservation = By.XPATH, '//*[@text="保存"]'

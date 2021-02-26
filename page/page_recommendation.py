@@ -40,5 +40,6 @@ class PageRecommendation(Base):
         self.page_recommended_pagination_swipe()
         self.base_click(page.add_recommended_pagination_return)
         sleep(1)
-        self.driver.tap([(69, 1691)])
+        self.driver.tap([(235, 1764)])
+        # self.base_click("//android.widget.FrameLayout[1]")
         self.base_click(page.add_recommended_pagination_release_order)

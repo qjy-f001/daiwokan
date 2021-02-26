@@ -12,10 +12,10 @@ from tool.get_driver import GetDriver
 log = GetLog.get_log()
 
 
-def get_data(key):
+def get_data():
     arrs = []
-    data = read_yaml("pagination.yaml").get(key)
-    arrs.append(tuple(data.values()))
+    for data in read_yaml("pagination.yaml").values():
+        arrs.append(tuple(data.values()))
     return arrs
 
 
@@ -32,7 +32,7 @@ class TestOrderPagination:
         # 关闭driver驱动对象
         GetDriver.quit_driver()
 
-    @pytest.mark.parametrize("search,money, demand,expect", get_data("dwk_order_pagination1"))
+    @pytest.mark.parametrize("search,money, demand,expect", get_data())
     def test_order_pagination(self, search, money, demand, expect):
         self.order_pagination = PageIn().page_get_pagepagination()
         self.order_pagination.page_click_hair_letter()

@@ -14,10 +14,10 @@ from tool.get_driver import GetDriver
 log = GetLog.get_log()
 
 
-def get_data(key):
+def get_data():
     arrs = []
-    data = read_yaml("hair.yaml").get(key)
-    arrs.append(tuple(data.values()))
+    for data in read_yaml("hair.yaml").values():
+        arrs.append(tuple(data.values()))
     return arrs
 
 
@@ -34,7 +34,7 @@ class TestHair:
         # 关闭driver驱动对象
         GetDriver.quit_driver()
 
-    @pytest.mark.parametrize("money, demand", get_data("dwk_hair_001"))
+    @pytest.mark.parametrize("money, demand", get_data())
     def test01_add_hair(self, money, demand):
         self.hair = PageIn().page_get_pagehair()
 
