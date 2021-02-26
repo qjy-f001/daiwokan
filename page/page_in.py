@@ -2,10 +2,10 @@ from page.page_hair import PageHair
 from page.page_login import PageLogin
 from page.page_add_skiil import PageSkiil
 from page.page_pagination import PagePagination
-from page.page_recommendation import PageRecommendation
+from page.page_recommend import PageRecommend
 from page.page_hometown import PageHometown
-from page.page_high_school import PageHighSchool
-from page.page_position_administer import PagePositionAdminister
+from page.page_campus import PageCampus
+from page.page_position import PagePosition
 from tool.get_driver import GetDriver
 
 
@@ -30,17 +30,17 @@ class PageIn:
         return PagePagination(self.driver)
 
     # 获取 推荐页面对象
-    def page_get_recommendation(self):
-        return PageRecommendation(self.driver)
+    def page_get_recommend(self):
+        return PageRecommend(self.driver)
 
     # 获取 家乡页面对象
     def page_get_hometown(self):
         return PageHometown(self.driver)
 
     # 获取 校园页面对象
-    def page_get_highschool(self):
-        return PageHighSchool(self.driver)
+    def page_get_campus(self):
+        return PageCampus(self.driver)
 
-    # 获取 校园页面对象
-    def page_get_positionadminister(self):
-        return PagePositionAdminister(self.driver)
+    # 获取 位置管理页面对象
+    def page_get_position(self):
+        return PagePosition(self.driver)

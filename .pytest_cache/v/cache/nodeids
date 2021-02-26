@@ -8,7 +8,9 @@
   "scripts/test_pagination.py::TestOrderPagination::()::test2_add_hair",
   "scripts/test_pagination.py::TestOrderPagination::()::test3_page_earn_money_order",
   "scripts/test_pagination.py::TestOrderPagination::()::test4",
-  "scripts/test_position_administer.py::TestHair::()::test01_position_manage",
-  "scripts/test_position_administer.py::TestHair::()::test_02_add_unknown_scenic_spot",
-  "scripts/test_recommendation.py::TestRecommendation::()::test_recommendation_order"
+  "scripts/test_position.py::TestHair::()::test01_position_manage",
+  "scripts/test_position.py::TestHair::()::test_02_add_unknown_scenic_spot",
+  "scripts/test_position.py::TestHair::()::test_03_add_unknown_scenic_spot_nuw",
+  "scripts/test_position.py::TestHair::()::test_04_add_unknown_scenic_spot_nuw",
+  "scripts/test_recommend.py::TestRecommend::()::test_recommendation_order"
 ]

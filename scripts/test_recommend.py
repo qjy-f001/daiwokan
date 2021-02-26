@@ -13,7 +13,7 @@ from tool.get_driver import GetDriver
 log = GetLog.get_log()
 
 
-class TestRecommendation:
+class TestRecommend:
     # 初始化
     def setup_class(self):
         self.hair = PageIn().page_get_pagehair()
@@ -28,7 +28,7 @@ class TestRecommendation:
 
     # 首页业务组合方法
     def test_recommendation_order(self, money="0.1", demand="随便看看"):
-        self.recommendation = PageIn().page_get_recommendation()
+        self.recommendation = PageIn().page_get_recommend()
         self.recommendation.page_add_recommended_pagination_combination()
         self.order = PageIn().page_get_pagepagination()
         self.order.page_add_recommendation_order(money, demand)

@@ -7,7 +7,7 @@ from tool.get_log import GetLog
 log = GetLog.get_log()
 
 
-class PageHighSchool(Base):
+class PageCampus(Base):
     # 校园分页
     def page_click_add_high_school(self):
         self.base_click(page.add_high_school)

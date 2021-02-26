@@ -17,7 +17,7 @@ login_agree = By.ID, "com.qjy.teleeye:id/tv_home_dialog_ok"
 login_now = By.ID, "com.qjy.teleeye:id/tv_go_app"
 
 # 点击 	仅在使用中允许(定位)
-login_location = By.XPATH, "//*[@text='仅在使用中允许'"
+login_location = By.XPATH, "//*[@text='仅在使用中允许']"
 
 # 点击 “我” 主页
 login_me = By.ID, "com.qjy.teleeye:id/iv_tabbar_me"
@@ -96,7 +96,7 @@ hair_next_step = By.ID, "com.qjy.teleeye:id/tv_order_create_pay"
 hair_publish_now = By.ID, "com.qjy.teleeye:id/tv_order_preview_issue"
 
 # # 点击 好的 id
-# hair_good = By.ID, "com.qjy.teleeye:id/tv_popup_order_ok"
+hair_good = By.ID, "com.qjy.teleeye:id/tv_popup_order_ok"
 
 # 点击 发单记录 id
 hair_billing_record = By.ID, "com.qjy.teleeye:id/ll_me_info_bill"
@@ -283,7 +283,10 @@ add_billing_home_popup_order_ok = By.ID, "com.qjy.teleeye:id/tv_popup_order_ok"
 add_recommended_pagination = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/tab_action_bar"]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]'
 
 # 返回
-add_recommended_pagination_return = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View'
+add_recommended_pagination_return = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]'
+
+# 点击推荐分页地点名称
+add_recommended_pagination_name = By.XPATH, "/hierarchy//android.widget.Image"
 
 # 发布带看订单
 add_recommended_pagination_release_order = By.XPATH, '//*[@text="带我看"]'
@@ -454,7 +457,7 @@ position_manage_scenic_spot = By.XPATH, '//*[@text="景区"]'
 # 从相册选取
 position_manage_photo = By.ID, "com.qjy.teleeye:id/bt_addimage_photo"
 
-# 位置管理
+# 位置管理添加图片
 position_manage_file_management = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.TextView'
 
 # 相册
@@ -474,7 +477,6 @@ position_manage_select_picture = By.XPATH, "/hierarchy/android.widget.FrameLayou
 
 # 选择图片
 position_manage_select_picture2 = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View"
-
 
 # 输入描述信息（北京西二旗地铁站123）
 position_manage_describe_information = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[5]/android.view.View[1]/android.widget.EditText'
@@ -512,5 +514,8 @@ position_manage_submit = By.XPATH, '//*[@text="提交"]'
 # 景区搜索框
 position_manage_spot_search = By.ID, "com.qjy.teleeye:id/et_spot_search"
 
-# 景区添加景点
+# 景区添加暂无景点
 position_manage_spot_add = By.ID, "com.qjy.teleeye:id/tv_spot_add"
+
+# 景区添加新的景点
+position_manage_spot_add_nuw = By.ID, "com.qjy.teleeye:id/tv_action_bar_menu_next"

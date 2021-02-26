@@ -105,7 +105,7 @@ class PageHair(Base):
 
     # 点击 好的 id
     def page_click_hair_good(self):
-        self.driver.tap([(394, 1333)])
+        self.base_click(page.hair_good)
 
     # 点击 发单记录 id
     def page_click_hair_billing_record(self):
@@ -174,9 +174,8 @@ class PageHair(Base):
         self.page_swipe()
         #  点击 立即体验
         self.page_login_now()
-        sleep(1)
         # 点击 	仅在使用中允许(定位)
-        self.driver.tap([(80, 1990)])
+        self.base_click(page.login_location)
         # 点击 “我” 主页
         self.page_login_me()
         # 点击 立即登陆
@@ -216,8 +215,10 @@ class PageHair(Base):
         self.base_input(page.hair_requirement_input_box, demand)
         self.base_click(page.hair_next_step)
         self.base_click(page.hair_publish_now)
-        sleep(1)
-        self.driver.tap([(394, 1333)])
+        self.driver.wait_activity(".ui.Activity_Splash", 2)
+        self.base_click(page.hair_good)
+        # sleep(1)
+        # self.driver.tap([(394, 1333)])
 
     # # 地图指定组合业务
     # def page_hair_map_assignment(self, money, demand):

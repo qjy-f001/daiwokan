@@ -26,8 +26,8 @@
 #         # 关闭driver驱动对象
 #         GetDriver.quit_driver()
 #
-#     def test_high_school(self, qh="清华大学", money="0.1", demand="随便看看"):
-#         self.test_high_school = PageIn().page_get_highschool()
+#     def test_campus(self, qh="清华大学", money="0.1", demand="随便看看"):
+#         self.test_high_school = PageIn().page_get_campus()
 #         # 修改我的母校
 #         self.test_high_school.page_modify_my_school(qh)
 #

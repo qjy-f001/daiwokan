@@ -101,9 +101,7 @@ class PageLogin(Base):
         #  点击 立即体验
         self.page_login_now()
         # 点击 	仅在使用中允许(定位)
-        sleep(2)
-        self.driver.tap([(80, 1990)])
-        # self.login.page_login_location()
+        self.base_click(page.login_location)
         # 点击 “我” 主页
         self.page_login_me()
         # 点击 立即登陆

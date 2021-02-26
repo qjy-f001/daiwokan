@@ -4,7 +4,7 @@ import page
 from base.base import Base
 
 
-class PagePositionAdminister(Base):
+class PagePosition(Base):
     # 位置管理
     def page_click_position_manage(self):
         self.base_click(page.position_manage)
@@ -77,7 +77,7 @@ class PagePositionAdminister(Base):
     def page_click_position_manage_photo(self):
         self.base_click(page.position_manage_photo)
 
-    # 位置管理
+    # 位置管理添加图片
     def page_click_position_manage_file_management(self):
         self.base_click(page.position_manage_file_management)
 
@@ -144,6 +144,10 @@ class PagePositionAdminister(Base):
     def page_click_position_manage_spot_add(self):
         self.base_click(page.position_manage_spot_add)
 
+    # 景区添加新的景点
+    def page_click_position_manage_spot_add_nuw(self):
+        self.base_click(page.position_manage_spot_add_nuw)
+
     # 点击返回
     # 点击返回
 
@@ -176,10 +180,8 @@ class PagePositionAdminister(Base):
     # 组合添加图片业务方法（没有权限）
     def page_select_picture(self):
         self.base_click(page.position_manage_select_picture)
-        sleep(1)
-        self.driver.tap([(80, 1990)])
-        sleep(1)
-        self.driver.tap([(80, 1990)])
+        self.base_click(page.login_location)
+        self.base_click(page.login_location)
         # self.base_click(page.position_manage_select_picture)
         self.base_click(page.position_manage_photo)
         self.base_click(page.position_manage_file_management)
@@ -238,17 +240,41 @@ class PagePositionAdminister(Base):
         sleep(1)
         self.base_click(page.position_manage_back)
 
-        # self.base_click(page.position_manage_nuw_my)
-        # self.base_click(page.position_manage_delete)
-        # # 添加选择位置类型
-        # self.base_click(page.position_manage_scenic_spot)
-        # 添加图片
-        # self.base_click(page.position_manage_select_picture2)
-        # self.driver.tap([(80, 1990)])
-        # self.driver.tap([(80, 1990)])
-        # # self.base_click(page.position_manage_select_picture)
-        # self.base_click(page.position_manage_photo)
-        # self.base_click(page.position_manage_file_management)
-        # self.base_click(page.position_manage_album)
-        # self.base_click(page.position_manage_qq_picture)
-        # self.base_click(page.position_manage_one_picture)
+    # 景区添加地点业务方法
+    def page_add_unknown_scenic_spot_nuw(self, search, search1, describe):
+        # self.base_input(page.position_manage_spot_search, search)
+        # self.base_click(page.position_manage_spot_add)
+        self.base_click(page.position_manage_spot_add_nuw)
+        self.base_click(page.position_manage_click_here)
+        self.base_click(page.position_manage_search_box)
+        self.base_click(page.position_manage_search_box_empty)
+        sleep(2)
+        self.base_input(page.position_manage_search_box_out, search1)
+        self.base_click(page.position_manage_click_search)
+        self.base_click(page.position_manage_click_first_search_content)
+        self.base_click(page.position_manage_choice_position)
+        self.base_input(page.position_manage_describe_information, describe)
+        # 添加图片（有权限）
+        self.page_select_picture_no()
+        self.base_click(page.position_manage_found_position_information)
+        self.base_click(page.position_manage_back)
+
+    # 修改已有景区业务方法
+    def page_click_modify_existing_location_information_nuw(self, search1, describe):
+        self.base_click(page.position_manage)
+        self.base_click(page.position_manage_modify)
+        self.base_click(page.position_manage_5a)
+        self.base_click(page.position_manage_spot_add_nuw)
+        self.base_click(page.position_manage_click_here)
+        self.base_click(page.position_manage_search_box)
+        self.base_click(page.position_manage_search_box_empty)
+        sleep(2)
+        self.base_input(page.position_manage_search_box_out, search1)
+        self.base_click(page.position_manage_click_search)
+        self.base_click(page.position_manage_click_first_search_content)
+        self.base_click(page.position_manage_choice_position)
+        self.base_input(page.position_manage_describe_information, describe)
+        # 添加图片（有权限）
+        self.page_select_picture_no()
+        self.base_click(page.position_manage_found_position_information)
+        self.base_click(page.position_manage_back)

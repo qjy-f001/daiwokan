@@ -26,6 +26,10 @@ class PageSkiil(Base):
     def page_login_now(self):
         self.base_click(page.login_now)
 
+    # 点击 	仅在使用中允许(定位)
+    def page_login_location(self):
+        self.base_click(page.login_location)
+
     # 点击 “我” 主页
     def page_login_me(self):
         self.base_click(page.login_me)
@@ -168,14 +172,13 @@ class PageSkiil(Base):
 
     # 进入APP登陆页面
     def page_get_into_app(self):
-        self.page_login_agree()
+        self.base_click(page.login_agree)
         # 滑动引导页
         self.page_swipe()
         #  点击 立即体验
-        self.page_login_now()
+        self.base_click(page.login_now)
         # 点击 	仅在使用中允许(定位)
-        sleep(2)
-        self.driver.tap([(80, 1990)])
+        self.base_click(page.login_location)
         # 点击 “我” 主页
         self.page_login_me()
         # 点击 立即登陆
