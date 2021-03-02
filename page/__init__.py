@@ -228,7 +228,7 @@ add_skill_order_now = By.ID, "com.qjy.teleeye:id/tv_seekhelp_place"
 add_skill_order_payment = By.ID, "com.qjy.teleeye:id/tv_seekhelp_create_pay"
 
 # 选择支付宝支付
-add_skill_order_payment_ali = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/rb_popup_play_ali"]'
+add_skill_order_payment_ali = By.ID, "com.qjy.teleeye:id/rb_popup_play_ali"
 
 # 取消订单
 add_skill_order_payment_cancel = By.ID, "com.qjy.teleeye:id/tv_popup_play_cancel"

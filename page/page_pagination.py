@@ -3,7 +3,7 @@ from time import sleep
 
 import page
 from base.base import Base
-
+from selenium.webdriver.support.ui import WebDriverWait
 from tool.get_log import GetLog
 
 log = GetLog.get_log()
@@ -185,8 +185,8 @@ class PagePagination(Base):
         self.page_assertion_preview_type(expect)
         self.page_assert_demand(demand)
         self.base_click(page.add_billing_home_preview_issue)
-        sleep(1)
-        self.driver.tap([(394, 1333)])
+        self.driver.wait_activity(".ui.Activity_Splash", 2)
+        self.base_click(page.hair_good)
 
     # 组合发单分页输入订单信息业务
     def page_add_recommendation_order(self, money, demand, ):
@@ -198,8 +198,8 @@ class PagePagination(Base):
         self.base_input(page.add_billing_home_demand, demand)
         self.base_click(page.add_billing_home_create_pay)
         self.base_click(page.add_billing_home_preview_issue)
-        sleep(2)
-        self.driver.tap([(394, 1333)])
+        self.driver.wait_activity(".ui.Activity_Splash", 2)
+        self.base_click(page.hair_good)
 
     # 发单主页地图指定组合业务
     def page_hair_map_assignment(self, money, demand):
@@ -216,47 +216,44 @@ class PagePagination(Base):
         self.base_input(page.hair_requirement_input_box, demand)
         self.base_click(page.hair_next_step)
         self.base_click(page.hair_publish_now)
-        sleep(1)
-        self.driver.tap([(394, 1333)])
+        self.driver.wait_activity(".ui.Activity_Splash", 2)
+        self.base_click(page.hair_good)
 
     # 挣钱主页按订单发单业务
     def page_earn_money_order(self, search):
         self.base_click(page.add_earn_money_homepage)
         self.base_click(page.add_earn_money_location_classification)
-        sleep(1)
-        self.driver.tap([(41, 1032)])
-        sleep(2)
+        self.driver.implicitly_wait(30)
+        self.driver.tap([(41, 1061)])
+        self.driver.implicitly_wait(30)
+        # self.driver.wait_activity(".ui.Activity_Splash", 2)
+        # self.base_click(page.add_earn_money_location_search_by_location)
         self.base_click(page.add_earn_money_location_site)
-        sleep(1)
+        self.driver.implicitly_wait(30)
         self.base_input(page.add_billing_home_baidumap_search, search)
         self.base_click(page.add_billing_home_search_content)
 
         self.base_click(page.hair_map_use_location)
         self.base_click(page.add_earn_money_location_classification)
-        sleep(1)
+        self.driver.implicitly_wait(30)
         self.driver.tap([(69, 375)])
 
     # 挣钱主页按订单发单业务
     def page_earn_money_order_u2(self, search):
         self.base_click(page.add_earn_money_homepage)
         self.base_click(page.add_earn_money_location_classification)
-        sleep(1)
+        self.driver.implicitly_wait(30)
         # self.driver.execute_script('arguments[0].click()', webElement)
-        self.driver.tap([(41, 1032)])
-        sleep(2)
+
+        self.driver.tap([(41, 1061)])
+        self.driver.implicitly_wait(30)
         self.base_click(page.add_earn_money_location_site)
-        sleep(1)
+        self.driver.implicitly_wait(30)
         self.base_input(page.add_billing_home_baidumap_search, search)
         self.base_click(page.add_billing_home_search_content)
         self.base_click(page.hair_map_use_location)
         self.base_click(page.add_earn_money_location_classification)
-
-        # sleep(3)
-        # page1 = self.driver.page_source
-        # print(page1)
-        # self.get_data(text="")
-        # print(self.get_data(text=""))
-        sleep(1)
+        self.driver.implicitly_wait(30)
         self.driver.tap([(69, 375)])
         # self.driver.implicitly_wait(10)
 

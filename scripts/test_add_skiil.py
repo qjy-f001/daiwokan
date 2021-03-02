@@ -64,6 +64,7 @@ class TestSkiil:
             # 抛异常
             raise
 
+    # 测试服务支付取消后生成未支付订单
     def test03_see_skiil(self):
         self.add_skiil.page_see_skiil()
         self.hair = PageIn().page_get_pagehair()

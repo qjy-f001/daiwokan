@@ -188,17 +188,18 @@ class PageSkiil(Base):
     # 组合业务 新增技能和服务
     def page_add_skill_service_description(self, description, money, demand):
         self.base_click(page.add_skill_add_skills_services)
-        sleep(2)
+        # sleep(2)
+        self.driver.implicitly_wait(30)
         self.base_input(page.add_skill_service_description, description)
-        sleep(2)
+        self.driver.implicitly_wait(30)
         self.base_click(page.add_skill_share_minute_charging)
-        sleep(1)
+        self.driver.implicitly_wait(30)
         self.base_input(page.add_skill_service_money, money)
-        sleep(1)
+        self.driver.implicitly_wait(30)
         self.base_click(page.add_skill_video)
-        sleep(1)
+        self.driver.implicitly_wait(30)
         self.base_input(page.add_skill_service_demand, demand)
-        sleep(1)
+        self.driver.implicitly_wait(30)
         self.base_click(page.add_skill_service_issue)
 
     # 组合业务 删除服务
@@ -224,8 +225,14 @@ class PageSkiil(Base):
 
         self.base_click(page.add_skill_order_now)
         self.base_click(page.add_skill_order_payment)
+        # co = self.driver.page_source
+        # print(co)
         sleep(1)
         self.driver.tap([(889, 1931)])
         sleep(1)
         self.driver.tap([(355, 2087)])
 
+        # self.driver.background_app(5)
+        # self.driver.wait_activity(".ui.Activity_Splash", 2)
+        # self.base_click(page.add_skill_order_payment_ali)
+        # self.base_click(page.add_skill_order_payment_cancel)
