@@ -24,10 +24,10 @@ def get_data(key):
 class TestHair:
     # 初始化
     def setup_class(self):
-        self.hair = PageIn().page_get_pagehair()
+        self.hair = PageIn().page_get_page_add_order()
         # 点击同意协议并登陆
         self.hair.page_get_into_app()
-        PageIn().page_get_pagelogin().page_add_skill()
+        PageIn().page_get_page_login().page_add_skill()
 
     # 结束
     def teardown_class(self):
@@ -63,7 +63,7 @@ class TestHair:
         self.position_manage.page_click_position_manage()
         self.position_manage.page_delete_position_manage_nuw_my()
 
-    def test_04_add_unknown_scenic_spot_nuw(self,search1="西二旗", describe="北京西二旗地铁站123"):
+    def test_04_add_unknown_scenic_spot_nuw(self, search1="西二旗", describe="北京西二旗地铁站123"):
         # self.hair.page_hair_add_place()
         # 新增地点
         self.position_manage = PageIn().page_get_position()
@@ -73,50 +73,16 @@ class TestHair:
         self.position_manage.page_click_position_manage_back()
         self.position_manage.page_delete_position_manage_nuw_my()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # ----------------------------------------------------------------------------------------
-    # def test02(self, name="123", phone="13511112222", remarks="北京颐和园，随便看看"):
-    #     self.position_manage = PageIn().page_get_positionadminister()
-    #     self.position_manage.page_click_position_manage()
-    #     self.position_manage.page_click_modify_existing_location_information(name, phone, remarks)
-    #
-    #     self.hair = PageIn().page_get_pagehair()
-    #
-    #     self.hair.page_hair(money, demand)
-    #     self.hair.page_login_me()
-    #     self.hair.page_click_hair_billing_record()
-    #     sleep(2)
-    #     self.hair.if_order()
+# def test02(self, name="123", phone="13511112222", remarks="北京颐和园，随便看看"):
+#     self.position_manage = PageIn().page_get_positionadminister()
+#     self.position_manage.page_click_position_manage()
+#     self.position_manage.page_click_modify_existing_location_information(name, phone, remarks)
+#
+#     self.hair = PageIn().page_get_pagehair()
+#
+#     self.hair.page_hair(money, demand)
+#     self.hair.page_login_me()
+#     self.hair.page_click_hair_billing_record()
+#     sleep(2)
+#     self.hair.if_order()

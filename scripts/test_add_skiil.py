@@ -25,9 +25,9 @@ class TestSkiil:
     # 初始化
     def setup_class(self, ):
         # 获取 PageAddress
-        self.add_skiil = PageIn().page_get_pageskiil()
+        self.add_skiil = PageIn().page_get_page_skiil()
         self.add_skiil.page_get_into_app()
-        PageIn().page_get_pagelogin().page_add_skill()
+        PageIn().page_get_page_login().page_add_skill()
 
     # 结束
     def teardown_class(self):
@@ -67,8 +67,8 @@ class TestSkiil:
     # 测试服务支付取消后生成未支付订单
     def test03_see_skiil(self):
         self.add_skiil.page_see_skiil()
-        self.hair = PageIn().page_get_pagehair()
+        self.hair = PageIn().page_get_page_add_order()
         self.hair.page_login_me()
         self.hair.page_click_hair_billing_record()
-        sleep(2)
+        sleep(1)
         self.hair.if_order()

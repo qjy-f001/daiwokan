@@ -4,7 +4,7 @@ import page
 from base.base import Base
 
 
-class PageHair(Base):
+class PageAddOrder(Base):
 
     def page_swipe(self):
         # swipe 滑动

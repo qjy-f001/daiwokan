@@ -9,7 +9,7 @@ from tool.get_log import GetLog
 log = GetLog.get_log()
 
 
-class PagePagination(Base):
+class PageHairSingle(Base):
     # 点击 首页主页
     def page_click_hair_letter(self):
         self.base_click(page.hair_letter)

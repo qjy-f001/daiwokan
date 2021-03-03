@@ -220,9 +220,7 @@ class PageSkiil(Base):
         self.base_click(page.add_skill_head_portrait)
         self.base_click(page.add_skill_personal_person)
         self.base_click(page.add_skill_personal_skill)
-
         self.base_click(page.add_skill_skills_services)
-
         self.base_click(page.add_skill_order_now)
         self.base_click(page.add_skill_order_payment)
         # co = self.driver.page_source

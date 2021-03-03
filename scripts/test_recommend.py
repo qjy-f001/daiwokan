@@ -16,10 +16,10 @@ log = GetLog.get_log()
 class TestRecommend:
     # 初始化
     def setup_class(self):
-        self.hair = PageIn().page_get_pagehair()
+        self.hair = PageIn().page_get_page_add_order()
         # 点击同意协议并登陆
         self.hair.page_get_into_app()
-        PageIn().page_get_pagelogin().page_add_skill()
+        PageIn().page_get_page_login().page_add_skill()
 
     # 结束
     def teardown_class(self):
@@ -30,7 +30,7 @@ class TestRecommend:
     def test_recommendation_order(self, money="0.1", demand="随便看看"):
         self.recommendation = PageIn().page_get_recommend()
         self.recommendation.page_add_recommended_pagination_combination()
-        self.order = PageIn().page_get_pagepagination()
+        self.order = PageIn().page_get_page_hair_single()
         self.order.page_add_recommendation_order(money, demand)
         sleep(1)
         self.hair.page_login_me()
