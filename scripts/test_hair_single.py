@@ -33,7 +33,7 @@ class TestOrderPagination:
         GetDriver.quit_driver()
 
     @pytest.mark.parametrize("search,money, demand,expect", get_data())
-    def test_order_pagination(self, search, money, demand, expect):
+    def test1_order_pagination(self, search, money, demand, expect):
         self.order_pagination = PageIn().page_get_page_hair_single()
         self.order_pagination.page_click_hair_letter()
         self.order_pagination.page_add_billing_home_combination(search, money, demand, expect)
@@ -59,6 +59,7 @@ class TestOrderPagination:
 
     def test4(self, search="西二旗"):
         self.page_order_pagination = PageIn().page_get_page_hair_single()
+        sleep(2)
         self.page_order_pagination.page_earn_money_order_u2(search)
         # self.page_order_pagination(base)
 

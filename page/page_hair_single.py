@@ -10,6 +10,11 @@ log = GetLog.get_log()
 
 
 class PageHairSingle(Base):
+
+    # 点击 “我” 主页
+    def page_login_me(self):
+        self.base_click(page.login_me)
+
     # 点击 首页主页
     def page_click_hair_letter(self):
         self.base_click(page.hair_letter)
@@ -223,9 +228,8 @@ class PageHairSingle(Base):
     def page_earn_money_order(self, search):
         self.base_click(page.add_earn_money_homepage)
         self.base_click(page.add_earn_money_location_classification)
-        self.driver.implicitly_wait(30)
+        sleep(2)
         self.driver.tap([(41, 1061)])
-        self.driver.implicitly_wait(30)
         # self.driver.wait_activity(".ui.Activity_Splash", 2)
         # self.base_click(page.add_earn_money_location_search_by_location)
         self.base_click(page.add_earn_money_location_site)
@@ -235,14 +239,14 @@ class PageHairSingle(Base):
 
         self.base_click(page.hair_map_use_location)
         self.base_click(page.add_earn_money_location_classification)
-        self.driver.implicitly_wait(30)
+        sleep(2)
         self.driver.tap([(69, 375)])
 
     # 挣钱主页按订单发单业务
     def page_earn_money_order_u2(self, search):
         self.base_click(page.add_earn_money_homepage)
         self.base_click(page.add_earn_money_location_classification)
-        self.driver.implicitly_wait(30)
+        sleep(2)
         # self.driver.execute_script('arguments[0].click()', webElement)
 
         self.driver.tap([(41, 1061)])
@@ -253,7 +257,7 @@ class PageHairSingle(Base):
         self.base_click(page.add_billing_home_search_content)
         self.base_click(page.hair_map_use_location)
         self.base_click(page.add_earn_money_location_classification)
-        self.driver.implicitly_wait(30)
+        sleep(2)
         self.driver.tap([(69, 375)])
         # self.driver.implicitly_wait(10)
 

@@ -16,7 +16,7 @@ log = GetLog.get_log()
 
 def get_data(key):
     arrs = []
-    data = read_yaml("hair.yaml").get(key)
+    data = read_yaml("add_order.yaml").get(key)
     arrs.append(tuple(data.values()))
     return arrs
 

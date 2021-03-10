@@ -296,7 +296,7 @@ add_recommended_pagination_release_order = By.XPATH, '//*[@text="带我看"]'
 add_high_school = By.XPATH, '//*[@text="校园"]'
 
 # “+”图标
-add_high_school_icon = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[7]/android.view.View[1]/android.view.View[1]'
+add_high_school_icon = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.widget.Image[1]'
 
 # 修改我的学校
 add_high_school_modify = By.XPATH, '//*[@text = "修改我的学校"]'
@@ -305,13 +305,13 @@ add_high_school_modify = By.XPATH, '//*[@text = "修改我的学校"]'
 add_high_school_release_order_web = By.XPATH, '//*[@text = "发布带看订单"]'
 
 # 搜索框
-add_high_school_search_box = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.view.View[1]/android.view.View[2]'
+add_high_school_search_box = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[13]/android.view.View[1]'
 
 # 清华大学
 add_high_school_qh = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.view.View[2]/android.view.View[1]'
 
 # 发布带看订单
-add_high_school_release_order_android = By.XPATH, '/*[@text="带我看"]'
+add_high_school_release_order_android = By.XPATH, '//*[@text="带我看"]'
 
 # 校园活动
 add_high_school_campus_activities = By.XPATH, '//android.widget.Image'
@@ -335,10 +335,10 @@ add_high_school_vote_for_it = By.XPATH, '//*[@text="投上一票"]'
 add_high_school_dear_school = By.XPATH, '//*[@text="给母校发单"]'
 
 # 校园搜索框输入清华
-add_high_school_search = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[10]/android.view.View[1]/android.view.View[2]/android.widget.EditText'
+add_high_school_search = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[13]/android.view.View[1]/android.view.View[2]/android.widget.EditText'
 
 # 搜索清华
-add_high_school_search_qh = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.view.View[2]/android.view.View[1]'
+add_high_school_search_qh = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[13]/android.view.View[2]/android.view.View[1]'
 
 # 查询修改后大学名称
 add_high_school_after_modification = By.XPATH, '//*[@text="清华大学"]'
@@ -355,40 +355,62 @@ add_hometown_activity = By.XPATH, '//android.widget.Image'
 add_hometown_icon = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[6]/android.view.View[1]/android.view.View[1]'
 
 # 修改我的家乡
-add_hometown_my = By.XPATH, '//*[@text = "修改我的家乡"]'
+add_hometown_my = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
+
+# 全国
+add_hometown_whole_country = By.XPATH, '//*[@text="全国"]'
 
 # 北京市
-add_hometown_bj = By.XPATH, '//*[@resource-id = "app"]/android.view.View[1]/android.view.View[1]/android.view.View[8]/android.view.View[2]/android.view.View[4]/android.view.View[2]/android.view.View[1]/android.view.View[5]'
+add_hometown_bj = By.XPATH, '//*[@text="北京市"]'
 
 # 市
-add_hometown_city = By.XPATH, '//*[@text = "市"]'
+# add_hometown_city = By.XPATH, '//*[@text="市辖区"]'
 
 # 市辖区
-add_hometown_city_jurisdiction = By.XPATH, '//*[@resource-id = "app"]/android.view.View[1]/android.view.View[1]/android.view.View[8]/android.view.View[2]/android.view.View[4]/android.view.View[2]/android.view.View[1]/android.view.View[3]'
+add_hometown_city_jurisdiction = By.XPATH, '//*[@text="市辖区"]'
 
 # 区县
-add_hometown_area_county = By.XPATH, '//*[@text = "区县"]'
+# add_hometown_area_county = By.XPATH, '//*[@text = "区县"]'
 
-# 朝阳区
-add_hometown_chaoyang_district = By.XPATH, '// *[@resource-id = "app"]/android.view.View[1]/android.view.View[1]/android.view.View[8]/android.view.View[2]/android.view.View[4]/android.view.View[2]/android.view.View[1]/android.view.View[3]'
+# 东城区
+add_hometown_chaoyang_district = By.XPATH, '//*[@text="东城区"]'
 
-# 乡镇
-add_hometown_township = By.XPATH, '//*[@text = "乡镇"]'
+# 东华门街道
+add_hometown_township = By.XPATH, '//*[@text="东华门街道"]'
 
-# 奥运村街道
-add_hometown_olympic_village_street = By.XPATH, '// *[@resource-id = "app"]/android.view.View[1]/android.view.View[1]/android.view.View[8]/android.view.View[2]/android.view.View[4]/android.view.View[2]/android.view.View[1]/android.view.View[4]'
+# 多福巷社区
+add_hometown_olympic_village_street = By.XPATH, '//*[@text="多福巷社区"]'
 
-# 村 / 街道
-add_hometown_village_street = By.XPATH, '//*[@text = "村/街道"]'
+# # 村 / 街道
+# add_hometown_village_street = By.XPATH, '//*[@text = "村/街道"]'
 
-# 北沙滩社区
-add_hometown_north_beach_community = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[8]/android.view.View[2]/android.view.View[4]/android.view.View[2]/android.view.View[1]/android.view.View[3]'
+# # 北沙滩社区
+# add_hometown_north_beach_community = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[8]/android.view.View[2]/android.view.View[4]/android.view.View[2]/android.view.View[1]/android.view.View[3]'
+
+
+# 市辖区					//*[@text="市辖区"]
+#
+#
+# 东城区					//*[@text="东城区"]
+#
+#
+# 东华门街道				//*[@text="东华门街道"]
+#
+#
+# 多福巷社区				//*[@text="多福巷社区"]
+#
+#
+# 多福巷社区（确认）		//*[@resource-id="app"]/android.view.View[4]/android.view.View[1]
+#
+#
+# 选为我的家乡			//android.widget.Image
+
 
 # 选择此处为我的家乡
-add_hometown_choose_here_as_my_hometown = By.XPATH, '//*[@text = "选择此处为我的家乡"]'
+add_hometown_choose_here_as_my_hometown = By.XPATH, '//android.widget.Image'
 
 # 发布带看订单（web）
-add_hometown_publish_with_order_web = By.XPATH, '//*[@text = "发布带看订单"]'
+add_hometown_publish_with_order_web = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Image[1]'
 
 # 发布带看订单（安卓）
 add_hometown_release_order_with_android = By.ID, "com.qjy.teleeye:id/tv_home_recommend_details_launch"

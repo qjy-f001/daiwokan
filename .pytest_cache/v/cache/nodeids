@@ -1,15 +1,17 @@
 [
   "scripts/test_add_order.py::TestAddOrder::()::test01_add_hair[0.1-\\u8dd1\\u817f\\u4ee3\\u8d2d1]",
   "scripts/test_add_order.py::TestAddOrder::()::test01_add_hair[0.1-\\u5206\\u4eab\\u7559\\u5b661]",
-  "scripts/test_add_skiil.py::TestSkiil::()::test01_add_skiil[\\u5927\\u5b66\\u5e26\\u770b-0.1-\\u968f\\u4fbf\\u770b\\u770b]",
-  "scripts/test_add_skiil.py::TestSkiil::()::test02_add_delete_of_order",
-  "scripts/test_add_skiil.py::TestSkiil::()::test03_see_skiil",
+  "scripts/test_campus.py::TestCampus::()::test_campus",
+  "scripts/test_campus.py::TestCampus::()::test_campus_order",
   "scripts/test_hair_single.py::TestOrderPagination::()::test_order_pagination[\\u897f\\u4e8c\\u65d7-0.1-\\u968f\\u4fbf\\u770b\\u770b-\\u5e26\\u6211\\u770b>\\u897f\\u4e8c\\u65d7-\\u5730\\u94c1\\u7ad9]",
   "scripts/test_hair_single.py::TestOrderPagination::()::test2_add_hair",
   "scripts/test_hair_single.py::TestOrderPagination::()::test3_page_earn_money_order",
   "scripts/test_hair_single.py::TestOrderPagination::()::test4",
+  "scripts/test_hometown.py::TestHometown::()::test01_hometown",
+  "scripts/test_hometown.py::TestHometown::()::test_02hometown_order",
   "scripts/test_position.py::TestHair::()::test01_position_manage",
   "scripts/test_position.py::TestHair::()::test_02_add_unknown_scenic_spot",
   "scripts/test_position.py::TestHair::()::test_03_add_unknown_scenic_spot_nuw",
-  "scripts/test_position.py::TestHair::()::test_04_add_unknown_scenic_spot_nuw"
+  "scripts/test_position.py::TestHair::()::test_04_add_unknown_scenic_spot_nuw",
+  "scripts/test_recommend.py::TestRecommend::()::test_recommendation_order"
 ]

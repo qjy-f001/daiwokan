@@ -186,7 +186,7 @@ class PageAddOrder(Base):
     def page_hair_order_details_pay_no(self):
         try:
             # 查找服务标签
-            self.base_finds(page.hair_order_details_pay_no, timeout=2)
+            self.base_finds(page.hair_order_details_pay_no, timeout=0.2)
             # 找到了，说明还有未支付订单
             return False
         except:
@@ -195,7 +195,8 @@ class PageAddOrder(Base):
 
     def if_order(self):
         self.page_hair_order_details_pay_no()
-        print(self.page_hair_order_details_pay_no())
+        # a = self.page_hair_order_details_pay_no()
+        # print(self.page_hair_order_details_pay_no())
         if self.page_hair_order_details_pay_no() == False:
             self.page_hair_off_order_mo()
 
@@ -206,7 +207,7 @@ class PageAddOrder(Base):
     def page_hair(self, money, demand):
         self.base_click(page.hair_letter)
         self.base_click(page.hair_take_look)
-        sleep(1)
+        self.driver.implicitly_wait(30)
         self.base_click(page.hair_big_school)
         self.base_click(page.hair_bj_university)
         self.base_click(page.hai_details_launch)
@@ -251,9 +252,6 @@ class PageAddOrder(Base):
         self.base_click(page.hair_order_details_pay_no)
         self.base_click(page.hair_order_details_pay_noo)
         self.base_click(page.hair_determine)
-        # self.base_click(page.hair_off_order)
-        # self.base_click(page.hair_determine)
-        # sleep(2)
         self.base_click(page.hair_return_order_details)
         self.base_click(page.hair_return_Billing_record)
 

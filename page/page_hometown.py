@@ -21,41 +21,45 @@ class PageHometown(Base):
     def page_click_add_hometown_my(self):
         self.base_click(page.add_hometown_my)
 
+    # 全国
+    def page_click_add_hometown_whole_country(self):
+        self.base_click(page.add_hometown_whole_country)
+
     # 北京市
     def page_click_add_hometown_bj(self):
         self.base_click(page.add_hometown_bj)
 
-    # 市
-    def page_click_add_hometown_city(self):
-        self.base_click(page.add_hometown_city)
+    # # 市
+    # def page_click_add_hometown_city(self):
+    #     self.base_click(page.add_hometown_city)
 
     # 市辖区
     def page_click_add_hometown_city_jurisdiction(self):
         self.base_click(page.add_hometown_city_jurisdiction)
 
-    # 区县
-    def page_click_add_hometown_area_county(self):
-        self.base_click(page.add_hometown_area_county)
+    # # 区县
+    # def page_click_add_hometown_area_county(self):
+    #     self.base_click(page.add_hometown_area_county)
 
-    # 朝阳区
+    # 东城区
     def page_click_add_hometown_chaoyang_district(self):
         self.base_click(page.add_hometown_chaoyang_district)
 
-    # 乡镇
+    # 东华门街道
     def page_click_add_hometown_township(self):
         self.base_click(page.add_hometown_township)
 
-    # 奥运村街道
+    # 多福巷社区
     def page_click_add_hometown_olympic_village_street(self):
         self.base_click(page.add_hometown_olympic_village_street)
 
-    # 村 / 街道
-    def page_click_add_hometown_village_street(self):
-        self.base_click(page.add_hometown_village_street)
+    # # 村 / 街道
+    # def page_click_add_hometown_village_street(self):
+    #     self.base_click(page.add_hometown_village_street)
 
-    # 北沙滩社区
-    def page_click_add_hometown_north_beach_community(self):
-        self.base_click(page.add_hometown_north_beach_community)
+    # # 北沙滩社区
+    # def page_click_add_hometown_north_beach_community(self):
+    #     self.base_click(page.add_hometown_north_beach_community)
 
     # 选择此处为我的家乡
     def page_click_add_hometown_choose_here_as_my_hometown(self):
@@ -73,29 +77,30 @@ class PageHometown(Base):
     def page_my_hometown(self):
         self.base_click(page.hair_letter)
         self.base_click(page.add_hometown)
-        # print(self.driver.current_context)
-        # print(self.driver.contexts)
-        sleep(1)
-        self.base_click(page.add_hometown_icon)
         self.base_click(page.add_hometown_my)
+        sleep(2)
+        self.base_click(page.add_hometown_whole_country)
+        sleep(2)
         self.base_click(page.add_hometown_bj)
-        self.base_click(page.add_hometown_city)
+        sleep(2)
+        # self.base_click(page.add_hometown_city)
         self.base_click(page.add_hometown_city_jurisdiction)
-        self.base_click(page.add_hometown_area_county)
+        sleep(3)
         self.base_click(page.add_hometown_chaoyang_district)
+        sleep(2)
         self.base_click(page.add_hometown_township)
+        sleep(2)
         self.base_click(page.add_hometown_olympic_village_street)
-        self.base_click(page.add_hometown_village_street)
-        self.base_click(page.add_hometown_north_beach_community)
+        self.driver.implicitly_wait(30)
         self.base_click(page.add_hometown_choose_here_as_my_hometown)
 
     # 组合我的家乡页面业务方法
     def page_my_hometown_modify(self):
         self.base_click(page.hair_letter)
         self.base_click(page.add_hometown)
-        self.base_click(page.add_hometown_icon)
+        # self.base_click(page.add_hometown_icon)
         self.base_click(page.add_hometown_publish_with_order_web)
-        self.base_click(page.add_hometown_release_order_with_android)
+        # self.base_click(page.add_hometown_release_order_with_android)
 
     # 我的家乡发单业务
     def page_my_hometown_order(self, money, demand):
@@ -103,7 +108,7 @@ class PageHometown(Base):
         # sleep(1)
         self.base_click(page.hair_btn_pos)
         self.base_input(page.add_billing_home_service_money, money)
-        sleep(2)
+        self.driver.implicitly_wait(30)
         self.base_input(page.add_billing_home_demand, demand)
         self.base_click(page.add_billing_home_create_pay)
         self.base_click(page.add_billing_home_preview_issue)

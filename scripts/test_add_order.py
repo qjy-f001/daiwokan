@@ -16,7 +16,7 @@ log = GetLog.get_log()
 
 def get_data():
     arrs = []
-    for data in read_yaml("hair.yaml").values():
+    for data in read_yaml("add_order.yaml").values():
         arrs.append(tuple(data.values()))
     return arrs
 
@@ -40,5 +40,6 @@ class TestAddOrder:
         self.hair.page_hair(money, demand)
         self.hair.page_login_me()
         self.hair.page_click_hair_billing_record()
+        sleep(2)
         self.hair.if_order()
 
