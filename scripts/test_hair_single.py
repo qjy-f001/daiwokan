@@ -39,7 +39,7 @@ class TestOrderPagination:
         self.order_pagination.page_add_billing_home_combination(search, money, demand, expect)
         # 取消订单
         self.hair = PageIn().page_get_page_add_order()
-        sleep(2)
+        sleep(1)
         self.hair.page_login_me()
         self.hair.page_click_hair_billing_record()
         sleep(2)
