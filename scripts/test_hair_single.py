@@ -59,7 +59,7 @@ class TestOrderPagination:
 
     def test4(self, search="西二旗"):
         self.page_order_pagination = PageIn().page_get_page_hair_single()
-        sleep(2)
+        sleep(1)
         self.page_order_pagination.page_earn_money_order_u2(search)
         # self.page_order_pagination(base)
 
