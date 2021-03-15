@@ -14,11 +14,11 @@ from tool.get_driver import GetDriver
 log = GetLog.get_log()
 
 
-def get_data(key):
-    arrs = []
-    data = read_yaml("add_order.yaml").get(key)
-    arrs.append(tuple(data.values()))
-    return arrs
+# def get_data(key):
+#     arrs = []
+#     data = read_yaml("pagination.yaml").get(key)
+#     arrs.append(tuple(data.values()))
+#     return arrs
 
 
 class TestHair:
@@ -73,16 +73,16 @@ class TestHair:
         self.position_manage.page_click_position_manage_back()
         self.position_manage.page_delete_position_manage_nuw_my()
 
-# ----------------------------------------------------------------------------------------
-# def test02(self, name="123", phone="13511112222", remarks="北京颐和园，随便看看"):
-#     self.position_manage = PageIn().page_get_positionadminister()
-#     self.position_manage.page_click_position_manage()
-#     self.position_manage.page_click_modify_existing_location_information(name, phone, remarks)
-#
-#     self.hair = PageIn().page_get_pagehair()
-#
-#     self.hair.page_hair(money, demand)
-#     self.hair.page_login_me()
-#     self.hair.page_click_hair_billing_record()
-#     sleep(2)
-#     self.hair.if_order()
+    # ----------------------------------------------------------------------------------------
+    # def test02(self, name="123", phone="13511112222", remarks="北京颐和园，随便看看"):
+    #     self.position_manage = PageIn().page_get_positionadminister()
+    #     self.position_manage.page_click_position_manage()
+    #     self.position_manage.page_click_modify_existing_location_information(name, phone, remarks)
+    #
+    #     self.hair = PageIn().page_get_pagehair()
+    #
+    #     self.hair.page_hair(money, demand)
+    #     self.hair.page_login_me()
+    #     self.hair.page_click_hair_billing_record()
+    #     sleep(2)
+    #     self.hair.if_order()
