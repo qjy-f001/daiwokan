@@ -42,8 +42,8 @@ class PageHometown(Base):
     #     self.base_click(page.add_hometown_area_county)
 
     # 东城区
-    def page_click_add_hometown_chaoyang_district(self):
-        self.base_click(page.add_hometown_chaoyang_district)
+    def page_click_add_hometown_dongcheng_district(self):
+        self.base_click(page.add_hometown_dongcheng_district)
 
     # 东华门街道
     def page_click_add_hometown_township(self):
@@ -86,7 +86,7 @@ class PageHometown(Base):
         # self.base_click(page.add_hometown_city)
         self.base_click(page.add_hometown_city_jurisdiction)
         sleep(3)
-        self.base_click(page.add_hometown_chaoyang_district)
+        self.base_click(page.add_hometown_dongcheng_district)
         sleep(2)
         self.base_click(page.add_hometown_township)
         sleep(2)

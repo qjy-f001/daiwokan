@@ -54,7 +54,7 @@ login_register_phone_back = By.ID, "com.qjy.teleeye:id/tv_action_bar_menu_back"
 hair_letter = By.ID, "com.qjy.teleeye:id/iv_tabbar_letter"
 
 # 点击带看
-hair_take_look = By.XPATH, '//*[@text="带看"]'
+hair_take_look = By.XPATH, '//*[@text="分类"]'
 
 # 点击    大学
 hair_university = By.XPATH, '//*[@text="16076590382858"]'
@@ -236,7 +236,7 @@ add_skill_order_payment_cancel = By.ID, "com.qjy.teleeye:id/tv_popup_play_cancel
 """以下为发单分页元素模块配置数据"""
 
 # 发单分页
-add_billing_home_page = By.XPATH, '//*[@text="发单"]'
+add_billing_home_page = By.XPATH, '//*[@text="带看"]'
 
 # 搜索
 add_billing_home_location_search = By.ID, "com.qjy.teleeye:id/iv_help_map_location_search"
@@ -280,7 +280,7 @@ add_billing_home_popup_order_ok = By.ID, "com.qjy.teleeye:id/tv_popup_order_ok"
 """以下为推荐分页元素模块配置数据"""
 
 # 推荐分页
-add_recommended_pagination = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/tab_action_bar"]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]'
+add_recommended_pagination = By.XPATH, '//*[@text="推荐"]'
 
 # 返回
 add_recommended_pagination_return = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]'
@@ -373,7 +373,7 @@ add_hometown_city_jurisdiction = By.XPATH, '//*[@text="市辖区"]'
 # add_hometown_area_county = By.XPATH, '//*[@text = "区县"]'
 
 # 东城区
-add_hometown_chaoyang_district = By.XPATH, '//*[@text="东城区"]'
+add_hometown_dongcheng_district = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View[2]'
 
 # 东华门街道
 add_hometown_township = By.XPATH, '//*[@text="东华门街道"]'
@@ -459,7 +459,7 @@ position_manage_search_box_empty = By.XPATH, '//*[@text=""]'
 position_manage_search_box = By.XPATH, '//*[@resource-id="app"]/android.view.View[2]/android.view.View[1]/android.view.View[2]'
 
 # 搜索框外     （输入西二旗）
-position_manage_search_box_out = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.widget.EditText"
+position_manage_search_box_out = By.XPATH, "/hierarchy/android.widget.FrameLayout//android.widget.EditText"
 
 # 点击搜索
 position_manage_click_search = By.XPATH, '//*[@text="搜索"]'
@@ -495,13 +495,13 @@ position_manage_one_picture = By.XPATH, '//*[@resource-id="android:id/content"]/
 position_manage_click_describe = By.XPATH, '//*[@text="点击这里输入针对这个位置的描述"]'
 
 # 选择图片
-position_manage_select_picture = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View"
-
+position_manage_select_picture = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View"
 # 选择图片
-position_manage_select_picture2 = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View"
+
+position_manage_select_picture2 = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View"
 
 # 输入描述信息（北京西二旗地铁站123）
-position_manage_describe_information = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[5]/android.view.View[1]/android.widget.EditText'
+position_manage_describe_information = By.XPATH, '/hierarchy/android.widget.FrameLayout//android.widget.EditText'
 
 # 点击保存
 position_manage_preservation = By.XPATH, '//*[@text="保存"]'
