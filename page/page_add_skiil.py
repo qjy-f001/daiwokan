@@ -189,17 +189,17 @@ class PageSkiil(Base):
     def page_add_skill_service_description(self, description, money, demand):
         self.base_click(page.add_skill_add_skills_services)
         # sleep(2)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_input(page.add_skill_service_description, description)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_click(page.add_skill_share_minute_charging)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_input(page.add_skill_service_money, money)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_click(page.add_skill_video)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_input(page.add_skill_service_demand, demand)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_click(page.add_skill_service_issue)
 
     # 组合业务 删除服务

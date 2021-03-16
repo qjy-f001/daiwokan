@@ -157,7 +157,7 @@ class PagePosition(Base):
         self.base_click(page.position_manage_click_here)
         self.base_click(page.position_manage_search_box)
         self.base_click(page.position_manage_search_box_empty)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_input(page.position_manage_search_box_out, search)
         self.base_click(page.position_manage_click_search)
         self.base_click(page.position_manage_click_first_search_content)
@@ -173,9 +173,9 @@ class PagePosition(Base):
         self.base_click(page.position_manage_back)
         self.base_click(page.position_manage_nuw_my)
         self.base_click(page.position_manage_delete)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_click(page.position_manage_back)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_click(page.position_manage_back)
 
     # 组合添加图片业务方法（没有权限）
@@ -236,9 +236,9 @@ class PagePosition(Base):
     def page_delete_position_manage_nuw_my(self):
         self.base_click(page.position_manage_nuw_my)
         self.base_click(page.position_manage_delete)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_click(page.position_manage_back)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_click(page.position_manage_back)
 
     # 景区添加地点业务方法
@@ -249,7 +249,7 @@ class PagePosition(Base):
         self.base_click(page.position_manage_click_here)
         self.base_click(page.position_manage_search_box)
         self.base_click(page.position_manage_search_box_empty)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_input(page.position_manage_search_box_out, search1)
         self.base_click(page.position_manage_click_search)
         self.base_click(page.position_manage_click_first_search_content)
@@ -269,7 +269,7 @@ class PagePosition(Base):
         self.base_click(page.position_manage_click_here)
         self.base_click(page.position_manage_search_box)
         self.base_click(page.position_manage_search_box_empty)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_input(page.position_manage_search_box_out, search1)
         self.base_click(page.position_manage_click_search)
         self.base_click(page.position_manage_click_first_search_content)

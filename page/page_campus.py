@@ -126,7 +126,7 @@ class PageCampus(Base):
         sleep(1)
         self.base_input(page.add_high_school_search, qh)
         self.base_click(page.add_high_school_search_qh)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.page_assertion_school_after_modification(qh)
 
     # 组合修改我的学校发单业务
@@ -135,12 +135,12 @@ class PageCampus(Base):
         self.base_click(page.add_high_school)
         # self.base_click(page.add_high_school_icon)
         # self.base_click(page.add_high_school_release_order_web)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_click(page.add_high_school_release_order_android)
         self.base_click(page.hair_btn_pos)
         self.base_click(page.add_skill_share_minute_charging)
         self.base_input(page.add_billing_home_service_money, money)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_input(page.add_billing_home_demand, demand)
         self.base_click(page.add_billing_home_create_pay)
         self.base_click(page.add_billing_home_preview_issue)

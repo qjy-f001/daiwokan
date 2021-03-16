@@ -207,7 +207,7 @@ class PageAddOrder(Base):
     def page_hair(self, money, demand):
         self.base_click(page.hair_letter)
         self.base_click(page.hair_take_look)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(2)
         self.base_click(page.hair_big_school)
         self.base_click(page.hair_bj_university)
         self.base_click(page.hai_details_launch)

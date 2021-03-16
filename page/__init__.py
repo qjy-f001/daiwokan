@@ -296,7 +296,7 @@ add_recommended_pagination_release_order = By.XPATH, '//*[@text="带我看"]'
 add_high_school = By.XPATH, '//*[@text="校园"]'
 
 # “+”图标
-add_high_school_icon = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.widget.Image[1]'
+add_high_school_icon = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[11]/android.widget.Image[1]'
 
 # 修改我的学校
 add_high_school_modify = By.XPATH, '//*[@text = "修改我的学校"]'
@@ -335,10 +335,10 @@ add_high_school_vote_for_it = By.XPATH, '//*[@text="投上一票"]'
 add_high_school_dear_school = By.XPATH, '//*[@text="给母校发单"]'
 
 # 校园搜索框输入清华
-add_high_school_search = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[13]/android.view.View[1]/android.view.View[2]/android.widget.EditText'
+add_high_school_search = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout//android.view.View[14]/android.view.View[1]/android.view.View[2]/android.widget.EditText'
 
 # 搜索清华
-add_high_school_search_qh = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[13]/android.view.View[2]/android.view.View[1]'
+add_high_school_search_qh = By.XPATH, '/hierarchy/android.widget.FrameLayout//android.view.View[14]/android.view.View[2]/android.view.View[1]'
 
 # 查询修改后大学名称
 add_high_school_after_modification = By.XPATH, '//*[@text="清华大学"]'
@@ -410,8 +410,8 @@ add_hometown_olympic_village_street = By.XPATH, '//*[@text="多福巷社区"]'
 add_hometown_choose_here_as_my_hometown = By.XPATH, '//android.widget.Image'
 
 # 发布带看订单（web）
-add_hometown_publish_with_order_web = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Image[1]'
-
+add_hometown_publish_with_order_web = By.XPATH, '//*[@text="带我看"]' \
+                                                ''
 # 发布带看订单（安卓）
 add_hometown_release_order_with_android = By.ID, "com.qjy.teleeye:id/tv_home_recommend_details_launch"
 

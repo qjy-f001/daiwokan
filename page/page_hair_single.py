@@ -233,7 +233,7 @@ class PageHairSingle(Base):
         # self.driver.wait_activity(".ui.Activity_Splash", 2)
         # self.base_click(page.add_earn_money_location_search_by_location)
         self.base_click(page.add_earn_money_location_site)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_input(page.add_billing_home_baidumap_search, search)
         self.base_click(page.add_billing_home_search_content)
 
@@ -250,9 +250,9 @@ class PageHairSingle(Base):
         # self.driver.execute_script('arguments[0].click()', webElement)
 
         self.driver.tap([(41, 1061)])
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_click(page.add_earn_money_location_site)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(5)
         self.base_input(page.add_billing_home_baidumap_search, search)
         self.base_click(page.add_billing_home_search_content)
         self.base_click(page.hair_map_use_location)
