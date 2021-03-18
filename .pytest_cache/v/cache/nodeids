@@ -9,9 +9,5 @@
   "scripts/test_hair_single.py::TestOrderPagination::()::test4",
   "scripts/test_hometown.py::TestHometown::()::test01_hometown",
   "scripts/test_hometown.py::TestHometown::()::test_02hometown_order",
-  "scripts/test_position.py::TestHair::()::test01_position_manage",
-  "scripts/test_position.py::TestHair::()::test_02_add_unknown_scenic_spot",
-  "scripts/test_position.py::TestHair::()::test_03_add_unknown_scenic_spot_nuw",
-  "scripts/test_position.py::TestHair::()::test_04_add_unknown_scenic_spot_nuw",
   "scripts/test_recommend.py::TestRecommend::()::test_recommendation_order"
 ]
