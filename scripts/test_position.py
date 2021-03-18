@@ -34,10 +34,10 @@
 #         # 关闭driver驱动对象
 #         GetDriver.quit_driver()
 #
-#     # def test01_position_manage(self, search="西二旗", describe="北京西二旗地铁站123"):
-#     #     self.position_manage = PageIn().page_get_position()
-#     #     self.position_manage.page_click_position_manage()
-#     #     self.position_manage.page_position_manage_nuw_position(search, describe)
+#     def test01_position_manage(self, search="西二旗", describe="北京西二旗地铁站123"):
+#         self.position_manage = PageIn().page_get_position()
+#         self.position_manage.page_click_position_manage()
+#         self.position_manage.page_position_manage_nuw_position(search, describe)
 #
 #     def test_02_add_unknown_scenic_spot(self, search="北京西二旗5A景区", search1="西二旗", describe="北京西二旗地铁站123"):
 #         self.hair.page_hair_add_place()
@@ -73,7 +73,7 @@
 #         self.position_manage.page_click_position_manage_back()
 #         self.position_manage.page_delete_position_manage_nuw_my()
 #
-#     # ----------------------------------------------------------------------------------------
+#     # # ----------------------------------------------------------------------------------------
 #     # def test02(self, name="123", phone="13511112222", remarks="北京颐和园，随便看看"):
 #     #     self.position_manage = PageIn().page_get_positionadminister()
 #     #     self.position_manage.page_click_position_manage()
