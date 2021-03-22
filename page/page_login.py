@@ -11,11 +11,11 @@ class PageLogin(Base):
 
     def page_swipe(self):
         # swipe 滑动
-        count = 1
-        while count <= 3:
+        # count = 1
+        for x in range(3):
             self.driver.swipe(1000, 1061, 100, 1061, duration=3000)
-            sleep(1)
-            count += 1  # 循环结束
+            # sleep(1)
+            # count += 1  # 循环结束
 
     # 点击 同意并登陆
     def page_login_agree(self):
