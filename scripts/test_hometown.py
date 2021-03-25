@@ -12,12 +12,12 @@ from page.page_in import PageIn
 from tool.get_driver import GetDriver
 
 
-class TestHometown:
+class TestOrderPagination:
     # 初始化
-    def setup_class(self, ):
-        # 获取 PageAddress
-        self.add_skiil = PageIn().page_get_page_add_order()
-        self.add_skiil.page_get_into_app()
+    def setup_class(self):
+        self.login = PageIn().page_get_page_login()
+        # 点击同意协议并登陆
+        self.login.page_get_into_app()
         PageIn().page_get_page_login().page_add_skill()
 
     # 结束

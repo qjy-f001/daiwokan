@@ -22,9 +22,9 @@ def get_data():
 class TestOrderPagination:
     # 初始化
     def setup_class(self):
-        self.hair = PageIn().page_get_page_add_order()
+        self.login = PageIn().page_get_page_login()
         # 点击同意协议并登陆
-        self.hair.page_get_into_app()
+        self.login.page_get_into_app()
         PageIn().page_get_page_login().page_add_skill()
 
     # 结束

@@ -10,13 +10,13 @@ log = GetLog.get_log()
 
 class PageSkiil(Base):
 
-    def page_swipe(self):
-        # swipe 滑动
-        # count = 1
-        for x in range(3):
-            self.driver.swipe(1000, 1061, 100, 1061, duration=3000)
-            # sleep(1)
-            # count += 1  # 循环结束
+        # def page_swipe(self):
+        #     # swipe 滑动
+        #     # count = 1
+        #     for x in range(3):
+        #         self.driver.swipe(1000, 1061, 100, 1061, duration=3000)
+        #         # sleep(1)
+        #         # count += 1  # 循环结束
 
     # 点击 同意并登陆
     def page_login_agree(self):
@@ -170,20 +170,20 @@ class PageSkiil(Base):
 
     # def page_click_
 
-    # 进入APP登陆页面
-    def page_get_into_app(self):
-        self.base_click(page.login_agree)
-        # 滑动引导页
-        self.page_swipe()
-        #  点击 立即体验
-        self.base_click(page.login_now)
-        # 点击 	仅在使用中允许(定位)
-        self.base_click(page.login_location)
-        # 点击 “我” 主页
-        self.page_login_me()
-        # 点击 立即登陆
-        self.page_login_log_now()
-        self.page_login_other()
+    # # 进入APP登陆页面
+    # def page_get_into_app(self):
+    #     self.base_click(page.login_agree)
+    #     # 滑动引导页
+    #     self.page_swipe()
+    #     #  点击 立即体验
+    #     self.base_click(page.login_now)
+    #     # 点击 	仅在使用中允许(定位)
+    #     self.base_click(page.login_location)
+    #     # 点击 “我” 主页
+    #     self.page_login_me()
+    #     # 点击 立即登陆
+    #     self.page_login_log_now()
+    #     self.page_login_other()
 
     # 组合业务 新增技能和服务
     def page_add_skill_service_description(self, description, money, demand):
