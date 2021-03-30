@@ -91,7 +91,7 @@ class PageHometown(Base):
         self.base_click(page.add_hometown_township)
         sleep(2)
         self.base_click(page.add_hometown_olympic_village_street)
-        self.driver.implicitly_wait(5)
+        self.driver.implicitly_wait(2)
         self.base_click(page.add_hometown_choose_here_as_my_hometown)
 
     # 组合我的家乡页面业务方法
@@ -108,7 +108,7 @@ class PageHometown(Base):
         # sleep(1)
         self.base_click(page.hair_btn_pos)
         self.base_input(page.add_billing_home_service_money, money)
-        self.driver.implicitly_wait(5)
+        self.driver.implicitly_wait(2)
         self.base_input(page.add_billing_home_demand, demand)
         self.base_click(page.add_billing_home_create_pay)
         self.base_click(page.add_billing_home_preview_issue)
