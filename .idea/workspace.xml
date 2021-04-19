@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/page_hair_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hair_single.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/page_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hometown.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_hometown.py" afterDir="false" />
+    <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +147,7 @@
       <workItem from="1618801809806" duration="22000" />
       <workItem from="1618801840792" duration="53000" />
       <workItem from="1618801977783" duration="1290000" />
-      <workItem from="1618803293949" duration="664000" />
+      <workItem from="1618803293949" duration="2144000" />
     </task>
     <task id="LOCAL-00001" summary="取消该测试方法">
       <created>1610934860704</created>
@@ -412,7 +408,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617085218599</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="默认更改列表">
+      <created>1618804087294</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1618804087294</updated>
+    </task>
+    <task id="LOCAL-00039" summary="默认更改列表">
+      <created>1618804155682</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1618804155682</updated>
+    </task>
+    <task id="LOCAL-00040" summary="默认更改列表">
+      <created>1618804187862</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1618804187862</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -478,7 +495,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="取消该测试方法" />
     <MESSAGE value="取消该测试方法." />
-    <option name="LAST_COMMIT_MESSAGE" value="取消该测试方法." />
+    <MESSAGE value="默认更改列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tool/read_txt.py">
