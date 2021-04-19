@@ -410,10 +410,94 @@ add_hometown_olympic_village_street = By.XPATH, '//*[@text="多福巷社区"]'
 add_hometown_choose_here_as_my_hometown = By.XPATH, '//android.widget.Image'
 
 # 发布带看订单（web）
-add_hometown_publish_with_order_web = By.XPATH, '//*[@text="带我看"]' \
-                                                ''
+add_hometown_publish_with_order_web = By.XPATH, '//*[@text="带我看"]'
+
 # 发布带看订单（安卓）
 add_hometown_release_order_with_android = By.ID, "com.qjy.teleeye:id/tv_home_recommend_details_launch"
+
+# 家乡动态元素id-------------------------------------
+
+# 店铺转让
+add_hometown_shop_transfer = By.XPATH, '//*[@text="店铺转让"]'
+
+# 发布按钮
+add_hometown_publish_button = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.widget.Image[1]'
+
+# 转让 店铺/生意（未发布过动态信息时显示）
+add_hometown_transfer_shop = By.XPATH, '/hierarchy//android.view.View[4]'
+
+# 选择店铺类型
+add_hometown_select_store_type = By.XPATH, '//*[@text="选择店铺类型"]'
+
+# 店铺类型：写字楼
+add_hometown_office_building = By.XPATH, '//*[@text="写字楼"]'
+
+# 点击选好了
+add_hometown_dynamic_yes = By.XPATH, '//*[@text="选好了"]'
+
+# 输入标题选项
+add_hometown_title_options = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.widget.EditText'
+
+# 填写转让店铺信息/原因
+add_hometown_information_transfer = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[2]/android.widget.EditText'
+
+# 选择上传图片/视频
+add_hometown_up_image = By.XPATH, '//*[@text="图片/视频"]'
+
+# 拍一张
+add_hometown_take_a_picture = By.XPATH, '//*[@text="拍一张"]'
+
+# 相机
+add_hometown_camera = By.XPATH, '//*[@text="相机"]'
+
+# 拍摄
+add_hometown_shot = By.ID, "com.android.camera:id/v9_shutter_button_internal"
+
+# 确认图片
+add_hometown_ok_picture = By.ID, "com.android.camera:id/intent_done_apply"
+
+# --------------
+# 点击图片
+add_hometown_up_picture = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/bt_addimage_photo"]'
+
+# 点击图片
+add_hometown_choice_picture = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/mRecyclerView"]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]'
+
+# 输入面积
+add_hometown_input_area = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[6]/android.view.View[3]/android.widget.EditText'
+
+# 输入转让费
+add_hometown_input_charge = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[7]/android.view.View[3]/android.widget.EditText'
+
+# 选择经营行业
+add_hometown_business = By.XPATH, '//*[@text="经营行业"]'
+
+# 餐饮美食
+add_hometown_beverage = By.XPATH, '//*[@text="餐饮美食"]'
+
+# 食堂
+add_hometown_canteen = By.XPATH, '//*[@text="食堂"]'
+
+# 完成
+add_hometown_complete = By.XPATH, '//*[@text="完成"]'
+
+# 输入电话
+add_hometown_input_phone = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[9]/android.view.View[1]/android.widget.EditText'
+
+# 提交
+add_hometown_submit = By.XPATH, '//*[@text="提交"]'
+
+# 个人中心
+add_hometown_personal_center = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/rl_info_head_background"]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]'
+
+# 多选按钮
+add_hometown_multiple_choice_button = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
+
+# 删除动态
+add_hometown_delete_dynamic = By.XPATH, '//*[@text="个人中心"]/android.view.View[2]'
+
+# 退出
+add_hometown_sign_out = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]'
 
 """以下为挣钱主页元素模块配置数据"""
 

@@ -8,16 +8,7 @@
   "scripts/test_hair_single.py::TestOrderPagination::()::test3_page_earn_money_order",
   "scripts/test_hair_single.py::TestOrderPagination::()::test4",
   "scripts/test_hometown.py::TestOrderPagination::()::test01_hometown",
-  "scripts/test_hometown.py::TestOrderPagination::()::test_02hometown_order",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456-2222-10]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456-2222-11]",
-  "scripts/test_login.py::TestLogin::()::test_login[-123456-\\u8bf7\\u8f93\\u5165\\u6b63\\u786e\\u7684\\u624b\\u673a\\u53f7\\u7801-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-1234567-\\u5bc6\\u7801\\u9519\\u8bef-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456f-\\u5bc6\\u7801\\u9519\\u8bef-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456F-\\u5bc6\\u7801\\u9519\\u8bef-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456 -\\u5bc6\\u7801\\u9519\\u8bef-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13512341234-123456-\\u6ce8\\u518c\\u65b0\\u8d26\\u53f7-3]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222--\\u5bc6\\u7801\\u8f93\\u5165\\u6709\\u8bef\\uff0c\\u8bf7\\u91cd\\u65b0\\u8f93\\u5165-2]",
-  "scripts/test_login.py::TestLogin::()::test_login[13511112222-123456@-\\u5bc6\\u7801\\u8f93\\u5165\\u6709\\u8bef\\uff0c\\u8bf7\\u91cd\\u65b0\\u8f93\\u5165-2]",
+  "scripts/test_hometown.py::TestOrderPagination::()::test02_hometown_order",
+  "scripts/test_hometown.py::TestOrderPagination::()::test03_hometown_dynamic",
   "scripts/test_recommend.py::TestOrderPagination::()::test_recommendation_order"
 ]
