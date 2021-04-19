@@ -1,0 +1,1 @@
+('xpath', '//*[@text="个人中心"]/android.view.View[2]')

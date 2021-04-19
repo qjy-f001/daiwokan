@@ -1,0 +1,1 @@
+('xpath', '//*[@resource-id="com.qjy.teleeye:id/ll_order_create_type_location"]/android.widget.ImageView[1]')

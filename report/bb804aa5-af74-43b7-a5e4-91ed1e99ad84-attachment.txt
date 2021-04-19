@@ -1,0 +1,1 @@
+('xpath', '//android.widget.Image')

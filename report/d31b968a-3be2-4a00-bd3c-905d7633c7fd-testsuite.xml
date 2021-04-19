@@ -1,0 +1,1205 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1618803554235" stop="1618803674252">
+  <name>test_hair_single</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1618803554235" status="passed" stop="1618803607145">
+      <name>TestOrderPagination.test1_order_pagination[\u897f\u4e8c\u65d7-0.1-\u968f\u4fbf\u770b\u770b-\u5e26\u6211\u770b&gt;\u897f\u4e8c\u65d7-\u5730\u94c1\u7ad9]</name>
+      <attachments>
+        <attachment source="dca63bc5-e263-4a96-8226-29dce0037d4d-attachment.txt" title="查找的元素：" type="text/plain"/>
+        <attachment source="55084d95-d575-466c-8811-765b3e08dc84-attachment.txt" title="查找的元素：" type="text/plain"/>
+        <attachment source="1084faab-c799-4c96-9556-881596cf171a-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="4afe610b-df98-46a2-82b8-57d8bf580bf3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15472-MainThread"/>
+        <label name="host" value="WIN-20200908NPN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1618803560969" status="passed" stop="1618803560969">
+          <name>初始化driver操作</name>
+          <title>初始化driver操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1618803560969" status="passed" stop="1618803561921">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="18a9b9bc-f4ce-4697-86f2-b2ee71361367-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803560969" status="passed" stop="1618803561884">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="b8f7a7b8-88c9-4b5e-8248-1653297690cb-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803569112" status="passed" stop="1618803569916">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="f250810c-d865-4012-b2cc-3339972a9fc4-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803569112" status="passed" stop="1618803569866">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="a80566c1-df61-497a-b937-61969522cd54-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803569916" status="passed" stop="1618803570908">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="d2b24369-0444-4b73-9ab1-5eb3dcb80636-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803569916" status="passed" stop="1618803570862">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="081bdc64-7a9f-4c8d-b977-1959b30fd809-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803570908" status="passed" stop="1618803571604">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="ea53672b-9819-4239-86db-c8333831d323-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803570908" status="passed" stop="1618803571558">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="932e5bac-dd24-4dcc-b297-31cc073b01d0-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803571604" status="passed" stop="1618803572452">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="3c8a1181-5019-40b1-8acc-9893597d59b6-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803571604" status="passed" stop="1618803571690">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="37deff52-e81e-4e93-b998-b64b988f0e72-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803572452" status="passed" stop="1618803573902">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="52e7aa2f-0a3a-4ecc-8238-06af137e9759-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803572452" status="passed" stop="1618803573265">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="4cb1c93d-0dde-489c-8cb6-66ec537490e4-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803573902" status="passed" stop="1618803573903">
+          <name>初始化driver操作</name>
+          <title>初始化driver操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1618803573903" status="passed" stop="1618803573922">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="6ecfb05c-3eb4-4f22-b4c6-2fa231532d6a-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803574957" status="passed" stop="1618803575463">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="fe44c50c-4869-4089-86b3-bd907f37f2a8-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803576504" status="passed" stop="1618803578416">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="a912a773-4937-4536-aa57-74086db1243f-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803576504" status="passed" stop="1618803577003">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="b5dc5574-ff40-4369-ac4e-72a901d963eb-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803578417" status="passed" stop="1618803578417">
+          <name>初始化driver操作</name>
+          <title>初始化driver操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1618803578417" status="passed" stop="1618803578505">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="477ba01d-b5a7-483e-a4b5-c0329261dceb-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803578417" status="passed" stop="1618803578451">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="1b68e057-ff9f-4dd6-8c50-5d232bf5ea2d-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803578505" status="passed" stop="1618803580754">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="fc53f6cb-c188-4b63-9b08-c36465213efb-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803578505" status="passed" stop="1618803579171">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="e81328fb-5fdc-4c02-97c4-3a905d783cee-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803580754" status="passed" stop="1618803580847">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="d67e1567-62dc-47de-a910-7fe460498cc0-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803580754" status="passed" stop="1618803580783">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="1ac9d4b3-0b86-4846-9e26-37b2bd3cfd0f-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803581852" status="passed" stop="1618803581875">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="f90ebd8d-10c7-4bda-b392-7ae358bada6b-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803582936" status="passed" stop="1618803584447">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="ae19d1a6-ae1c-45e3-b8f6-13ec0a6f3495-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803582936" status="passed" stop="1618803583777">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="34154b8e-1ad1-42e2-be50-2805165dffb8-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803584447" status="passed" stop="1618803584791">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="5b61e88d-edce-4bb1-b38b-c94eab4a0cea-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803584447" status="passed" stop="1618803584464">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="6d18013f-ff7e-4f69-a376-560a71e7e78c-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803584791" status="passed" stop="1618803585337">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="8fed97bb-3e7c-42d2-ba58-ada666909036-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803584791" status="passed" stop="1618803585303">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="26987bcf-ffd0-4484-9bbd-032e56cb8822-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803586345" status="passed" stop="1618803586369">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="0be3b315-c8b5-4d74-9c06-a02afe8af04e-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803589413" status="passed" stop="1618803589886">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="8a36661e-6ccc-4ce5-8862-e6d5566e6203-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803590931" status="passed" stop="1618803592130">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="7df4b81e-7a82-4ad0-bb71-447b5f7ef363-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803590931" status="passed" stop="1618803591439">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="b1a1c4c6-2e52-4c86-a26f-0555390b7911-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803592130" status="passed" stop="1618803592146">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="b836221d-5e62-453d-b837-48eae1b70e51-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592157" status="passed" stop="1618803592175">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="95fbd433-e87d-4dc3-a3c9-47886711a323-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592187" status="passed" stop="1618803592203">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="513d10e3-67c2-49aa-b86f-e6f16752167f-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592219" status="passed" stop="1618803592232">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="93e5bb3a-e791-42ef-9301-61d60fb5010b-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592244" status="passed" stop="1618803592258">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="7a697bea-5527-4b4d-b3f3-2627834364c6-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592269" status="passed" stop="1618803592285">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="37e567a8-3bf6-4bfd-ab3b-c5f325775b1c-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592296" status="passed" stop="1618803592313">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="f77c4f02-2702-4ac9-b85b-7f70349d697b-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592326" status="passed" stop="1618803592342">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="90e404d4-f589-4d38-8c93-0465cf121c6c-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592352" status="passed" stop="1618803592370">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="47520be2-7b57-49d1-9b78-9d9f7b0f96e9-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592380" status="passed" stop="1618803592394">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="81ccd085-aa2c-4cda-9a8c-29f5643b23c4-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592406" status="passed" stop="1618803592421">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="6a5fa255-40dd-4bff-a81c-e2ac27875b80-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592433" status="passed" stop="1618803592449">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="23bc7cf5-d340-454a-8b86-43ca7615832b-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803592464" status="passed" stop="1618803593312">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="44db27ca-c489-4ef2-a0a7-fad508dcce6c-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803592464" status="passed" stop="1618803592483">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="0318e8ca-3590-4077-be30-fb71b3930268-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803595475" status="passed" stop="1618803595544">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="a279baac-c440-4f8c-b8d8-d982ae1ec0bb-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803595475" status="passed" stop="1618803595500">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="a4af2517-512f-4602-9fc8-b5253d5948b5-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803595544" status="passed" stop="1618803595545">
+          <name>初始化driver操作</name>
+          <title>初始化driver操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1618803596548" status="passed" stop="1618803596636">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="f2a185dc-a466-4984-8208-84b5eeace93b-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803596548" status="passed" stop="1618803596586">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="79a8e5ae-dec9-4694-907a-5ac3c34e95d8-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803596636" status="passed" stop="1618803598195">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="c95e2674-57a6-4215-8c8c-7979638f0bed-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803596637" status="passed" stop="1618803597345">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="6d35bb69-199d-4feb-adee-b34c60e66864-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803601450" status="passed" stop="1618803602708">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="30ea271d-690a-4d77-99e0-7ff4d742ebad-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803601450" status="passed" stop="1618803601997">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="d4b9aec5-61be-48c0-ba9e-9d0c897c1e76-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803602708" status="passed" stop="1618803603342">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="b04d936f-4aa9-41c5-a106-d5bbe579c811-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803602708" status="passed" stop="1618803602727">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="25b2e8c7-ac9b-4b0f-bd7e-95a6bf87640d-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803603342" status="passed" stop="1618803603414">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="7165fe42-9403-468f-b5d7-92398ce90c65-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803603342" status="passed" stop="1618803603362">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="9f819673-9183-4b86-b83a-a8f3934a076e-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803603414" status="passed" stop="1618803605908">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="59903601-6e51-4147-9ef5-46edc0ad7188-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803603414" status="passed" stop="1618803604233">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="7fffb036-4b80-4f8c-bb90-432f7f853190-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803605908" status="passed" stop="1618803607144">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="bdba6b20-348c-4dab-9837-1b40dc926a6e-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803605908" status="passed" stop="1618803605930">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="89b5f2ea-c002-45c9-b5cf-689f32971c73-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1618803607188" status="passed" stop="1618803636705">
+      <name>TestOrderPagination.test2_add_hair</name>
+      <attachments>
+        <attachment source="839104cb-bec9-412b-b1af-d79a968def10-attachment.txt" title="查找的元素：" type="text/plain"/>
+        <attachment source="b9db4ccc-d5f5-464a-82db-d60ee5bf367a-attachment.txt" title="查找的元素：" type="text/plain"/>
+        <attachment source="57e44e43-164c-4504-b9ea-75c22c590ad5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15472-MainThread"/>
+        <label name="host" value="WIN-20200908NPN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1618803607189" status="passed" stop="1618803607189">
+          <name>初始化driver操作</name>
+          <title>初始化driver操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1618803607189" status="passed" stop="1618803607261">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="0d7a6cf8-d999-4bb4-b4e3-bc5f617a312b-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803607189" status="passed" stop="1618803607221">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="722790e3-2c51-4802-99bd-529bd2a97e59-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803607261" status="passed" stop="1618803609912">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="f563cad0-c531-4e02-bfaa-3e599d4ddaeb-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803607261" status="passed" stop="1618803608306">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="aa113900-60d1-4092-878e-3bd7aeb21912-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803609912" status="passed" stop="1618803609993">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="4c9a9c01-aeba-48c0-8caf-7b7dd45b232a-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803609912" status="passed" stop="1618803609943">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="ed935b4a-a50f-465a-9ec0-d46f32463f95-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803609993" status="passed" stop="1618803610689">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="5e4ce1db-5716-423e-8bd9-60d3e5b7e87f-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803609993" status="passed" stop="1618803610641">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="e85fec58-d987-4a1d-94c6-539ffd5c2021-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803610689" status="passed" stop="1618803611303">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="c3247d53-f243-479e-96ee-7abac0c4b210-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803610689" status="passed" stop="1618803611257">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="09d97849-5d6d-4470-8ec5-85c9a387e221-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803611303" status="passed" stop="1618803616460">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="586e434b-11ff-44f6-893c-2a7743c7a742-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803611304" status="passed" stop="1618803616407">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="198cc99a-e952-48c1-9435-175548a4395f-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803616460" status="passed" stop="1618803619135">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="75033ed6-0845-4f28-892a-af7745aadfc0-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803616460" status="passed" stop="1618803618518">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="8ad9ba8f-ce73-428c-88cd-acf539c418ed-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803619135" status="passed" stop="1618803619228">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="f932f6f9-1bd8-4704-b1e4-139b623d654a-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803619135" status="passed" stop="1618803619177">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="ee0f755b-ff73-4e32-ad14-3b9faab35f1e-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803619228" status="passed" stop="1618803619843">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="92767de1-ca59-402a-8647-eb2417e28a23-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803619228" status="passed" stop="1618803619799">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="19e31a95-4938-46ca-b1c4-782c0173a0a1-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803619843" status="passed" stop="1618803620577">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="f46b9022-4e41-40ce-a2e6-c37a8c157ba0-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803621939" status="passed" stop="1618803622443">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="bfec099b-e4e1-4647-a840-ef54280e3896-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803623480" status="passed" stop="1618803624658">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="09c09e91-8a23-4ac3-ba7e-98d137594ef4-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803623480" status="passed" stop="1618803623984">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="987f0529-58c1-4008-97da-f6dc3243aa5b-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803624658" status="passed" stop="1618803625936">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="9bc1716c-2e3e-4986-8c29-384e9218e998-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803624658" status="passed" stop="1618803624678">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="cc34a9b1-1b75-4e1d-8d2d-b2b7ee4e37e8-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803628157" status="passed" stop="1618803628218">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="a41c0601-a4e6-4f19-ab8c-328acc76c768-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803628157" status="passed" stop="1618803628176">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="cf19ce3c-1411-4f16-82bf-254f58b87124-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803628218" status="passed" stop="1618803628218">
+          <name>初始化driver操作</name>
+          <title>初始化driver操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1618803628218" status="passed" stop="1618803628894">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="a2215678-4c20-4e20-8399-9ca3376f45d3-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803628218" status="passed" stop="1618803628270">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="1938a24b-22b7-43c0-8b75-45568795bd8f-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803628894" status="passed" stop="1618803629991">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="7f59be09-6954-4493-8729-eb296ba8ab5d-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803628894" status="passed" stop="1618803629951">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="d784879d-375f-4850-b580-8e5cc3c34c52-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803633232" status="passed" stop="1618803634052">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="a6bcb385-6370-4043-9b67-987e6c13cd2c-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803633232" status="passed" stop="1618803633325">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="00b75cb3-56b2-4471-91c4-e5940317dff4-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803634052" status="passed" stop="1618803634117">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="b7fe8247-244f-4ea6-a307-7851af5e2fea-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803634052" status="passed" stop="1618803634070">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="bc508e04-d4a4-4b1f-9685-493653c0da11-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803634117" status="passed" stop="1618803634681">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="79177296-4618-4de5-9de0-9e51dbe5715d-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803634117" status="passed" stop="1618803634633">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="7a2d9a50-463f-4d54-b7b3-444ed4f18455-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803634681" status="passed" stop="1618803635544">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="ad9057e8-683a-4552-a656-cf2cc4bad0d6-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803634681" status="passed" stop="1618803635491">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="7bb928d3-1fe2-440d-b2b3-c085fa63f11e-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803635544" status="passed" stop="1618803636704">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="e1ecd5a0-576f-4951-aefc-4936b2bbe31d-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803635544" status="passed" stop="1618803635577">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="42a6e763-1a12-4c1a-a744-3b9204ca5aa3-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1618803636743" status="passed" stop="1618803655393">
+      <name>TestOrderPagination.test3_page_earn_money_order</name>
+      <attachments>
+        <attachment source="5a03033c-5e5a-4993-9105-bf374e73a015-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15472-MainThread"/>
+        <label name="host" value="WIN-20200908NPN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1618803636744" status="passed" stop="1618803636744">
+          <name>初始化driver操作</name>
+          <title>初始化driver操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1618803636744" status="passed" stop="1618803638012">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="25eb51fb-6781-42ad-baf9-b9afb51ef8d7-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803636744" status="passed" stop="1618803637965">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="74857a97-73cb-4b15-a3c7-318624051000-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803638012" status="passed" stop="1618803638926">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="07ae5a55-5270-4dbf-932f-29fd5af064f3-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803638012" status="passed" stop="1618803638059">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="9f2aa061-1d9a-4e49-a7a3-5a358d39108d-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803641096" status="passed" stop="1618803646287">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="63e62d05-45af-4795-bbe2-9a1bced8d986-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803641096" status="passed" stop="1618803646249">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="b11c1c06-ab38-4a2c-ab28-0444157da35b-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803646289" status="passed" stop="1618803646940">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="37c9ad12-9f6d-4cfd-be5c-83515a7ffcc8-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803648234" status="passed" stop="1618803649962">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="40bb779b-1747-47b7-955c-90e525011b9d-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803648234" status="passed" stop="1618803649248">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="47186372-332a-4784-a5c1-b9fa658c516c-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803649962" status="passed" stop="1618803651946">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="b368bd59-ff59-4a94-9f9d-fc9bd11736ff-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803649962" status="passed" stop="1618803649985">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="1133d09d-0182-4747-8727-46d27ad4fdcd-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803651946" status="passed" stop="1618803652534">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="e0e97d57-9d65-4100-aa3e-cfd6c0505b10-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803651946" status="passed" stop="1618803651970">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="abc6689d-40df-4f7d-be5f-a62629c26869-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1618803655402" status="passed" stop="1618803674252">
+      <name>TestOrderPagination.test4</name>
+      <attachments>
+        <attachment source="f5f630cb-8e37-4dd6-8a37-4fb6db24857f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15472-MainThread"/>
+        <label name="host" value="WIN-20200908NPN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1618803655404" status="passed" stop="1618803655404">
+          <name>初始化driver操作</name>
+          <title>初始化driver操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1618803656406" status="passed" stop="1618803656963">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="29b51eb5-9b1d-4d0d-a85f-911e5d1b3174-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803656406" status="passed" stop="1618803656445">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="337a72d1-a908-4c42-8065-4046455989d9-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803656963" status="passed" stop="1618803658535">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="6dac6324-fa2c-4e69-84cc-ffc3b243549e-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803656963" status="passed" stop="1618803657986">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="74d3feb7-0693-4970-ad48-46589480786b-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803660704" status="passed" stop="1618803666037">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="25c8b388-7c86-4084-9451-3759de2a54cf-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803660704" status="passed" stop="1618803666003">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="36c4d780-1102-4ac7-bccf-2e9304b974e8-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803666039" status="passed" stop="1618803666693">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="05f1aa9e-a5b6-4385-a71e-ee5ba58cf60c-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1618803667746" status="passed" stop="1618803669290">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="99576a2c-58a5-4f96-bebb-4ccbcde07e52-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803667746" status="passed" stop="1618803668594">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="441eca48-52ed-431d-a830-e03d2be84651-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803669290" status="passed" stop="1618803670786">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="ef0a98a2-9799-48f7-b7ce-eb12d68332fd-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803669290" status="passed" stop="1618803669307">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="dadd6027-1987-4e60-b6ee-3556818093ac-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1618803670786" status="passed" stop="1618803671371">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="d1e1355c-4242-4bb5-b3ff-a493f64c889e-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1618803670786" status="passed" stop="1618803670809">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="093fb756-d3e4-4d14-a2c0-319d3a824f79-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

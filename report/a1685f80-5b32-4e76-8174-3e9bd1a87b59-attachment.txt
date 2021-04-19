@@ -1,0 +1,1 @@
+('id', 'com.android.camera:id/v9_shutter_button_internal')

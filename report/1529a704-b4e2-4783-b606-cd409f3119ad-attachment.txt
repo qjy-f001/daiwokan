@@ -1,0 +1,1 @@
+('xpath', '/hierarchy//android.view.View[6]//android.widget.EditText')

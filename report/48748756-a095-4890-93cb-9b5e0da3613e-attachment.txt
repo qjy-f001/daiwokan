@@ -1,0 +1,22 @@
+base.py                     18 INFO     获取driver对象：<appium.webdriver.webdriver.WebDriver (session="faffc01f-1576-41b1-a27f-608ac7f315f6")>
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
+base.py                     25 INFO     正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
+base.py                     18 INFO     获取driver对象：<appium.webdriver.webdriver.WebDriver (session="faffc01f-1576-41b1-a27f-608ac7f315f6")>
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
+base.py                     48 INFO     正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
+base.py                     51 INFO     对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
+base.py                     48 INFO     正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
+base.py                     51 INFO     对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
+base.py                     25 INFO     正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
+base.py                     40 INFO     正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')

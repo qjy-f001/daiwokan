@@ -1,0 +1,21 @@
+{
+  "scripts/test_hair_single.py::TestOrderPagination::()::test_order_pagination[\\u897f\\u4e8c\\u65d7-0.1-\\u968f\\u4fbf\\u770b\\u770b-\\u5e26\\u6211\\u770b>\\u897f\\u4e8c\\u65d7-\\u5730\\u94c1\\u7ad9]": true,
+  "scripts/test_high_school.py::TestLogin::()::test_high_school": true,
+  "scripts/test_hometown.py::TestHometown::()::test01_hometown": true,
+  "scripts/test_hometown.py::TestHometown::()::test_02hometown_order": true,
+  "scripts/test_hometown.py::TestOrderPagination::()::test03hometown_dynamic": true,
+  "scripts/test_login.py::TestLogin::()::test_login[13511223344-123456@-\\u6ce8\\u518c\\u65b0\\u8d26\\u53f7-3]": true,
+  "scripts/test_login.py::TestLogin::()::test_login[135112341234-123456@-\\u6ce8\\u518c\\u65b0\\u8d26\\u53f7-3]": true,
+  "scripts/test_login.py::TestLogin::()::test_login[13512341234-123456-\\u6ce8\\u518c\\u65b0\\u8d26\\u53f7-2]": true,
+  "scripts/test_pagination.py::TestOrderPagination::()::test2_add_hair": true,
+  "scripts/test_pagination.py::TestOrderPagination::()::test3_page_earn_money_order": true,
+  "scripts/test_pagination.py::TestOrderPagination::()::test4": true,
+  "scripts/test_pagination.py::TestOrderPagination::()::test_order_pagination[\\u897f\\u4e8c\\u65d7-0.1-\\u968f\\u4fbf\\u770b\\u770b-\\u5e26\\u6211\\u770b>\\u897f\\u4e8c\\u65d7-\\u5730\\u94c1\\u7ad9]": true,
+  "scripts/test_position.py::TestHair::()::test01_position_manage": true,
+  "scripts/test_position.py::TestHair::()::test_02_add_unknown_scenic_spot": true,
+  "scripts/test_position.py::TestHair::()::test_03_add_unknown_scenic_spot_nuw": true,
+  "scripts/test_position.py::TestHair::()::test_04_add_unknown_scenic_spot_nuw": true,
+  "scripts/test_position_administer.py::TestHair::()::test02": true,
+  "scripts/test_position_administer.py::TestHair::()::test_02_add_unknown_scenic_spot": true,
+  "scripts/test_recommend.py::TestRecommend::()::test_recommendation_order": true
+}

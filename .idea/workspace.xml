@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_hair_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hair_single.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hometown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_hometown.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="daiwokan" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>page_click_add_skill_order_payment_cancel</find>
+      <find>position_manage_search_box</find>
+      <find>景区</find>
+      <find>position_manage_scenic_spot</find>
+      <find>position_manage_modify</find>
+      <find>com.qjy.teleeye:id/tv_popup_make_site_location</find>
+      <find>add_skill_service_description</find>
+      <find>家乡</find>
+      <find>charge</find>
+      <find>经营行</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/scripts/test_hometown.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tool/read_txt.py" />
+        <option value="$PROJECT_DIR$/page/page_high_school.py" />
+        <option value="$PROJECT_DIR$/data/login.yaml" />
+        <option value="$PROJECT_DIR$/scripts/test_high_school.py" />
+        <option value="$PROJECT_DIR$/scripts/test_position_administer.py" />
+        <option value="$PROJECT_DIR$/scripts/test_recommendation.py" />
+        <option value="$PROJECT_DIR$/page/page_hair.py" />
+        <option value="$PROJECT_DIR$/page/page_position_administer.py" />
+        <option value="$PROJECT_DIR$/page/page_recommendation.py" />
+        <option value="$PROJECT_DIR$/page/page_recommend.py" />
+        <option value="$PROJECT_DIR$/scripts/test_hair.py" />
+        <option value="$PROJECT_DIR$/scripts/test_pagination.py" />
+        <option value="$PROJECT_DIR$/page/page_pagination.py" />
+        <option value="$PROJECT_DIR$/page/page_in.py" />
+        <option value="$PROJECT_DIR$/data/hair.yaml" />
+        <option value="$PROJECT_DIR$/data/add_order.yaml" />
+        <option value="$PROJECT_DIR$/page/page_position.py" />
+        <option value="$PROJECT_DIR$/scripts/test_add_skiil.py" />
+        <option value="$PROJECT_DIR$/page/page_campus.py" />
+        <option value="$PROJECT_DIR$/scripts/test_campus.py" />
+        <option value="$PROJECT_DIR$/scripts/test_position.py" />
+        <option value="$PROJECT_DIR$/page/page_login.py" />
+        <option value="$PROJECT_DIR$/page/page_add_order.py" />
+        <option value="$PROJECT_DIR$/scripts/test_add_order.py" />
+        <option value="$PROJECT_DIR$/scripts/test_hair_single.py" />
+        <option value="$PROJECT_DIR$/page/page_add_skiil.py" />
+        <option value="$PROJECT_DIR$/scripts/test_login.py" />
+        <option value="$PROJECT_DIR$/page/page_hair_single.py" />
+        <option value="$PROJECT_DIR$/scripts/test_recommend.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/scripts/test_hometown.py" />
+        <option value="$PROJECT_DIR$/page/page_hometown.py" />
+        <option value="$PROJECT_DIR$/page/__init__.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="141" />
+    <option name="y" value="22" />
+    <option name="width" value="1101" />
+    <option name="height" value="695" />
+  </component>
+  <component name="ProjectId" id="1rMq5gN0NSsvSSu2zxqp1orgRL9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="daiwokan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daiwokan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="daiwokan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daiwokan" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="" />
+      <created>1610787585924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610787585924</updated>
+      <workItem from="1618796128976" duration="148000" />
+      <workItem from="1618796344023" duration="193000" />
+      <workItem from="1618796555294" duration="219000" />
+      <workItem from="1618796793525" duration="298000" />
+      <workItem from="1618797107417" duration="3046000" />
+      <workItem from="1618801682573" duration="70000" />
+      <workItem from="1618801809806" duration="22000" />
+      <workItem from="1618801840792" duration="53000" />
+      <workItem from="1618801977783" duration="1290000" />
+      <workItem from="1618803293949" duration="664000" />
+    </task>
+    <task id="LOCAL-00001" summary="取消该测试方法">
+      <created>1610934860704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610934860704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="取消该测试方法">
+      <created>1610968048572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610968048572</updated>
+    </task>
+    <task id="LOCAL-00003" summary="取消该测试方法">
+      <created>1611034485766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611034485766</updated>
+    </task>
+    <task id="LOCAL-00004" summary="取消该测试方法">
+      <created>1611034666713</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611034666713</updated>
+    </task>
+    <task id="LOCAL-00005" summary="取消该测试方法">
+      <created>1611043286073</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611043286073</updated>
+    </task>
+    <task id="LOCAL-00006" summary="取消该测试方法">
+      <created>1611124340227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611124340228</updated>
+    </task>
+    <task id="LOCAL-00007" summary="取消该测试方法">
+      <created>1611280169374</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611280169374</updated>
+    </task>
+    <task id="LOCAL-00008" summary="取消该测试方法">
+      <created>1611315695897</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611315695897</updated>
+    </task>
+    <task id="LOCAL-00009" summary="取消该测试方法">
+      <created>1611315852187</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611315852187</updated>
+    </task>
+    <task id="LOCAL-00010" summary="取消该测试方法">
+      <created>1611315888683</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611315888683</updated>
+    </task>
+    <task id="LOCAL-00011" summary="取消该测试方法">
+      <created>1611315899806</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611315899806</updated>
+    </task>
+    <task id="LOCAL-00012" summary="取消该测试方法">
+      <created>1611660027577</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611660027578</updated>
+    </task>
+    <task id="LOCAL-00013" summary="取消该测试方法">
+      <created>1612169271933</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612169271933</updated>
+    </task>
+    <task id="LOCAL-00014" summary="取消该测试方法">
+      <created>1612171706691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612171706691</updated>
+    </task>
+    <task id="LOCAL-00015" summary="取消该测试方法">
+      <created>1612236497475</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612236497475</updated>
+    </task>
+    <task id="LOCAL-00016" summary="取消该测试方法">
+      <created>1614304228032</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614304228032</updated>
+    </task>
+    <task id="LOCAL-00017" summary="取消该测试方法">
+      <created>1614304246423</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614304246423</updated>
+    </task>
+    <task id="LOCAL-00018" summary="取消该测试方法">
+      <created>1614686475793</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614686475793</updated>
+    </task>
+    <task id="LOCAL-00019" summary="取消该测试方法">
+      <created>1614686685556</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614686685556</updated>
+    </task>
+    <task id="LOCAL-00020" summary="取消该测试方法">
+      <created>1614756465532</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614756465532</updated>
+    </task>
+    <task id="LOCAL-00021" summary="取消该测试方法">
+      <created>1615364177059</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615364177059</updated>
+    </task>
+    <task id="LOCAL-00022" summary="取消该测试方法">
+      <created>1615364258012</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615364258012</updated>
+    </task>
+    <task id="LOCAL-00023" summary="取消该测试方法">
+      <created>1615367373128</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1615367373128</updated>
+    </task>
+    <task id="LOCAL-00024" summary="取消该测试方法">
+      <created>1615367456948</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1615367456948</updated>
+    </task>
+    <task id="LOCAL-00025" summary="取消该测试方法">
+      <created>1615786961543</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1615786961543</updated>
+    </task>
+    <task id="LOCAL-00026" summary="取消该测试方法">
+      <created>1615789182361</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1615789182361</updated>
+    </task>
+    <task id="LOCAL-00027" summary="取消该测试方法">
+      <created>1615888285914</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1615888285914</updated>
+    </task>
+    <task id="LOCAL-00028" summary="取消该测试方法">
+      <created>1615893678584</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1615893678584</updated>
+    </task>
+    <task id="LOCAL-00029" summary="取消该测试方法">
+      <created>1615894310623</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1615894310623</updated>
+    </task>
+    <task id="LOCAL-00030" summary="取消该测试方法">
+      <created>1616069623833</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1616069623833</updated>
+    </task>
+    <task id="LOCAL-00031" summary="取消该测试方法">
+      <created>1616069839983</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1616069839983</updated>
+    </task>
+    <task id="LOCAL-00032" summary="取消该测试方法.">
+      <created>1616069944957</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1616069944957</updated>
+    </task>
+    <task id="LOCAL-00033" summary="取消该测试方法.">
+      <created>1616413272233</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1616413272233</updated>
+    </task>
+    <task id="LOCAL-00034" summary="取消该测试方法.">
+      <created>1616653495640</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1616653495640</updated>
+    </task>
+    <task id="LOCAL-00035" summary="取消该测试方法.">
+      <created>1617083920241</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1617083920241</updated>
+    </task>
+    <task id="LOCAL-00036" summary="取消该测试方法.">
+      <created>1617085204204</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1617085204204</updated>
+    </task>
+    <task id="LOCAL-00037" summary="取消该测试方法.">
+      <created>1617085218599</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1617085218599</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="141" y="22" width="1101" height="695" extended-state="1" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.22107244" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50143266" side_tool="true" weight="0.23624289" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32798573" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38214287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49903288" weight="0.32798573" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32798573" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49709865" visible="true" weight="0.23529412" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50096714" side_tool="true" weight="0.42959002" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32798573" />
+      <window_info anchor="bottom" id="调试" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="223" height="494" id="文档" order="3" side_tool="true" weight="0.3297769" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.20288461" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50143266" side_tool="true" weight="0.23624289" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32798573" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38214287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32798573" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32798573" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4985591" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50144094" side_tool="true" weight="0.39215687" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32798573" />
+      <window_info anchor="bottom" id="调试" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="223" height="494" id="文档" order="3" side_tool="true" weight="0.3297769" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="取消该测试方法" />
+    <MESSAGE value="取消该测试方法." />
+    <option name="LAST_COMMIT_MESSAGE" value="取消该测试方法." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tool/read_txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/get_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/read_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/DWK.log.2021-01-29" />
+    <entry file="file://$PROJECT_DIR$/tool/get_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/add_skiil.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="671" column="8" selection-start-line="671" selection-start-column="8" selection-end-line="671" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/uiautomator2/xpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="156" column="8" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/appium/webdriver/extensions/android/activities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/DWK.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="2397" column="108" selection-start-line="2397" selection-start-column="105" selection-end-line="2397" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/add_order.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/login.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pagination.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_add_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_recommend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_campus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="144" column="67" selection-start-line="144" selection-start-column="67" selection-end-line="144" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_add_skiil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="68" column="41" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="64" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_add_skiil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_in.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1099968596/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="4754" column="8" selection-start-line="4754" selection-start-column="8" selection-end-line="4754" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_add_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_hair_single.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="234" column="44" lean-forward="true" selection-start-line="234" selection-start-column="44" selection-end-line="234" selection-end-column="44" />
+          <folding>
+            <element signature="e#34#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_recommend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_hair_single.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="50" selection-start-line="50" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/err.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_campus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="38" lean-forward="true" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="167" selection-start-line="167" selection-end-line="167" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_hometown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_hometown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="225" column="39" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="446" column="16" selection-start-line="446" selection-start-column="16" selection-end-line="446" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

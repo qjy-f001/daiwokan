@@ -1,0 +1,1 @@
+('id', 'com.android.camera:id/intent_done_apply')
