@@ -1,17 +1,58 @@
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.support import expected_conditions
+# from selenium.webdriver.support.wait import WebDriverWait
+# from appium import webdriver
 from time import sleep
+
+from appium.webdriver.mobilecommand import MobileCommand
 
 import page
 from base.base import Base
 
 
 class PageHometown(Base):
+    def switch_h5(self):
+        self.driver.execute(MobileCommand.SWITCH_TO_CONTEXT, {"name": "WEBVIEW_com.qjy"})
+
+    def switch_app(self):
+        self.driver.execute(MobileCommand.SWITCH_TO_CONTEXT, {"name": "NATIVE_APP"})
+
     # 点击 	仅在使用中允许(定位)
+    def scroll_down(self):
+        width = self.driver.get_window_size()['width']
+        height = self.driver.get_window_size()['height']
+        x = width / 2
+        starty = height * 0.75
+        endy = height * 0.20
+        self.driver.swipe(x, starty, x, endy, 500)
+
     def page_login_location(self):
         for x in range(3):
             self.base_click(page.login_location)
 
     def page_swipe(self):
+        # for x in range(3):
+        #     width = self.driver.get_window_size()['width']
+        #     height = self.driver.get_window_size()['height']
+        #     width*1.31,
+        #     print(width, height)
+        #     self.driver.swipe(width % 1.31,
+        #                       height % 4.88,
+        #                       width % 15.88,
+        #                       height % 4.88, duration=3000)
+        # print(width % 1.313868613138686131,
+        #       height % 4.883720930232558139,
+        #       width % 15.88235294117647059,
+        #       height % 4.883720930232558139)
+        # print(width % 0.0131,
+        #       height % 0.0488,
+        #       width % 15.88,
+        #       height % 4.88)
         self.driver.swipe(822, 473, 68, 473, duration=3000)
+
+    def page_swipe1(self):
+        for x in range(11):
+            self.driver.swipe(535, 2200, 535, 325, duration=3000)
 
     # 点击 “我” 主页
     def page_login_me(self):
@@ -185,6 +226,15 @@ class PageHometown(Base):
     def page_click_add_hometown_sign_out(self):
         self.base_click(page.add_hometown_sign_out)
 
+    def page_click_add_hometown_dynamic(self):
+        self.base_click(page.add_hometown_dynamic)
+
+    def page_click_add_hometown_dynamic_details(self):
+        self.base_click(page.add_hometown_dynamic)
+
+    def page_click_add_hometown_collection(self):
+        self.base_click(page.add_hometown_collection)
+
     # 组合修改我的家乡业务方法
     def page_my_hometown(self):
         self.base_click(page.hair_letter)
@@ -257,6 +307,7 @@ class PageHometown(Base):
         self.base_click(page.add_hometown_camera)
         self.base_click(page.add_hometown_shot)
         self.base_click(page.add_hometown_ok_picture)
+        sleep(1)
         self.base_click(page.add_hometown_submit)
 
     def page_hometown_delete_dynamic(self):
@@ -266,3 +317,31 @@ class PageHometown(Base):
         # self.driver.wait_activity(".ui.Activity_Splash", 2)
         self.base_click(page.add_hometown_delete_dynamic)
         self.base_click(page.add_hometown_sign_out)
+        # self.driver.get_window_size()['height']
+        # driver.manage().window().getSize().width
+
+    def page_hometown_consulting(self):
+        self.base_click(page.hair_letter)
+        self.base_click(page.add_hometown)
+        self.base_click(page.add_hometown_dynamic)
+        sleep(3)
+        self.base_click(page.add_hometown_dynamic_details)
+        sleep(3)
+        self.page_swipe1()
+        self.switch_app()
+        sleep(1)
+        # print(self.driver.page_source)
+        print("当前所有环境：", self.driver.contexts)
+        print(self.driver.page_source)
+        # self.switch_h5()
+        print("当前环境：", self.driver.context)
+        self.base_click(page.add_hometown_collection)
+
+        # options = selenium.webdriver.ChromeOptions()
+        # self.driver.wait_activity(".ui.WebViewActivity", 2)
+        # WebDriverWait(self.driver, 15).until(
+        #     expected_conditions.visibility_of_element_located((By.XPATH, '//*[@text="收藏"]')))
+        # self.driver.until(
+        #     expected_conditions.visibility_of_element_located((By.XPATH, "WebView")))
+        # self.driver.switch_to.contexts("WEBVIEW_com.qjy.news")
+        print("当前环境：", self.driver.contexts)

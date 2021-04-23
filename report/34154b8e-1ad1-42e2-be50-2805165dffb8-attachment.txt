@@ -1,1 +1,0 @@
-('xpath', '//*[@resource-id="com.qjy.teleeye:id/lv_baidumap_search"]/android.widget.LinearLayout[1]')

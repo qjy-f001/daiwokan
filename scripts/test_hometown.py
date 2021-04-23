@@ -46,9 +46,12 @@ class TestOrderPagination:
         self.hometown = PageIn().page_get_hometown()
         self.hometown.page_my_hometown_dynamic()
         self.hometown.page_hometown_delete_dynamic()
-        # self.hometown.driver.wait_activity(".ui.Activity_Splash", 2)
 
 
+
+    # def test04_hometown_dynamic(self):
+    #     self.hometown = PageIn().page_get_hometown()
+    #     self.hometown.page_hometown_consulting()
 
 
 

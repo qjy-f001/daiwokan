@@ -456,7 +456,7 @@ add_hometown_shot = By.ID, "com.android.camera:id/v9_shutter_button_internal"
 # 确认图片
 add_hometown_ok_picture = By.ID, "com.android.camera:id/intent_done_apply"
 
-# --------------
+
 # 点击图片
 add_hometown_up_picture = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/bt_addimage_photo"]'
 
@@ -498,6 +498,20 @@ add_hometown_delete_dynamic = By.XPATH, '//*[@text="个人中心"]/android.view.
 
 # 退出
 add_hometown_sign_out = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]'
+
+
+# --------------
+
+add_hometown_dynamic = By.XPATH, '//*[@text="资讯"]'
+
+
+add_hometown_dynamic_details = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]'
+
+
+add_hometown_collection = By.XPATH, '//*[contains(@text,"收藏")]'
+
+
+
 
 """以下为挣钱主页元素模块配置数据"""
 

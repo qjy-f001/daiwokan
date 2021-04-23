@@ -1,1 +1,0 @@
-('xpath', '/hierarchy//android.widget.Image')

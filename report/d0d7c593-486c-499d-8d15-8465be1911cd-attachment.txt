@@ -1,1 +1,0 @@
-('xpath', '/hierarchy//android.view.View[4]')
