@@ -2,6 +2,7 @@
 # from selenium.webdriver.support import expected_conditions
 # from selenium.webdriver.support.wait import WebDriverWait
 # from appium import webdriver
+import os
 from time import sleep
 
 from appium.webdriver.mobilecommand import MobileCommand
@@ -12,7 +13,7 @@ from base.base import Base
 
 class PageHometown(Base):
     def switch_h5(self):
-        self.driver.execute(MobileCommand.SWITCH_TO_CONTEXT, {"name": "WEBVIEW_com.qjy"})
+        self.driver.execute(MobileCommand.SWITCH_TO_CONTEXT, {"name": "WEBVIEW_com.tencent.mobileqq:mini"})
 
     def switch_app(self):
         self.driver.execute(MobileCommand.SWITCH_TO_CONTEXT, {"name": "NATIVE_APP"})
@@ -226,14 +227,40 @@ class PageHometown(Base):
     def page_click_add_hometown_sign_out(self):
         self.base_click(page.add_hometown_sign_out)
 
+    # 资讯
     def page_click_add_hometown_dynamic(self):
         self.base_click(page.add_hometown_dynamic)
 
+    # 111
     def page_click_add_hometown_dynamic_details(self):
-        self.base_click(page.add_hometown_dynamic)
+        self.base_click(page.add_hometown_dynamic_details)
 
+    # 资讯详情
+    def page_click_add_hometown_information_details(self):
+        self.base_click(page.add_hometown_information_details)
+
+    # 收藏
     def page_click_add_hometown_collection(self):
         self.base_click(page.add_hometown_collection)
+
+    # 关注
+    def page_click_add_hometown_information_collect(self):
+        self.base_click(page.add_hometown_information_collect)
+
+    def page_click_add_hometown_information_zx(self):
+        self.base_click(page.add_hometown_information_zx)
+
+    # 返回
+    def page_login_register_phone_back(self):
+        self.base_click(page.login_register_phone_back)
+
+    def page_click_add_hometown_information_zx1(self):
+        self.base_click(page.add_hometown_information_zx1)
+
+    def page_click_add_hometown_information_zx2(self):
+        self.base_click(page.add_hometown_information_zx2)
+
+
 
     # 组合修改我的家乡业务方法
     def page_my_hometown(self):
@@ -320,28 +347,42 @@ class PageHometown(Base):
         # self.driver.get_window_size()['height']
         # driver.manage().window().getSize().width
 
+    # 关注咨询
     def page_hometown_consulting(self):
         self.base_click(page.hair_letter)
         self.base_click(page.add_hometown)
         self.base_click(page.add_hometown_dynamic)
         sleep(3)
         self.base_click(page.add_hometown_dynamic_details)
+        sleep(2)
+        self.base_click(page.add_hometown_information_details)
+        # print("当前所有环境：", self.driver.contexts)
         sleep(3)
         self.page_swipe1()
         self.switch_app()
         sleep(1)
-        # print(self.driver.page_source)
-        print("当前所有环境：", self.driver.contexts)
-        print(self.driver.page_source)
-        # self.switch_h5()
-        print("当前环境：", self.driver.context)
+        # print("当前所有环境：", self.driver.contexts)
+        self.driver.switch_to.context("WEBVIEW_com.qjy.teleeye")
         self.base_click(page.add_hometown_collection)
+        # def page_login_register_phone_back(self):
+        self.driver.switch_to.context("NATIVE_APP")
+        self.base_click(page.login_register_phone_back)
+        self.base_click(page.login_register_phone_back)
 
-        # options = selenium.webdriver.ChromeOptions()
-        # self.driver.wait_activity(".ui.WebViewActivity", 2)
-        # WebDriverWait(self.driver, 15).until(
-        #     expected_conditions.visibility_of_element_located((By.XPATH, '//*[@text="收藏"]')))
-        # self.driver.until(
-        #     expected_conditions.visibility_of_element_located((By.XPATH, "WebView")))
-        # self.driver.switch_to.contexts("WEBVIEW_com.qjy.news")
-        print("当前环境：", self.driver.contexts)
+    # 取消关注的咨询
+    def page_hometown_cancel_consulting(self):
+
+        self.base_click(page.login_me)
+        # print("当前所有环境：", self.driver.context)
+        self.base_click(page.add_hometown_information_collect)
+        self.driver.switch_to.context("WEBVIEW_com.qjy.teleeye")
+        # self.base_click(page.add_hometown_information_collect)
+        self.base_click(page.add_hometown_information_zx)
+        sleep(3)
+        self.page_swipe1()
+        print("当前环境：", self.driver.context)
+        self.base_click(page.add_hometown_information_zx1)
+        self.driver.switch_to.context("NATIVE_APP")
+        self.base_click(page.login_register_phone_back)
+        self.base_click(page.add_hometown_information_zx2)
+        # self.base_click(page.login_register_phone_back)

@@ -10,5 +10,6 @@
   "scripts/test_hometown.py::TestOrderPagination::()::test01_hometown",
   "scripts/test_hometown.py::TestOrderPagination::()::test02_hometown_order",
   "scripts/test_hometown.py::TestOrderPagination::()::test03_hometown_dynamic",
+  "scripts/test_hometown.py::TestOrderPagination::()::test04_hometown_dynamic",
   "scripts/test_recommend.py::TestOrderPagination::()::test_recommendation_order"
 ]
