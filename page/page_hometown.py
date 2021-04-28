@@ -254,13 +254,11 @@ class PageHometown(Base):
     def page_login_register_phone_back(self):
         self.base_click(page.login_register_phone_back)
 
-    def page_click_add_hometown_information_zx1(self):
-        self.base_click(page.add_hometown_information_zx1)
+    def page_click_add_hometown_information_cancel_collection(self):
+        self.base_click(page.add_hometown_information_cancel_collection)
 
     def page_click_add_hometown_information_zx2(self):
-        self.base_click(page.add_hometown_information_zx2)
-
-
+        self.base_click(page.add_hometown_information_exit)
 
     # 组合修改我的家乡业务方法
     def page_my_hometown(self):
@@ -367,6 +365,7 @@ class PageHometown(Base):
         # def page_login_register_phone_back(self):
         self.driver.switch_to.context("NATIVE_APP")
         self.base_click(page.login_register_phone_back)
+        sleep(1)
         self.base_click(page.login_register_phone_back)
 
     # 取消关注的咨询
@@ -381,8 +380,12 @@ class PageHometown(Base):
         sleep(3)
         self.page_swipe1()
         print("当前环境：", self.driver.context)
-        self.base_click(page.add_hometown_information_zx1)
+        sleep(2)
+        self.driver.tap([(553, 1912)])
+        # self.base_click(page.add_hometown_information_cancel_collection)
+
         self.driver.switch_to.context("NATIVE_APP")
+        sleep(1)
         self.base_click(page.login_register_phone_back)
-        self.base_click(page.add_hometown_information_zx2)
+        self.base_click(page.add_hometown_information_exit)
         # self.base_click(page.login_register_phone_back)

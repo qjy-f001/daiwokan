@@ -4,6 +4,7 @@
   "scripts/test_hometown.py::TestHometown::()::test01_hometown": true,
   "scripts/test_hometown.py::TestHometown::()::test_02hometown_order": true,
   "scripts/test_hometown.py::TestOrderPagination::()::test03hometown_dynamic": true,
+  "scripts/test_hometown.py::TestOrderPagination::()::test04_hometown_dynamic": true,
   "scripts/test_login.py::TestLogin::()::test_login[13511223344-123456@-\\u6ce8\\u518c\\u65b0\\u8d26\\u53f7-3]": true,
   "scripts/test_login.py::TestLogin::()::test_login[135112341234-123456@-\\u6ce8\\u518c\\u65b0\\u8d26\\u53f7-3]": true,
   "scripts/test_login.py::TestLogin::()::test_login[13512341234-123456-\\u6ce8\\u518c\\u65b0\\u8d26\\u53f7-2]": true,

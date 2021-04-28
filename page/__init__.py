@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
-from appium.webdriver.common.mobileby import MobileBy
+
+# from appium.webdriver.common.mobileby import MobileBy
 
 """以下为登录模块配置数据"""
 # 手机号
@@ -518,11 +519,11 @@ add_hometown_information_collect = By.ID, 'com.qjy.teleeye:id/ll_info_collect_ma
 
 add_hometown_information_zx = By.XPATH, '//body//div[@class="van-tabs__content"]'
 
-# zx1
-add_hometown_information_zx1 = By.XPATH, '//body//span[contains(text(),"收藏")]'
+# 取消收藏
+add_hometown_information_cancel_collection = By.XPATH, '//body//div//span[contains(text(),"收藏")]'
 
-# zx2
-add_hometown_information_zx2 = By.XPATH,'//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]'
+# 退出
+add_hometown_information_exit = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]'
 """以下为挣钱主页元素模块配置数据"""
 
 # 挣钱主页

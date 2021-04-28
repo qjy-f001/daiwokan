@@ -8,8 +8,8 @@
       <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/page_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hometown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/test_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_hometown.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/test_webview.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/test_webview.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +194,7 @@
       <workItem from="1619141979808" duration="12619000" />
       <workItem from="1619314908285" duration="13914000" />
       <workItem from="1619419299236" duration="17099000" />
+      <workItem from="1619495638792" duration="10511000" />
     </task>
     <task id="LOCAL-00001" summary="取消该测试方法">
       <created>1610934860704</created>
