@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表" />
+    <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/DWK.log.2021-04-22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/DWK.log.2021-04-23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/DWK.log.2021-04-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hometown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/0b078322-3841-4310-a09e-7a3007b2abab-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/0e09d3ff-67f1-4e27-a7bb-40a1f2ae2bee-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1a0f52ab-bf34-47d8-85f7-4079525019b9-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1a353231-3d5f-41e9-a721-ec63fee51aaf-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/383979bd-dd64-41ad-9cb3-92249e941430-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/48cde0a5-19dd-4de0-8d47-f4ab65b6d27e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/517c3060-1b80-4660-9005-98cb5d7fc3c0-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/64e1c190-f543-4f89-aea3-4e2acc9efdd5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/6cd905f1-a590-49a7-a468-366d95026706-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/72a16b65-f5e3-4223-88d9-05cc278f4126-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7efc769f-4ce2-4b17-bc8b-f1532536fb7d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/8dbc2020-bfde-4295-8131-9c9c8337dc95-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/8f59b881-2e5f-4e94-a21e-d4d9ad5a81dd-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/938e2d07-b188-4a7b-86c0-14e4c3af2137-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/947d8433-c303-41eb-8bfd-5157d1c15bdf-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/96b9f57c-0db6-4a47-a24a-7dbcafcdefbf-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/97923449-7c4f-4fe8-854f-351cf13e4dea-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/9847c3bb-4ada-40e1-ba94-acbe266c7d11-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/9f2ff9eb-9cc1-432d-bc79-64dd57a763d9-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/b240e93a-4010-4133-b059-a3dcc8c9d731-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c129bf19-14d2-4da7-a858-4ea6d4e126f2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d410884c-0850-4b00-bba2-e5960f9558d0-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d876d22b-3987-4bf4-8887-7b10675ce0f5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/dc1adbcf-150e-41aa-a501-c64324bbc2b5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/e6b57db3-2a1a-49b3-91e7-0730a149d12e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/e8d1c156-d379-463e-b88e-b32955bc3e49-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/f5e2d733-58d2-47ca-8f69-14e135595670-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/fa8105c9-4984-4315-82b0-3a12143f61d3-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/ff9fcac3-12b9-4f8d-9cb9-6a4b3d0b8405-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_hair_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_hair_single.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_hometown.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,25 +137,11 @@
               <item name="daiwokan" type="b2602c69:ProjectViewProjectNode" />
               <item name="daiwokan" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="daiwokan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daiwokan" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daiwokan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daiwokan" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daiwokan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daiwokan" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -152,11 +177,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python 测试.test_webview.py 中的 pytest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -185,7 +205,9 @@
       <workItem from="1619141979808" duration="12619000" />
       <workItem from="1619314908285" duration="13914000" />
       <workItem from="1619419299236" duration="17099000" />
-      <workItem from="1619495638792" duration="10645000" />
+      <workItem from="1619495638792" duration="15190000" />
+      <workItem from="1620351184385" duration="1286000" />
+      <workItem from="1620356282825" duration="1863000" />
     </task>
     <task id="LOCAL-00001" summary="取消该测试方法">
       <created>1610934860704</created>
@@ -488,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619573747029</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="默认更改列表">
+      <created>1619573867737</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1619573867737</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -503,7 +532,7 @@
   <component name="ToolWindowManager">
     <frame x="141" y="22" width="1101" height="695" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.22107244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.22107244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50143266" side_tool="true" weight="0.23624289" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -514,7 +543,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49903288" weight="0.32798573" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32798573" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49709865" visible="true" weight="0.45989305" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49709865" visible="true" weight="0.45989305" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50096714" side_tool="true" weight="0.42959002" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32798573" />
       <window_info anchor="bottom" id="调试" order="11" />

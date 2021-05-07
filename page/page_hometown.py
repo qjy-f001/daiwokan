@@ -355,22 +355,22 @@ class PageHometown(Base):
         sleep(2)
         self.base_click(page.add_hometown_information_details)
         # print("当前所有环境：", self.driver.contexts)
+        print(self.driver.page_source)
         sleep(3)
         self.page_swipe1()
         self.switch_app()
         sleep(1)
         # print("当前所有环境：", self.driver.contexts)
-        self.driver.switch_to.context("WEBVIEW_com.qjy.teleeye")
+        # self.driver.switch_to.context("WEBVIEW_com.qjy.teleeye")
         self.base_click(page.add_hometown_collection)
-        # def page_login_register_phone_back(self):
-        self.driver.switch_to.context("NATIVE_APP")
+
+        # self.driver.switch_to.context("NATIVE_APP")
         self.base_click(page.login_register_phone_back)
         sleep(1)
         self.base_click(page.login_register_phone_back)
 
     # 取消关注的咨询
     def page_hometown_cancel_consulting(self):
-
         self.base_click(page.login_me)
         # print("当前所有环境：", self.driver.context)
         self.base_click(page.add_hometown_information_collect)
