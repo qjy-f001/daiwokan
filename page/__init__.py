@@ -357,7 +357,7 @@ add_hometown_activity = By.XPATH, '//android.widget.Image'
 add_hometown_icon = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[6]/android.view.View[1]/android.view.View[1]'
 
 # 修改我的家乡
-add_hometown_my = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
+add_hometown_my = By.XPATH, '//*[@text=""]'
 
 # 全国
 add_hometown_whole_country = By.XPATH, '//*[@text="全国"]'

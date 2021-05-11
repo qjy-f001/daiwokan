@@ -1,543 +1,609 @@
-2021-05-07 09:34:17,724 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="c3c767a1-b6d7-41de-baa9-c840bc320ea7")>
-2021-05-07 09:34:17,727 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:18,198 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
-2021-05-07 09:34:25,401 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:26,058 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
-2021-05-07 09:34:26,059 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
-2021-05-07 09:34:27,353 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
-2021-05-07 09:34:27,353 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:28,029 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:34:28,029 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:30,037 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
-2021-05-07 09:34:30,038 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:31,356 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
-2021-05-07 09:34:31,356 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="c3c767a1-b6d7-41de-baa9-c840bc320ea7")>
-2021-05-07 09:34:31,356 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:31,390 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
-2021-05-07 09:34:32,409 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
-2021-05-07 09:34:32,409 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:32,935 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
-2021-05-07 09:34:34,019 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
-2021-05-07 09:34:34,019 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:34,547 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
-2021-05-07 09:34:34,695 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="c3c767a1-b6d7-41de-baa9-c840bc320ea7")>
-2021-05-07 09:34:34,695 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:36,007 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:34:36,008 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="分类"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:37,448 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="分类"]')
-2021-05-07 09:34:37,452 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:38,461 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="大学"]')
-2021-05-07 09:34:38,461 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="北京大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:39,654 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="北京大学"]')
-2021-05-07 09:34:39,654 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:41,378 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
-2021-05-07 09:34:41,379 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:42,158 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:34:42,159 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:42,686 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
-2021-05-07 09:34:43,210 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
-2021-05-07 09:34:43,210 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:43,734 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
-2021-05-07 09:34:44,251 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：跑腿代购1
-2021-05-07 09:34:44,251 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:46,028 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
-2021-05-07 09:34:46,029 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:46,927 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
-2021-05-07 09:34:49,095 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:49,157 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
-2021-05-07 09:34:49,157 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:50,151 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:34:50,151 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:50,914 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
-2021-05-07 09:34:52,927 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:34:55,836 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:34:58,641 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:59,554 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
-2021-05-07 09:34:59,554 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
-2021-05-07 09:34:59,619 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
-2021-05-07 09:34:59,619 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:00,203 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:35:00,203 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:02,180 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
-2021-05-07 09:35:02,180 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:03,387 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
-2021-05-07 09:35:03,415 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="c3c767a1-b6d7-41de-baa9-c840bc320ea7")>
-2021-05-07 09:35:03,416 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:03,483 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:35:03,484 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="分类"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:05,016 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="分类"]')
-2021-05-07 09:35:05,019 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:05,257 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="大学"]')
-2021-05-07 09:35:05,257 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="北京大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:06,201 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="北京大学"]')
-2021-05-07 09:35:06,202 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:07,727 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
-2021-05-07 09:35:07,728 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:08,491 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:35:08,492 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:09,022 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
-2021-05-07 09:35:10,076 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
-2021-05-07 09:35:10,076 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:10,604 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
-2021-05-07 09:35:11,627 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：分享留学1
-2021-05-07 09:35:11,627 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:12,793 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
-2021-05-07 09:35:12,793 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:13,344 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
-2021-05-07 09:35:15,497 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:15,552 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
-2021-05-07 09:35:15,552 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:16,281 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:35:16,281 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:17,028 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
-2021-05-07 09:35:19,044 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:35:21,989 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:35:25,009 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:26,094 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
-2021-05-07 09:35:26,095 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:26,163 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
-2021-05-07 09:35:26,164 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:26,745 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:35:26,745 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:27,607 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
-2021-05-07 09:35:27,607 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:28,800 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
-2021-05-07 09:35:35,891 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="2c95acc2-ada3-49ca-9914-961be26b57da")>
-2021-05-07 09:35:35,892 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:36,376 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
-2021-05-07 09:35:43,482 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:43,923 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
-2021-05-07 09:35:43,923 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
-2021-05-07 09:35:44,898 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
-2021-05-07 09:35:44,898 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:45,580 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:35:45,580 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:47,204 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
-2021-05-07 09:35:47,204 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:47,857 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
-2021-05-07 09:35:47,858 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="2c95acc2-ada3-49ca-9914-961be26b57da")>
-2021-05-07 09:35:47,858 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:47,889 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
-2021-05-07 09:35:48,900 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
-2021-05-07 09:35:48,900 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:49,410 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
-2021-05-07 09:35:50,647 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
-2021-05-07 09:35:50,647 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:51,199 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
-2021-05-07 09:35:51,199 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="2c95acc2-ada3-49ca-9914-961be26b57da")>
-2021-05-07 09:35:51,200 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:52,642 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:35:52,642 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="校园"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:54,250 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="校园"]')
-2021-05-07 09:35:56,394 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]//android.view.View[3]/android.widget.Image[1]') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:58,143 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]//android.view.View[3]/android.widget.Image[1]')
-2021-05-07 09:35:58,144 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text = "修改我的学校"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:35:58,328 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text = "修改我的学校"]')
-2021-05-07 09:36:01,488 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy//android.view.View[6]//android.widget.EditText') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:01,640 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy//android.view.View[6]//android.widget.EditText') 执行清空操作
-2021-05-07 09:36:02,157 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy//android.view.View[6]//android.widget.EditText') 执行 输入：清华大学
-2021-05-07 09:36:02,157 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy//android.view.View[6]/android.view.View[2]/android.view.View[1]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:03,999 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '/hierarchy//android.view.View[6]/android.view.View[2]/android.view.View[1]')
-2021-05-07 09:36:04,002 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:04,965 INFO [root] [base.py (base_get_text:61] - 获取：('xpath', '//*[@text="清华大学"]') 元素的文本：清华大学
-2021-05-07 09:36:04,966 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:05,100 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:05,230 INFO [root] [base.py (base_get_text:61] - 获取：('xpath', '//*[@text="清华大学"]') 元素的文本：清华大学
-2021-05-07 09:36:05,230 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:05,351 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:05,471 INFO [root] [base.py (base_get_text:61] - 获取：('xpath', '//*[@text="清华大学"]') 元素的文本：清华大学
-2021-05-07 09:36:05,471 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:05,594 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:06,153 INFO [root] [base.py (base_get_text:61] - 获取：('xpath', '//*[@text="清华大学"]') 元素的文本：清华大学
-2021-05-07 09:36:06,153 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:06,286 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="2c95acc2-ada3-49ca-9914-961be26b57da")>
-2021-05-07 09:36:06,289 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:06,371 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:36:06,371 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="校园"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:08,838 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="校园"]')
-2021-05-07 09:36:08,838 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:08,957 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
-2021-05-07 09:36:08,957 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:10,218 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:36:10,218 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="按分钟计费"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:10,798 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="按分钟计费"]')
-2021-05-07 09:36:10,798 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:11,415 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
-2021-05-07 09:36:12,432 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
-2021-05-07 09:36:12,432 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:12,958 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
-2021-05-07 09:36:14,171 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
-2021-05-07 09:36:14,171 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:15,477 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
-2021-05-07 09:36:15,477 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:16,348 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
-2021-05-07 09:36:17,514 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="2c95acc2-ada3-49ca-9914-961be26b57da")>
-2021-05-07 09:36:17,515 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:18,806 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:36:18,806 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:19,568 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
-2021-05-07 09:36:19,568 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:36:22,167 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:36:25,110 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:26,185 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
-2021-05-07 09:36:26,185 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:26,742 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
-2021-05-07 09:36:26,743 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:27,591 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:36:27,591 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:28,793 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
-2021-05-07 09:36:28,794 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:28,854 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
-2021-05-07 09:36:35,824 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="52fbbebe-bc26-4a98-82bc-2fedc27eb7fe")>
-2021-05-07 09:36:35,824 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:36,330 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
-2021-05-07 09:36:43,452 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:43,891 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
-2021-05-07 09:36:43,891 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
-2021-05-07 09:36:44,868 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
-2021-05-07 09:36:44,868 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:45,548 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:36:45,548 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:47,174 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
-2021-05-07 09:36:47,174 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:48,474 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
-2021-05-07 09:36:48,474 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="52fbbebe-bc26-4a98-82bc-2fedc27eb7fe")>
-2021-05-07 09:36:48,474 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:48,508 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
-2021-05-07 09:36:49,527 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
-2021-05-07 09:36:49,527 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:50,250 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
-2021-05-07 09:36:50,778 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
-2021-05-07 09:36:50,779 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:51,334 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
-2021-05-07 09:36:51,335 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="52fbbebe-bc26-4a98-82bc-2fedc27eb7fe")>
-2021-05-07 09:36:51,335 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:52,793 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:36:52,793 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带看"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:54,870 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带看"]')
-2021-05-07 09:36:54,871 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_help_map_location_search') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:54,933 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_help_map_location_search')
-2021-05-07 09:36:55,941 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_baidumap_search') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:55,986 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_baidumap_search') 执行清空操作
-2021-05-07 09:36:57,022 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_baidumap_search') 执行 输入：西二旗
-2021-05-07 09:36:57,022 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/lv_baidumap_search"]/android.widget.LinearLayout[1]') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:58,929 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/lv_baidumap_search"]/android.widget.LinearLayout[1]')
-2021-05-07 09:36:58,929 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:59,014 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:36:59,014 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/rb_order_create_billing_time') 超时时间：10 访问频率：0.5
-2021-05-07 09:36:59,559 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/rb_order_create_billing_time')
-2021-05-07 09:37:00,569 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:00,610 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
-2021-05-07 09:37:01,626 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
-2021-05-07 09:37:03,639 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:03,675 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
-2021-05-07 09:37:04,190 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
-2021-05-07 09:37:04,190 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,391 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
-2021-05-07 09:37:05,391 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,422 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 元素的文本：带我看>西二旗-地铁站
-2021-05-07 09:37:05,423 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,450 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,477 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 元素的文本：带我看>西二旗-地铁站
-2021-05-07 09:37:05,477 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,506 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,536 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 元素的文本：带我看>西二旗-地铁站
-2021-05-07 09:37:05,537 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,567 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,597 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 元素的文本：随便看看
-2021-05-07 09:37:05,598 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,628 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,653 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 元素的文本：随便看看
-2021-05-07 09:37:05,653 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,681 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,712 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 元素的文本：随便看看
-2021-05-07 09:37:05,712 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:05,739 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:07,083 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
-2021-05-07 09:37:09,234 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:09,706 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
-2021-05-07 09:37:09,706 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="52fbbebe-bc26-4a98-82bc-2fedc27eb7fe")>
-2021-05-07 09:37:10,716 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:10,782 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:37:10,782 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:11,546 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
-2021-05-07 09:37:13,560 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:37:14,192 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:37:14,860 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:15,717 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
-2021-05-07 09:37:15,717 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:15,773 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
-2021-05-07 09:37:15,773 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:16,343 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:37:16,343 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:18,740 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
-2021-05-07 09:37:18,740 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:18,825 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
-2021-05-07 09:37:18,858 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="52fbbebe-bc26-4a98-82bc-2fedc27eb7fe")>
-2021-05-07 09:37:18,858 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:20,054 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:37:20,054 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带看"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:21,112 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带看"]')
-2021-05-07 09:37:21,112 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_help_map_use_location') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:22,853 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_help_map_use_location')
-2021-05-07 09:37:22,853 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:23,518 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:37:23,519 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/ll_order_create_type_location"]/android.widget.ImageView[1]') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:24,114 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/ll_order_create_type_location"]/android.widget.ImageView[1]')
-2021-05-07 09:37:24,114 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_next') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:29,220 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_next')
-2021-05-07 09:37:29,220 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="阿克塞哈萨克族自治县(甘肃省 酒泉市)"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:31,930 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="阿克塞哈萨克族自治县(甘肃省 酒泉市)"]')
-2021-05-07 09:37:31,930 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_help_map_use_location') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:32,004 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_help_map_use_location')
-2021-05-07 09:37:32,004 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="按分钟计费"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:32,620 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="按分钟计费"]')
-2021-05-07 09:37:32,620 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:33,229 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
-2021-05-07 09:37:34,319 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
-2021-05-07 09:37:34,319 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:34,842 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
-2021-05-07 09:37:35,857 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
-2021-05-07 09:37:35,858 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:37,034 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
-2021-05-07 09:37:37,035 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:38,295 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
-2021-05-07 09:37:40,435 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:40,494 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
-2021-05-07 09:37:40,494 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="52fbbebe-bc26-4a98-82bc-2fedc27eb7fe")>
-2021-05-07 09:37:40,494 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:41,189 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:37:41,189 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:42,350 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
-2021-05-07 09:37:44,353 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:37:44,972 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:37:45,590 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:46,412 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
-2021-05-07 09:37:46,412 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:46,475 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
-2021-05-07 09:37:46,475 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:47,059 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:37:47,059 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:47,885 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
-2021-05-07 09:37:47,885 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:50,306 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
-2021-05-07 09:37:50,330 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="52fbbebe-bc26-4a98-82bc-2fedc27eb7fe")>
-2021-05-07 09:37:50,330 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_money') 超时时间：10 访问频率：0.5
-2021-05-07 09:37:50,406 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_money')
-2021-05-07 09:37:50,406 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_make_money_site') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:00,599 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="52fbbebe-bc26-4a98-82bc-2fedc27eb7fe")>
-2021-05-07 09:38:01,603 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_money') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:01,681 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_money')
-2021-05-07 09:38:01,682 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_make_money_site') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:19,099 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="820bbee9-6f62-4bed-a393-02cfe5cd9096")>
-2021-05-07 09:38:19,099 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:19,600 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
-2021-05-07 09:38:26,721 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:27,144 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
-2021-05-07 09:38:27,145 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
-2021-05-07 09:38:28,123 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
-2021-05-07 09:38:28,123 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:28,802 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:38:28,803 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:29,566 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
-2021-05-07 09:38:29,566 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:31,018 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
-2021-05-07 09:38:31,018 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="820bbee9-6f62-4bed-a393-02cfe5cd9096")>
-2021-05-07 09:38:31,018 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:31,054 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
-2021-05-07 09:38:32,073 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
-2021-05-07 09:38:32,073 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:32,579 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
-2021-05-07 09:38:33,596 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
-2021-05-07 09:38:33,596 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:34,406 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
-2021-05-07 09:38:34,407 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="820bbee9-6f62-4bed-a393-02cfe5cd9096")>
-2021-05-07 09:38:34,407 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:35,850 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:38:35,850 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="家乡"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:37,160 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="家乡"]')
-2021-05-07 09:38:37,160 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:39,215 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]')
-2021-05-07 09:38:41,227 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="全国"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:41,336 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="全国"]')
-2021-05-07 09:38:43,338 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="北京市"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:43,459 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="北京市"]')
-2021-05-07 09:38:45,461 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="市辖区"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:45,566 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="市辖区"]')
-2021-05-07 09:38:48,566 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View[2]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:49,418 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View[2]')
-2021-05-07 09:38:51,420 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="东华门街道"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:51,535 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="东华门街道"]')
-2021-05-07 09:38:53,541 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="多福巷社区"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:53,676 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="多福巷社区"]')
-2021-05-07 09:38:53,679 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//android.widget.Image') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:54,503 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//android.widget.Image')
-2021-05-07 09:38:54,527 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="820bbee9-6f62-4bed-a393-02cfe5cd9096")>
-2021-05-07 09:38:54,528 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:56,228 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:38:56,228 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="家乡"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:59,537 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="家乡"]')
-2021-05-07 09:38:59,537 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:38:59,709 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
-2021-05-07 09:38:59,710 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="820bbee9-6f62-4bed-a393-02cfe5cd9096")>
-2021-05-07 09:38:59,710 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:00,476 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:39:00,476 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:00,995 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
-2021-05-07 09:39:01,526 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
-2021-05-07 09:39:01,529 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:02,442 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
-2021-05-07 09:39:02,967 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
-2021-05-07 09:39:02,967 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:04,174 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
-2021-05-07 09:39:04,174 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:05,066 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
-2021-05-07 09:39:07,879 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:07,969 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:39:07,969 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:08,731 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
-2021-05-07 09:39:10,737 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:39:13,728 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:39:16,986 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:17,921 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
-2021-05-07 09:39:17,921 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:18,780 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
-2021-05-07 09:39:18,780 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:19,464 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:39:19,465 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:20,323 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
-2021-05-07 09:39:20,323 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:22,634 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
-2021-05-07 09:39:22,653 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="820bbee9-6f62-4bed-a393-02cfe5cd9096")>
-2021-05-07 09:39:22,653 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:22,727 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:39:22,727 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="家乡"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:26,457 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="家乡"]')
-2021-05-07 09:39:30,625 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="店铺转让"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:30,785 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="店铺转让"]')
-2021-05-07 09:39:32,789 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy//android.view.View[4]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:33,353 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '/hierarchy//android.view.View[4]')
-2021-05-07 09:39:33,353 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="选择店铺类型"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:34,598 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="选择店铺类型"]')
-2021-05-07 09:39:34,598 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="写字楼"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:35,592 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="写字楼"]')
-2021-05-07 09:39:35,592 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="选好了"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:36,356 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="选好了"]')
-2021-05-07 09:39:37,359 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.widget.EditText') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:37,473 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.widget.EditText') 执行清空操作
-2021-05-07 09:39:38,481 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.widget.EditText') 执行 输入：写字楼
-2021-05-07 09:39:38,481 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[2]/android.widget.EditText') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:39,117 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[2]/android.widget.EditText') 执行清空操作
-2021-05-07 09:39:39,636 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[2]/android.widget.EditText') 执行 输入：123456
-2021-05-07 09:39:39,636 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[6]/android.view.View[3]/android.widget.EditText') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:40,249 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[6]/android.view.View[3]/android.widget.EditText') 执行清空操作
-2021-05-07 09:39:40,769 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[6]/android.view.View[3]/android.widget.EditText') 执行 输入：8888
-2021-05-07 09:39:40,769 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[7]/android.view.View[3]/android.widget.EditText') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:41,398 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[7]/android.view.View[3]/android.widget.EditText') 执行清空操作
-2021-05-07 09:39:41,916 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[7]/android.view.View[3]/android.widget.EditText') 执行 输入：999
-2021-05-07 09:39:41,916 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="经营行业"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:42,555 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="经营行业"]')
-2021-05-07 09:39:42,555 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="餐饮美食"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:43,582 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="餐饮美食"]')
-2021-05-07 09:39:43,583 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="食堂"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:44,213 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="食堂"]')
-2021-05-07 09:39:44,213 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="完成"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:44,875 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="完成"]')
-2021-05-07 09:39:44,875 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[9]/android.view.View[1]/android.widget.EditText') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:45,819 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[9]/android.view.View[1]/android.widget.EditText') 执行清空操作
-2021-05-07 09:39:46,489 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[9]/android.view.View[1]/android.widget.EditText') 执行 输入：13511112222
-2021-05-07 09:39:46,489 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="图片/视频"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:47,130 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="图片/视频"]')
-2021-05-07 09:39:47,130 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
-2021-05-07 09:39:47,860 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
-2021-05-07 09:39:47,861 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
-2021-05-07 09:39:48,656 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
-2021-05-07 09:39:48,657 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
-2021-05-07 09:39:49,386 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
-2021-05-07 09:39:49,386 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="拍一张"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:50,512 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="拍一张"]')
-2021-05-07 09:39:50,512 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="相机"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:53,322 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="相机"]')
-2021-05-07 09:39:53,323 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.android.camera:id/v9_shutter_button_internal') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:53,878 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.android.camera:id/v9_shutter_button_internal')
-2021-05-07 09:39:53,879 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.android.camera:id/intent_done_apply') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:57,048 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.android.camera:id/intent_done_apply')
-2021-05-07 09:39:58,059 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="提交"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:39:58,635 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="提交"]')
-2021-05-07 09:39:58,635 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:01,537 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:40:01,537 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/rl_info_head_background"]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:02,614 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/rl_info_head_background"]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]')
-2021-05-07 09:40:02,614 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:03,941 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]')
-2021-05-07 09:40:03,942 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="个人中心"]/android.view.View[2]') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:04,720 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="个人中心"]/android.view.View[2]')
-2021-05-07 09:40:04,720 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:05,516 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]')
-2021-05-07 09:40:13,716 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="e7783c3c-351a-48d5-bac4-23d9652d8170")>
-2021-05-07 09:40:13,716 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:14,569 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
-2021-05-07 09:40:21,690 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:22,594 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
-2021-05-07 09:40:22,594 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
-2021-05-07 09:40:23,585 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
-2021-05-07 09:40:23,585 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:24,265 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:40:24,265 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:25,875 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
-2021-05-07 09:40:25,876 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:26,535 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
-2021-05-07 09:40:26,535 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="e7783c3c-351a-48d5-bac4-23d9652d8170")>
-2021-05-07 09:40:26,535 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:26,569 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
-2021-05-07 09:40:27,584 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
-2021-05-07 09:40:27,584 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:28,092 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
-2021-05-07 09:40:28,619 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
-2021-05-07 09:40:28,619 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:29,174 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
-2021-05-07 09:40:29,175 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="e7783c3c-351a-48d5-bac4-23d9652d8170")>
-2021-05-07 09:40:29,176 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:30,598 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
-2021-05-07 09:40:30,598 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="推荐"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:32,981 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="推荐"]')
-2021-05-07 09:40:44,712 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:44,839 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]')
-2021-05-07 09:40:44,840 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy//android.widget.Image') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:45,487 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '/hierarchy//android.widget.Image')
-2021-05-07 09:40:45,487 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:47,244 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
-2021-05-07 09:40:47,244 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="e7783c3c-351a-48d5-bac4-23d9652d8170")>
-2021-05-07 09:40:47,244 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:48,042 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:40:48,042 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/rb_order_create_billing_time') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:48,604 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/rb_order_create_billing_time')
-2021-05-07 09:40:49,618 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:49,662 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
-2021-05-07 09:40:51,083 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
-2021-05-07 09:40:53,088 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:53,131 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
-2021-05-07 09:40:53,650 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
-2021-05-07 09:40:53,650 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:55,374 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
-2021-05-07 09:40:55,375 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:56,237 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
-2021-05-07 09:40:58,386 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:58,619 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
-2021-05-07 09:40:59,628 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="e7783c3c-351a-48d5-bac4-23d9652d8170")>
-2021-05-07 09:40:59,628 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
-2021-05-07 09:40:59,713 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
-2021-05-07 09:40:59,713 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
-2021-05-07 09:41:00,459 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
-2021-05-07 09:41:02,464 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:41:03,191 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
-2021-05-07 09:41:03,812 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
-2021-05-07 09:41:04,959 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
-2021-05-07 09:41:04,960 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
-2021-05-07 09:41:05,019 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
-2021-05-07 09:41:05,020 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
-2021-05-07 09:41:05,585 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
-2021-05-07 09:41:05,585 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:41:07,986 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
-2021-05-07 09:41:07,986 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
-2021-05-07 09:41:08,070 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
+2021-05-11 09:58:32,625 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="6b313e14-b257-4b96-9cb7-7add8ae511ca")>
+2021-05-11 09:58:32,628 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 09:58:35,510 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-05-11 09:58:39,759 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-05-11 09:58:50,093 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="6b313e14-b257-4b96-9cb7-7add8ae511ca")>
+2021-05-11 09:58:50,094 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:00,207 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="6b313e14-b257-4b96-9cb7-7add8ae511ca")>
+2021-05-11 09:59:00,207 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:10,541 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="6b313e14-b257-4b96-9cb7-7add8ae511ca")>
+2021-05-11 09:59:10,541 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:21,937 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="6b313e14-b257-4b96-9cb7-7add8ae511ca")>
+2021-05-11 09:59:21,937 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:43,109 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="e403d850-cb9b-469a-af2f-ba5f7b0058ba")>
+2021-05-11 09:59:43,109 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:44,059 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-05-11 09:59:51,147 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:51,586 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
+2021-05-11 09:59:51,587 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 09:59:53,009 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 09:59:53,010 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:53,689 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 09:59:53,690 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:54,698 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
+2021-05-11 09:59:54,698 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:56,006 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
+2021-05-11 09:59:56,007 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="e403d850-cb9b-469a-af2f-ba5f7b0058ba")>
+2021-05-11 09:59:56,008 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:56,050 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
+2021-05-11 09:59:57,470 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
+2021-05-11 09:59:57,471 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
+2021-05-11 09:59:57,985 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
+2021-05-11 09:59:58,523 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
+2021-05-11 09:59:58,523 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:00,964 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
+2021-05-11 10:00:01,171 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="e403d850-cb9b-469a-af2f-ba5f7b0058ba")>
+2021-05-11 10:00:01,172 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:01,268 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:00:01,269 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="分类"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:14,593 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="ec58a2bf-4408-4d74-b576-bee91144ddc9")>
+2021-05-11 10:00:14,593 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:16,482 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-05-11 10:00:20,699 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:25,530 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
+2021-05-11 10:00:25,531 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 10:00:27,243 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 10:00:27,243 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:28,298 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:00:28,299 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:29,485 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
+2021-05-11 10:00:29,485 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:30,147 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
+2021-05-11 10:00:30,147 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="ec58a2bf-4408-4d74-b576-bee91144ddc9")>
+2021-05-11 10:00:30,148 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:32,812 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
+2021-05-11 10:00:38,783 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
+2021-05-11 10:00:38,783 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:39,766 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
+2021-05-11 10:00:45,548 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
+2021-05-11 10:00:45,548 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:47,257 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
+2021-05-11 10:00:47,425 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="ec58a2bf-4408-4d74-b576-bee91144ddc9")>
+2021-05-11 10:00:47,425 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:47,600 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:00:47,600 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="分类"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:49,280 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="分类"]')
+2021-05-11 10:00:49,289 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:00:50,199 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="大学"]')
+2021-05-11 10:00:50,199 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="北京大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:01:01,739 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="ec58a2bf-4408-4d74-b576-bee91144ddc9")>
+2021-05-11 10:01:01,739 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:01:17,581 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="9bc5568c-23be-46c4-8beb-8c1ada9c8684")>
+2021-05-11 10:01:17,581 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:01:20,581 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-05-11 10:01:24,808 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:04,242 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="a0d022fb-bf68-46a0-ae70-d869abfd128f")>
+2021-05-11 10:02:04,242 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:05,212 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-05-11 10:02:12,302 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:13,489 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
+2021-05-11 10:02:13,489 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 10:02:14,447 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 10:02:14,447 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:15,127 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:02:15,127 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:16,471 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
+2021-05-11 10:02:16,471 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:17,802 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
+2021-05-11 10:02:17,802 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="a0d022fb-bf68-46a0-ae70-d869abfd128f")>
+2021-05-11 10:02:17,802 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:17,834 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
+2021-05-11 10:02:18,851 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
+2021-05-11 10:02:18,852 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:19,377 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
+2021-05-11 10:02:20,390 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
+2021-05-11 10:02:20,391 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:21,246 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
+2021-05-11 10:02:21,401 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="a0d022fb-bf68-46a0-ae70-d869abfd128f")>
+2021-05-11 10:02:21,401 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:22,687 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:02:22,687 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="分类"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:24,478 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="分类"]')
+2021-05-11 10:02:24,489 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:25,571 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="大学"]')
+2021-05-11 10:02:25,572 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="北京大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:26,930 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="北京大学"]')
+2021-05-11 10:02:26,930 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:29,221 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
+2021-05-11 10:02:29,222 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:29,986 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:02:29,987 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:30,518 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
+2021-05-11 10:02:31,530 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
+2021-05-11 10:02:31,530 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:32,063 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
+2021-05-11 10:02:33,200 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：跑腿代购1
+2021-05-11 10:02:33,200 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:34,571 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
+2021-05-11 10:02:34,572 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:35,467 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
+2021-05-11 10:02:37,624 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:38,320 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
+2021-05-11 10:02:38,321 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:38,454 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:02:38,454 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:39,218 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
+2021-05-11 10:02:41,223 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:02:43,982 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:02:47,000 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:47,893 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
+2021-05-11 10:02:47,893 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:47,953 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
+2021-05-11 10:02:47,954 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:48,519 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:02:48,519 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:50,477 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
+2021-05-11 10:02:50,478 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:51,688 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
+2021-05-11 10:02:51,721 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="a0d022fb-bf68-46a0-ae70-d869abfd128f")>
+2021-05-11 10:02:51,721 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:51,799 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:02:51,799 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="分类"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:54,102 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="分类"]')
+2021-05-11 10:02:54,106 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:54,335 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="大学"]')
+2021-05-11 10:02:54,335 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="北京大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:55,279 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="北京大学"]')
+2021-05-11 10:02:55,279 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:57,272 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
+2021-05-11 10:02:57,272 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:58,033 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:02:58,033 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:58,558 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
+2021-05-11 10:02:59,082 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
+2021-05-11 10:02:59,082 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:02:59,607 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
+2021-05-11 10:03:00,623 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：分享留学1
+2021-05-11 10:03:00,624 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:01,938 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
+2021-05-11 10:03:01,938 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:02,806 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
+2021-05-11 10:03:04,962 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:05,295 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
+2021-05-11 10:03:05,295 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:05,972 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:03:05,973 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:06,717 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
+2021-05-11 10:03:08,718 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:03:11,675 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:03:14,445 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:15,343 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
+2021-05-11 10:03:15,343 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:15,421 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
+2021-05-11 10:03:15,421 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:15,986 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:03:15,986 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:18,410 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
+2021-05-11 10:03:18,410 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:18,474 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
+2021-05-11 10:03:25,521 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="0fade0ce-eff5-4c99-ab65-0c8d8f47c7ee")>
+2021-05-11 10:03:25,521 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:26,447 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-05-11 10:03:33,523 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:33,943 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
+2021-05-11 10:03:33,943 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 10:03:34,887 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 10:03:34,887 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:35,566 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:03:35,567 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:37,327 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
+2021-05-11 10:03:37,327 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:38,643 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
+2021-05-11 10:03:38,643 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="0fade0ce-eff5-4c99-ab65-0c8d8f47c7ee")>
+2021-05-11 10:03:38,643 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:38,679 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
+2021-05-11 10:03:39,202 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
+2021-05-11 10:03:39,202 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:39,728 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
+2021-05-11 10:03:40,744 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
+2021-05-11 10:03:40,744 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:43,432 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
+2021-05-11 10:03:43,433 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="0fade0ce-eff5-4c99-ab65-0c8d8f47c7ee")>
+2021-05-11 10:03:43,433 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:43,510 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:03:43,510 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="校园"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:45,583 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="校园"]')
+2021-05-11 10:03:47,749 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]//android.view.View[3]/android.widget.Image[1]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:49,312 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]//android.view.View[3]/android.widget.Image[1]')
+2021-05-11 10:03:49,313 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text = "修改我的学校"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:49,478 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text = "修改我的学校"]')
+2021-05-11 10:03:52,646 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy//android.view.View[6]//android.widget.EditText') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:52,792 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy//android.view.View[6]//android.widget.EditText') 执行清空操作
+2021-05-11 10:03:52,815 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy//android.view.View[6]//android.widget.EditText') 执行 输入：清华大学
+2021-05-11 10:03:52,815 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy//android.view.View[6]/android.view.View[2]/android.view.View[1]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:54,619 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '/hierarchy//android.view.View[6]/android.view.View[2]/android.view.View[1]')
+2021-05-11 10:03:54,624 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:55,582 INFO [root] [base.py (base_get_text:61] - 获取：('xpath', '//*[@text="清华大学"]') 元素的文本：清华大学
+2021-05-11 10:03:55,582 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:55,716 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:55,856 INFO [root] [base.py (base_get_text:61] - 获取：('xpath', '//*[@text="清华大学"]') 元素的文本：清华大学
+2021-05-11 10:03:55,856 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:55,994 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:56,114 INFO [root] [base.py (base_get_text:61] - 获取：('xpath', '//*[@text="清华大学"]') 元素的文本：清华大学
+2021-05-11 10:03:56,114 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:56,238 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:56,362 INFO [root] [base.py (base_get_text:61] - 获取：('xpath', '//*[@text="清华大学"]') 元素的文本：清华大学
+2021-05-11 10:03:56,363 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="清华大学"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:56,511 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="0fade0ce-eff5-4c99-ab65-0c8d8f47c7ee")>
+2021-05-11 10:03:56,514 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:56,611 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:03:56,611 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="校园"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:58,587 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="校园"]')
+2021-05-11 10:03:58,587 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:58,735 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
+2021-05-11 10:03:58,736 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:03:59,515 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:03:59,515 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="按分钟计费"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:00,092 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="按分钟计费"]')
+2021-05-11 10:04:00,092 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:00,708 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
+2021-05-11 10:04:01,362 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
+2021-05-11 10:04:01,362 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:01,887 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
+2021-05-11 10:04:02,907 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
+2021-05-11 10:04:02,907 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:04,342 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
+2021-05-11 10:04:04,343 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:05,333 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
+2021-05-11 10:04:06,480 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="0fade0ce-eff5-4c99-ab65-0c8d8f47c7ee")>
+2021-05-11 10:04:06,480 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:07,090 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:04:07,090 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:07,852 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
+2021-05-11 10:04:07,852 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:04:10,516 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:04:13,931 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:14,971 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
+2021-05-11 10:04:14,971 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:15,041 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
+2021-05-11 10:04:15,042 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:15,599 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:04:15,599 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:17,607 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
+2021-05-11 10:04:17,607 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:17,669 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
+2021-05-11 10:04:24,870 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="26a190b6-723a-4ef4-b33c-2c79491b01ec")>
+2021-05-11 10:04:24,871 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:25,828 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-05-11 10:04:32,901 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:33,442 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
+2021-05-11 10:04:33,442 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 10:04:34,382 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 10:04:34,382 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:35,063 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:04:35,063 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:36,473 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
+2021-05-11 10:04:36,473 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:38,208 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
+2021-05-11 10:04:38,208 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="26a190b6-723a-4ef4-b33c-2c79491b01ec")>
+2021-05-11 10:04:38,208 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:38,241 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
+2021-05-11 10:04:38,768 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
+2021-05-11 10:04:38,768 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:39,299 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
+2021-05-11 10:04:39,825 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
+2021-05-11 10:04:39,825 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:41,771 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
+2021-05-11 10:04:41,773 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="26a190b6-723a-4ef4-b33c-2c79491b01ec")>
+2021-05-11 10:04:41,773 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:41,870 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:04:41,871 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带看"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:44,032 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带看"]')
+2021-05-11 10:04:44,032 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_help_map_location_search') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:44,100 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_help_map_location_search')
+2021-05-11 10:04:45,116 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_baidumap_search') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:45,416 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_baidumap_search') 执行清空操作
+2021-05-11 10:04:46,450 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_baidumap_search') 执行 输入：西二旗
+2021-05-11 10:04:46,450 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/lv_baidumap_search"]/android.widget.LinearLayout[1]') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:47,968 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/lv_baidumap_search"]/android.widget.LinearLayout[1]')
+2021-05-11 10:04:47,968 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:48,298 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:04:48,298 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/rb_order_create_billing_time') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:48,844 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/rb_order_create_billing_time')
+2021-05-11 10:04:49,857 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:49,902 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
+2021-05-11 10:04:50,914 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
+2021-05-11 10:04:52,917 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:53,426 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
+2021-05-11 10:04:53,936 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
+2021-05-11 10:04:53,937 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,121 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
+2021-05-11 10:04:55,121 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,157 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 元素的文本：带我看>西二旗-地铁站
+2021-05-11 10:04:55,157 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,190 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,220 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 元素的文本：带我看>西二旗-地铁站
+2021-05-11 10:04:55,220 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,254 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,285 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 元素的文本：带我看>西二旗-地铁站
+2021-05-11 10:04:55,285 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_type') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,314 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,347 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 元素的文本：随便看看
+2021-05-11 10:04:55,347 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,378 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,408 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 元素的文本：随便看看
+2021-05-11 10:04:55,408 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,438 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,471 INFO [root] [base.py (base_get_text:61] - 获取：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 元素的文本：随便看看
+2021-05-11 10:04:55,471 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:55,504 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:56,360 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
+2021-05-11 10:04:58,538 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:58,595 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
+2021-05-11 10:04:58,596 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="26a190b6-723a-4ef4-b33c-2c79491b01ec")>
+2021-05-11 10:04:59,600 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:04:59,671 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:04:59,671 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:00,418 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
+2021-05-11 10:05:02,430 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:05:03,051 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:05:04,029 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:04,848 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
+2021-05-11 10:05:04,848 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:04,911 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
+2021-05-11 10:05:04,911 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:05,475 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:05:05,475 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:06,319 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
+2021-05-11 10:05:06,319 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:08,631 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
+2021-05-11 10:05:08,673 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="26a190b6-723a-4ef4-b33c-2c79491b01ec")>
+2021-05-11 10:05:08,674 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:08,756 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:05:08,756 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带看"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:10,431 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带看"]')
+2021-05-11 10:05:10,431 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_help_map_use_location') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:11,176 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_help_map_use_location')
+2021-05-11 10:05:11,176 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:11,875 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:05:11,875 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/ll_order_create_type_location"]/android.widget.ImageView[1]') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:12,470 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/ll_order_create_type_location"]/android.widget.ImageView[1]')
+2021-05-11 10:05:12,470 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_next') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:17,612 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_next')
+2021-05-11 10:05:17,612 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="阿克塞哈萨克族自治县(甘肃省 酒泉市)"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:20,286 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="阿克塞哈萨克族自治县(甘肃省 酒泉市)"]')
+2021-05-11 10:05:20,287 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_help_map_use_location') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:20,365 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_help_map_use_location')
+2021-05-11 10:05:20,365 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="按分钟计费"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:21,528 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="按分钟计费"]')
+2021-05-11 10:05:21,528 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:22,140 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
+2021-05-11 10:05:23,154 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
+2021-05-11 10:05:23,154 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:23,662 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
+2021-05-11 10:05:24,678 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
+2021-05-11 10:05:24,679 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:26,106 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
+2021-05-11 10:05:26,106 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:26,974 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
+2021-05-11 10:05:29,160 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:30,108 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
+2021-05-11 10:05:30,109 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="26a190b6-723a-4ef4-b33c-2c79491b01ec")>
+2021-05-11 10:05:30,109 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:30,180 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:05:30,180 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:30,940 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
+2021-05-11 10:05:32,941 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:05:34,041 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:05:34,655 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:35,468 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
+2021-05-11 10:05:35,468 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:36,041 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
+2021-05-11 10:05:36,042 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:36,098 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:05:36,098 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:36,941 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
+2021-05-11 10:05:36,941 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:38,101 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
+2021-05-11 10:05:45,006 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="8f758ae7-1d3c-4f25-8342-aa22d74dcd90")>
+2021-05-11 10:05:45,006 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:45,964 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-05-11 10:05:53,070 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:53,627 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
+2021-05-11 10:05:53,627 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 10:05:54,585 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 10:05:54,585 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:55,283 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:05:55,283 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:56,676 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
+2021-05-11 10:05:56,677 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:58,123 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
+2021-05-11 10:05:58,123 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="8f758ae7-1d3c-4f25-8342-aa22d74dcd90")>
+2021-05-11 10:05:58,124 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:58,157 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
+2021-05-11 10:05:59,176 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
+2021-05-11 10:05:59,177 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
+2021-05-11 10:05:59,696 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
+2021-05-11 10:06:00,710 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
+2021-05-11 10:06:00,711 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:02,863 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
+2021-05-11 10:06:02,864 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="8f758ae7-1d3c-4f25-8342-aa22d74dcd90")>
+2021-05-11 10:06:02,864 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:03,551 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:06:03,551 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="家乡"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:04,517 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="家乡"]')
+2021-05-11 10:06:04,517 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="\uf007"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:06,605 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="\uf007"]')
+2021-05-11 10:06:08,620 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="全国"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:08,743 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="全国"]')
+2021-05-11 10:06:10,753 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="北京市"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:10,884 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="北京市"]')
+2021-05-11 10:06:12,893 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="市辖区"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:13,005 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="市辖区"]')
+2021-05-11 10:06:16,012 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View[2]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:16,152 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View[2]')
+2021-05-11 10:06:18,166 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="东华门街道"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:18,312 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="东华门街道"]')
+2021-05-11 10:06:20,317 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="多福巷社区"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:20,467 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="多福巷社区"]')
+2021-05-11 10:06:20,473 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//android.widget.Image') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:20,599 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//android.widget.Image')
+2021-05-11 10:06:20,619 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="8f758ae7-1d3c-4f25-8342-aa22d74dcd90")>
+2021-05-11 10:06:20,619 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:21,640 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:06:21,641 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="家乡"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:24,804 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="家乡"]')
+2021-05-11 10:06:24,805 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:25,010 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
+2021-05-11 10:06:25,010 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="8f758ae7-1d3c-4f25-8342-aa22d74dcd90")>
+2021-05-11 10:06:25,010 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:25,791 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:06:25,791 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:26,326 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
+2021-05-11 10:06:27,348 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
+2021-05-11 10:06:27,353 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:27,872 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
+2021-05-11 10:06:28,892 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
+2021-05-11 10:06:28,892 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:30,205 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
+2021-05-11 10:06:30,205 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:31,071 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
+2021-05-11 10:06:33,249 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:33,613 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:06:33,613 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:34,375 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
+2021-05-11 10:06:36,379 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:06:39,397 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:06:42,139 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:43,053 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
+2021-05-11 10:06:43,054 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:43,130 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
+2021-05-11 10:06:43,130 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:43,696 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:06:43,696 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:45,686 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
+2021-05-11 10:06:45,686 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:46,913 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')
+2021-05-11 10:06:46,931 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="8f758ae7-1d3c-4f25-8342-aa22d74dcd90")>
+2021-05-11 10:06:46,932 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:47,009 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:06:47,009 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="家乡"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:50,694 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="家乡"]')
+2021-05-11 10:06:54,893 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="店铺转让"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:55,087 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="店铺转让"]')
+2021-05-11 10:06:57,097 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy//android.view.View[4]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:58,120 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '/hierarchy//android.view.View[4]')
+2021-05-11 10:06:58,120 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="选择店铺类型"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:58,996 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="选择店铺类型"]')
+2021-05-11 10:06:58,997 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="写字楼"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:06:59,990 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="写字楼"]')
+2021-05-11 10:06:59,991 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="选好了"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:00,736 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="选好了"]')
+2021-05-11 10:07:01,751 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.widget.EditText') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:01,849 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.widget.EditText') 执行清空操作
+2021-05-11 10:07:02,370 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.widget.EditText') 执行 输入：写字楼
+2021-05-11 10:07:02,370 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[2]/android.widget.EditText') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:03,431 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[2]/android.widget.EditText') 执行清空操作
+2021-05-11 10:07:03,953 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[2]/android.widget.EditText') 执行 输入：123456
+2021-05-11 10:07:03,953 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[6]/android.view.View[3]/android.widget.EditText') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:04,643 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[6]/android.view.View[3]/android.widget.EditText') 执行清空操作
+2021-05-11 10:07:05,582 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[6]/android.view.View[3]/android.widget.EditText') 执行 输入：8888
+2021-05-11 10:07:05,582 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[7]/android.view.View[3]/android.widget.EditText') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:06,208 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[7]/android.view.View[3]/android.widget.EditText') 执行清空操作
+2021-05-11 10:07:06,728 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[7]/android.view.View[3]/android.widget.EditText') 执行 输入：999
+2021-05-11 10:07:06,729 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="经营行业"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:07,369 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="经营行业"]')
+2021-05-11 10:07:07,369 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="餐饮美食"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:08,413 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="餐饮美食"]')
+2021-05-11 10:07:08,413 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="食堂"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:09,044 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="食堂"]')
+2021-05-11 10:07:09,045 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="完成"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:09,691 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="完成"]')
+2021-05-11 10:07:09,691 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[9]/android.view.View[1]/android.widget.EditText') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:10,639 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[9]/android.view.View[1]/android.widget.EditText') 执行清空操作
+2021-05-11 10:07:11,157 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[9]/android.view.View[1]/android.widget.EditText') 执行 输入：13511112222
+2021-05-11 10:07:11,158 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="图片/视频"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:12,210 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="图片/视频"]')
+2021-05-11 10:07:12,210 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 10:07:12,941 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 10:07:12,941 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 10:07:13,805 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 10:07:13,805 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 10:07:15,171 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 10:07:15,171 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="拍一张"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:15,245 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="拍一张"]')
+2021-05-11 10:07:15,245 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="相机"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:18,124 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="相机"]')
+2021-05-11 10:07:18,124 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.android.camera:id/v9_shutter_button_internal') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:18,195 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.android.camera:id/v9_shutter_button_internal')
+2021-05-11 10:07:18,196 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.android.camera:id/intent_done_apply') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:21,723 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.android.camera:id/intent_done_apply')
+2021-05-11 10:07:22,728 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="提交"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:22,875 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="提交"]')
+2021-05-11 10:07:22,876 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:25,807 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:07:25,807 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/rl_info_head_background"]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:26,621 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/rl_info_head_background"]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]')
+2021-05-11 10:07:26,621 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:27,996 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]')
+2021-05-11 10:07:27,997 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="个人中心"]/android.view.View[2]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:28,776 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="个人中心"]/android.view.View[2]')
+2021-05-11 10:07:28,776 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:29,689 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]')
+2021-05-11 10:07:38,163 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="73b748ca-6ed4-41f3-8b52-0184d54d8826")>
+2021-05-11 10:07:38,164 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:39,307 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-05-11 10:07:46,395 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:46,835 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
+2021-05-11 10:07:46,835 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-05-11 10:07:48,117 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-05-11 10:07:48,117 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:48,807 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:07:48,807 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:49,967 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
+2021-05-11 10:07:49,967 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:51,283 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
+2021-05-11 10:07:51,283 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="73b748ca-6ed4-41f3-8b52-0184d54d8826")>
+2021-05-11 10:07:51,283 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:51,318 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
+2021-05-11 10:07:52,336 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
+2021-05-11 10:07:52,336 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:52,865 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
+2021-05-11 10:07:54,163 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
+2021-05-11 10:07:54,163 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:56,091 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
+2021-05-11 10:07:56,092 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="73b748ca-6ed4-41f3-8b52-0184d54d8826")>
+2021-05-11 10:07:56,093 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:56,186 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-05-11 10:07:56,186 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="推荐"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:07:58,592 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="推荐"]')
+2021-05-11 10:08:10,318 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:11,139 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]')
+2021-05-11 10:08:11,140 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy//android.widget.Image') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:12,085 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '/hierarchy//android.widget.Image')
+2021-05-11 10:08:12,086 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="带我看"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:14,209 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="带我看"]')
+2021-05-11 10:08:14,209 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="73b748ca-6ed4-41f3-8b52-0184d54d8826")>
+2021-05-11 10:08:14,209 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:14,957 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:08:14,957 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/rb_order_create_billing_time') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:15,520 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/rb_order_create_billing_time')
+2021-05-11 10:08:16,523 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:16,556 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行清空操作
+2021-05-11 10:08:17,678 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_service_money') 执行 输入：0.1
+2021-05-11 10:08:19,687 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:19,735 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行清空操作
+2021-05-11 10:08:20,255 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_order_create_demand') 执行 输入：随便看看
+2021-05-11 10:08:20,256 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:21,674 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_create_pay')
+2021-05-11 10:08:21,675 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:22,557 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_preview_issue')
+2021-05-11 10:08:24,734 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:24,809 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_popup_order_ok')
+2021-05-11 10:08:25,820 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="73b748ca-6ed4-41f3-8b52-0184d54d8826")>
+2021-05-11 10:08:25,820 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:25,920 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-05-11 10:08:25,921 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:28,055 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/ll_me_info_bill')
+2021-05-11 10:08:30,064 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:08:30,694 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', '//*[@text="对方已接单/未付款"]') 超时时间：0.2 访问频率：0.5
+2021-05-11 10:08:31,310 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="等待接单"]') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:32,240 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="等待接单"]')
+2021-05-11 10:08:32,241 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:32,824 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_check_off')
+2021-05-11 10:08:32,824 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/btn_pos') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:32,884 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/btn_pos')
+2021-05-11 10:08:32,885 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_order_details_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:34,875 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_order_details_back')
+2021-05-11 10:08:34,875 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back') 超时时间：10 访问频率：0.5
+2021-05-11 10:08:34,938 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_action_bar_menu_back')

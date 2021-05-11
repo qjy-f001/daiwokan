@@ -28,6 +28,7 @@ class GetDriver:
             # 中文
             caps['unicodeKeyboard'] = True
             caps['resetKeyboard'] = True
+            caps['automationName'] = 'UiAutomator2'
             cls.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
             # cls.driver.switch_to.alert
             # 重点：重点：不能缩进，必须和if判断持平
