@@ -512,6 +512,8 @@ add_hometown_information_details = By.XPATH, '//*[@text="资讯详情"]'
 
 # 收藏
 add_hometown_collection = By.XPATH, '//body//div//p[@class="footer-collection"]'
+
+# add_hometown_collection = By.XPATH, '//*[contains(@text,"收藏")]'
 # add_hometown_collection = (MobileBy.XPATH, "//*[contains(@text,'收藏')]")
 
 # 关注
@@ -520,10 +522,11 @@ add_hometown_information_collect = By.ID, 'com.qjy.teleeye:id/ll_info_collect_ma
 add_hometown_information_zx = By.XPATH, '//body//div[@class="van-tabs__content"]'
 
 # 取消收藏
-add_hometown_information_cancel_collection = By.XPATH, '//body//div//span[contains(text(),"收藏")]'
+add_hometown_cancel_collection = By.XPATH, '//body/div/div/div[2]/p[2][class="footer-collection"]'
 
 # 退出
 add_hometown_information_exit = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]'
+
 """以下为挣钱主页元素模块配置数据"""
 
 # 挣钱主页

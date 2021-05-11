@@ -254,8 +254,8 @@ class PageHometown(Base):
     def page_login_register_phone_back(self):
         self.base_click(page.login_register_phone_back)
 
-    def page_click_add_hometown_information_cancel_collection(self):
-        self.base_click(page.add_hometown_information_cancel_collection)
+    def page_click_add_hometown_cancel_collection(self):
+        self.base_click(page.add_hometown_cancel_collection)
 
     def page_click_add_hometown_information_zx2(self):
         self.base_click(page.add_hometown_information_exit)
@@ -352,19 +352,18 @@ class PageHometown(Base):
         self.base_click(page.add_hometown_dynamic)
         sleep(3)
         self.base_click(page.add_hometown_dynamic_details)
-        sleep(2)
-        self.base_click(page.add_hometown_information_details)
+        # sleep(2)
+        # self.base_click(page.add_hometown_information_details)
         # print("当前所有环境：", self.driver.contexts)
-        print(self.driver.page_source)
-        sleep(3)
-        self.page_swipe1()
+        # print(self.driver.page_source)
+        # sleep(3)
+        # self.page_swipe1()
         self.switch_app()
         sleep(1)
         # print("当前所有环境：", self.driver.contexts)
-        # self.driver.switch_to.context("WEBVIEW_com.qjy.teleeye")
+        self.driver.switch_to.context("WEBVIEW_com.qjy.teleeye")
         self.base_click(page.add_hometown_collection)
-
-        # self.driver.switch_to.context("NATIVE_APP")
+        self.driver.switch_to.context("NATIVE_APP")
         self.base_click(page.login_register_phone_back)
         sleep(1)
         self.base_click(page.login_register_phone_back)
@@ -372,18 +371,17 @@ class PageHometown(Base):
     # 取消关注的咨询
     def page_hometown_cancel_consulting(self):
         self.base_click(page.login_me)
-        # print("当前所有环境：", self.driver.context)
         self.base_click(page.add_hometown_information_collect)
         self.driver.switch_to.context("WEBVIEW_com.qjy.teleeye")
         # self.base_click(page.add_hometown_information_collect)
         self.base_click(page.add_hometown_information_zx)
-        sleep(3)
-        self.page_swipe1()
+        # sleep(3)
+        # self.page_swipe1()
         print("当前环境：", self.driver.context)
-        sleep(2)
-        self.driver.tap([(553, 1912)])
-        # self.base_click(page.add_hometown_information_cancel_collection)
-
+        # # sleep(2)
+        # self.driver.tap([(553, 1912)])
+        # self.driver.switch_to.context("NATIVE_APP")
+        self.base_click(page.add_hometown_cancel_collection)
         self.driver.switch_to.context("NATIVE_APP")
         sleep(1)
         self.base_click(page.login_register_phone_back)

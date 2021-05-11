@@ -50,7 +50,7 @@ class TestOrderPagination:
 
     # def test04_hometown_dynamic(self):
     #     self.hometown = PageIn().page_get_hometown()
-    #     self.hometown.page_hometown_consulting()
+    #     # self.hometown.page_hometown_consulting()
     #     self.hometown.page_hometown_cancel_consulting()
 
 
