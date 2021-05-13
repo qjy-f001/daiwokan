@@ -293,7 +293,7 @@ class PageHometown(Base):
     def page_my_hometown_order(self, money, demand):
         # self.base_click(page.add_billing_home_billing_time)
         # sleep(1)
-        self.base_click(page.hair_btn_pos)
+        # self.base_click(page.hair_btn_pos)
         self.base_input(page.add_billing_home_service_money, money)
         self.driver.implicitly_wait(2)
         self.base_input(page.add_billing_home_demand, demand)
@@ -381,7 +381,8 @@ class PageHometown(Base):
         # # sleep(2)
         # self.driver.tap([(553, 1912)])
         # self.driver.switch_to.context("NATIVE_APP")
-        self.base_click(page.add_hometown_cancel_collection)
+        sleep(3)
+        self.base_click_text("已收藏")
         self.driver.switch_to.context("NATIVE_APP")
         sleep(1)
         self.base_click(page.login_register_phone_back)

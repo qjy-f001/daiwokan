@@ -16,8 +16,8 @@ class GetDriver:
             caps['deviceName'] = '10826625'
             # # 夜神模拟器设备信息
             # caps['platformName'] = 'Android'
-            # caps['platformVersion'] = '5.1.1'
-            # caps['deviceName'] = '127.0.0.1:62001'
+            # caps['platformVersion'] = '9'
+            # caps['deviceName'] = '192.168.238.102:5555'
             # 逍遥游模拟器设备信息
             # caps['platformName'] = 'Android'
             # caps['platformVersion'] = '7.1.2'

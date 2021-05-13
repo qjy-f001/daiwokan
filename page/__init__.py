@@ -140,7 +140,7 @@ hair_choice_place_name = By.XPATH, '//*[@text="阿克塞哈萨克族自治县(�
 hair_map_use_location = By.ID, "com.qjy.teleeye:id/tv_help_map_use_location"
 
 # 疫情提示（知道了）
-hair_btn_pos = By.ID, "com.qjy.teleeye:id/btn_pos"
+# hair_btn_pos = By.ID, "com.qjy.teleeye:id/btn_pos"
 
 """以下为发服务模块配置数据"""
 
@@ -468,7 +468,7 @@ add_hometown_choice_picture = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/mR
 add_hometown_input_area = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[6]/android.view.View[3]/android.widget.EditText'
 
 # 输入转让费
-add_hometown_input_charge = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[7]/android.view.View[3]/android.widget.EditText'
+add_hometown_input_charge = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[7]/android.view.View[2]/android.widget.EditText'
 
 # 选择经营行业
 add_hometown_business = By.XPATH, '//*[@text="经营行业"]'
@@ -522,7 +522,7 @@ add_hometown_information_collect = By.ID, 'com.qjy.teleeye:id/ll_info_collect_ma
 add_hometown_information_zx = By.XPATH, '//body//div[@class="van-tabs__content"]'
 
 # 取消收藏
-add_hometown_cancel_collection = By.XPATH, '//body/div/div/div[2]/p[2][class="footer-collection"]'
+add_hometown_cancel_collection = By.XPATH, '/html/body/van-number-keyboard/div/div/div/div[2]/p[2]/span'
 
 # 退出
 add_hometown_information_exit = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]'

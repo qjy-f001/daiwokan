@@ -140,7 +140,7 @@ class PageCampus(Base):
         # self.base_click(page.add_high_school_icon)
         # self.base_click(page.add_high_school_release_order_web)
         self.base_click(page.add_high_school_release_order_android)
-        self.base_click(page.hair_btn_pos)
+        # self.base_click(page.hair_btn_pos)
         self.base_click(page.add_skill_share_minute_charging)
         self.base_input(page.add_billing_home_service_money, money)
         self.base_input(page.add_billing_home_demand, demand)

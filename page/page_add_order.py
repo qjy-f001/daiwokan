@@ -6,13 +6,13 @@ from base.base import Base
 
 class PageAddOrder(Base):
 
-    # def page_swipe(self):
-    #     # swipe 滑动
-    #     # count = 1
-    #     for x in range(3):
-    #         self.driver.swipe(1000, 1061, 100, 1061, duration=3000)
-    #         # sleep(1)
-    #         # count += 1  # 循环结束
+    def page_swipe(self):
+        # swipe 滑动
+        # count = 1
+        for x in range(3):
+            self.driver.swipe(1000, 1061, 100, 1061, duration=3000)
+            # sleep(1)
+            # count += 1  # 循环结束
 
     # 点击 同意并登陆
     def page_login_agree(self):
@@ -144,8 +144,8 @@ class PageAddOrder(Base):
         self.base_click(page.hair_return_Billing_record)
 
     # 输入 服务标题
-    def page_input_add_skill_service_description(self):
-        self.base_input(page.add_skill_service_description)
+    def page_input_add_skill_service_description(self, description):
+        self.base_input(page.add_skill_service_description, description)
 
     # 指定位置
     def page_click_hair_designated_location(self):
@@ -164,8 +164,8 @@ class PageAddOrder(Base):
         self.base_click(page.hair_map_use_location)
 
     # 疫情提示（知道了）
-    def page_click_hair_btn_pos(self):
-        self.base_click(page.hair_btn_pos)
+    # def page_click_hair_btn_pos(self):
+    #     self.base_click(page.hair_btn_pos)
 
     # 进入APP登陆页面
     def page_get_into_app(self):
@@ -211,7 +211,7 @@ class PageAddOrder(Base):
         self.base_click(page.hair_big_school)
         self.base_click(page.hair_bj_university)
         self.base_click(page.hai_details_launch)
-        self.base_click(page.hair_btn_pos)
+        # self.base_click(page.hair_btn_pos)
         self.base_input(page.hair_service_input_box, money)
         self.base_input(page.hair_requirement_input_box, demand)
         self.base_click(page.hair_next_step)

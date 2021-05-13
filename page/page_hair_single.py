@@ -180,7 +180,7 @@ class PageHairSingle(Base):
         sleep(1)
         self.base_input(page.add_billing_home_baidumap_search, search)
         self.base_click(page.add_billing_home_search_content)
-        self.base_click(page.hair_btn_pos)
+        # self.base_click(page.hair_btn_pos)
         self.base_click(page.add_billing_home_billing_time)
         sleep(1)
         self.base_input(page.add_billing_home_service_money, money)
@@ -195,7 +195,7 @@ class PageHairSingle(Base):
 
     # 组合发单分页输入订单信息业务
     def page_add_recommendation_order(self, money, demand, ):
-        self.base_click(page.hair_btn_pos)
+        # self.base_click(page.hair_btn_pos)
         self.base_click(page.add_billing_home_billing_time)
         sleep(1)
         self.base_input(page.add_billing_home_service_money, money)
@@ -211,7 +211,7 @@ class PageHairSingle(Base):
         self.base_click(page.hair_letter)
         self.base_click(page.add_billing_home_page)
         self.base_click(page.add_billing_home_use_location)
-        self.base_click(page.hair_btn_pos)
+        # self.base_click(page.hair_btn_pos)
         self.base_click(page.hair_designated_location)
         self.base_click(page.hair_menu_next)
         self.base_click(page.hair_choice_place_name)

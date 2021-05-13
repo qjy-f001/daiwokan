@@ -6,9 +6,12 @@
       <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_add_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_add_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_campus.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_campus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_hair_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hair_single.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/page_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hometown.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_hometown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/get_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/get_driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +161,7 @@
       <workItem from="1619495638792" duration="15190000" />
       <workItem from="1620351184385" duration="1286000" />
       <workItem from="1620356282825" duration="8040000" />
-      <workItem from="1620616622812" duration="12912000" />
+      <workItem from="1620616622812" duration="23063000" />
     </task>
     <task id="LOCAL-00001" summary="取消该测试方法">
       <created>1610934860704</created>
@@ -496,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620701587146</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="默认更改列表">
+      <created>1620718052732</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1620718052732</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
