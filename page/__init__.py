@@ -409,7 +409,7 @@ add_hometown_olympic_village_street = By.XPATH, '//*[@text="多福巷社区"]'
 
 
 # 选择此处为我的家乡
-add_hometown_choose_here_as_my_hometown = By.XPATH, '//android.widget.Image'
+add_hometown_choose_here_as_my_hometown = By.XPATH, '//*[@resource-id="app"]/android.view.View[5]'
 
 # 发布带看订单（web）
 add_hometown_publish_with_order_web = By.XPATH, '//*[@text="带我看"]'
