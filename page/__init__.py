@@ -652,4 +652,59 @@ position_manage_spot_search = By.ID, "com.qjy.teleeye:id/et_spot_search"
 position_manage_spot_add = By.ID, "com.qjy.teleeye:id/tv_spot_add"
 
 # 景区添加新的景点
-position_manage_spot_add_nuw = By.ID, "com.qjy.teleeye:id/tv_action_bar_menu_next"
+position_manage_spot_add_nuw = "com.qjy.teleeye:id/tv_action_bar_menu_next"
+
+
+"""以下为聊天元素模块配置数据"""
+
+
+# 消息主页
+chat = By.ID, "com.qjy.teleeye:id/iv_tabbar_goods"
+
+# 第一条通话信息
+chat_information = By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[5]'
+
+# 用户头像
+chat_portrait = By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.widget.Image'
+
+# 聊一聊
+chat_have_a_chat = By.XPATH, '//*[@text="聊一聊"]'
+
+# resource-id
+# com.qjy.teleeye:id/tv_action_bar_menu_back
+#
+# resource-id
+# com.qjy.teleeye:id/tv_action_bar_menu_back
+#
+# resource-id
+# com.qjy.teleeye:id/tv_action_bar_menu_back
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

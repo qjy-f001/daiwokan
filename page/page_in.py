@@ -7,6 +7,7 @@ from page.page_hometown import PageHometown
 from page.page_campus import PageCampus
 from page.page_position import PagePosition
 from tool.get_driver import GetDriver
+from page.page_chat import PageChat
 
 
 class PageIn:
@@ -44,3 +45,7 @@ class PageIn:
     # 获取 位置管理页面对象
     def page_get_position(self):
         return PagePosition(self.driver)
+
+    # 获取 聊天页面对象
+    def page_get_chat(self):
+        return PageChat(self.driver)
