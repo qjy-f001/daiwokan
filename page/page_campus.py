@@ -122,7 +122,9 @@ class PageCampus(Base):
         self.driver.wait_activity(".ui.HomePageActivity", 2)
         # i = self.driver.page_source
         # print(i)
-        self.base_click(page.add_high_school_icon)
+        sleep(2)
+        self.driver.tap([(985, 1674)])
+        # self.base_click(page.add_high_school_icon)
         self.base_click(page.add_high_school_modify)
         sleep(2)
         self.driver.tap([(154, 599)])
