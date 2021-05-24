@@ -1,3 +1,5 @@
+from time import sleep
+
 import page
 from base.base import Base
 from tool.get_log import GetLog
@@ -33,5 +35,7 @@ class PageChat(Base):
         self.base_click(page.chat_information)
         self.base_click(page.chat_portrait)
         # self.base_click(page.chat_have_a_chat)
+        sleep(1)
         self.base_click(page.login_register_phone_back)
+        sleep(1)
         self.base_click(page.login_register_phone_back)

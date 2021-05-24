@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/page_campus.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_campus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -163,14 +162,11 @@
       <workItem from="1619495638792" duration="15190000" />
       <workItem from="1620351184385" duration="1286000" />
       <workItem from="1620356282825" duration="8040000" />
-      <workItem from="1620616622812" duration="45357000" />
-    </task>
-    <task id="LOCAL-00004" summary="取消该测试方法">
-      <created>1611034666713</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1611034666713</updated>
+      <workItem from="1620616622812" duration="47158000" />
+      <workItem from="1621562690976" duration="1955000" />
+      <workItem from="1621580888754" duration="597000" />
+      <workItem from="1621819976878" duration="1376000" />
+      <workItem from="1621848119653" duration="603000" />
     </task>
     <task id="LOCAL-00005" summary="取消该测试方法">
       <created>1611043286073</created>
@@ -508,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621391313752</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="默认更改列表">
+      <created>1621478829916</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1621478829916</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
