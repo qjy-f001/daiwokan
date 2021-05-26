@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/page_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hometown.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_hometown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,21 +166,7 @@
       <workItem from="1621562690976" duration="1955000" />
       <workItem from="1621580888754" duration="597000" />
       <workItem from="1621819976878" duration="1376000" />
-      <workItem from="1621848119653" duration="9562000" />
-    </task>
-    <task id="LOCAL-00009" summary="取消该测试方法">
-      <created>1611315852187</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1611315852187</updated>
-    </task>
-    <task id="LOCAL-00010" summary="取消该测试方法">
-      <created>1611315888683</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1611315888683</updated>
+      <workItem from="1621848119653" duration="11038000" />
     </task>
     <task id="LOCAL-00011" summary="取消该测试方法">
       <created>1611315899806</created>
@@ -512,7 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621923332555</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="默认更改列表">
+      <created>1622026868890</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1622026868891</updated>
+    </task>
+    <task id="LOCAL-00059" summary="默认更改列表">
+      <created>1622026905887</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1622026905887</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
