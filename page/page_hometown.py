@@ -264,6 +264,7 @@ class PageHometown(Base):
     def page_my_hometown(self):
         self.base_click(page.hair_letter)
         self.base_click(page.add_hometown)
+        sleep(2)
         self.base_click(page.add_hometown_my)
         sleep(2)
         self.base_click(page.add_hometown_whole_country)
@@ -278,8 +279,8 @@ class PageHometown(Base):
         self.base_click(page.add_hometown_township)
         sleep(2)
         self.base_click(page.add_hometown_olympic_village_street)
-        self.driver.implicitly_wait(2)
-        self.base_click(page.add_hometown_choose_here_as_my_hometown)
+        # self.driver.implicitly_wait(2)
+        # self.base_click(page.add_hometown_choose_here_as_my_hometown)
 
     # 组合我的家乡页面业务方法
     def page_my_hometown_modify(self):
