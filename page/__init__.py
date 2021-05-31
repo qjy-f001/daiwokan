@@ -527,6 +527,72 @@ add_hometown_cancel_collection = By.XPATH, '/html/body/van-number-keyboard/div/d
 # 退出
 add_hometown_information_exit = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]'
 
+# --------------------------------------
+# 本地好店
+home_shop = By.XPATH, '//*[@text="本地好店"]'
+
+# 发布
+home_shop_release = By.XPATH, '//*[@text="立即免费开店"]'
+
+# 商户名称
+home_trade_name = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[2]/android.view.View[3]/android.widget.EditText'
+
+# 店铺介绍
+home_shop_introduction = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[6]/android.view.View[2]/android.widget.EditText[1]'
+
+# 经营类别
+home_business_category = By.XPATH, '//*[@text="请正确选择>"]'
+
+# 小吃店
+home_business_snack_bar = By.XPATH, '//*[@text="小吃店"]'
+
+# 完成
+home_business_complete = By.XPATH, '//*[@text="完成"]'
+
+# 地址
+home_shop_address = By.XPATH, '//*[@text="定位并选择>"]'
+
+# 商户电话（选填)
+home_merchant_telephone = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[9]/android.view.View[2]'
+
+# 我的店铺
+home_my_stores = By.XPATH, '//*[@text="我的店铺"]'
+
+# 删除店铺
+home_dle_stores = By.XPATH, '//*[@text="删除"]'
+
+# 商品管理
+home_stores_administration = By.XPATH, '//*[@text="商品管理"]'
+
+# 商品
+home_commodity = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]'
+
+# 发布按钮
+home_commodity_release = By.XPATH, '//*[@text="发布"]'
+
+# --------------------------
+
+# 发布+
+home_release = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.widget.Image[1]'
+
+# 图文动态
+home_chart_dynamic = By.XPATH, '//*[@text="图文动态"]'
+
+# 选择图片
+home_choice_picture = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/mRecyclerView"]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.CheckBox[1]'
+
+# 完成
+home_complete = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/tv_rightBtn"]'
+
+# 输入动图信息
+home_input_dynamic_information = By.XPATH, '//*[@resource-id="app"]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1]'
+
+# 输入描述
+home_input_describe = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[4]/android.view.View/android.widget.EditText'
+
+# 发布
+home_dynamic_release = By.XPATH, '//*[@text="发布"]'
+
 """以下为挣钱主页元素模块配置数据"""
 
 # 挣钱主页
@@ -654,18 +720,16 @@ position_manage_spot_add = By.ID, "com.qjy.teleeye:id/tv_spot_add"
 # 景区添加新的景点
 position_manage_spot_add_nuw = "com.qjy.teleeye:id/tv_action_bar_menu_next"
 
-
 """以下为聊天元素模块配置数据"""
-
 
 # 消息主页
 chat = By.ID, "com.qjy.teleeye:id/iv_tabbar_goods"
 
 # 第一条通话信息
-chat_information = By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[5]'
+chat_information = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[5]'
 
 # 用户头像
-chat_portrait = By.XPATH,'//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Image[1]'
+chat_portrait = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Image[1]'
 # 聊一聊
 chat_have_a_chat = By.XPATH, '//*[@text="聊一聊"]'
 
@@ -677,33 +741,3 @@ chat_have_a_chat = By.XPATH, '//*[@text="聊一聊"]'
 #
 # resource-id
 # com.qjy.teleeye:id/tv_action_bar_menu_back
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -27,6 +27,7 @@ class PageHometown(Base):
         endy = height * 0.20
         self.driver.swipe(x, starty, x, endy, 500)
 
+    # 点击 	仅在使用中允许(定位)
     def page_login_location(self):
         for x in range(3):
             self.base_click(page.login_location)
@@ -260,6 +261,90 @@ class PageHometown(Base):
     def page_click_add_hometown_information_zx2(self):
         self.base_click(page.add_hometown_information_exit)
 
+    # 本地好店
+    def page_click_home_shop(self):
+        self.base_click(page.home_shop)
+
+    # 发布
+    def page_click_home_shop_release(self):
+        self.base_click(page.home_shop_release)
+
+    # 商品名称
+    def page_input_home_trade_name(self, name):
+        self.base_input(page.home_trade_name, name)
+
+    # 店铺介绍
+    def page_click_home_shop_introduction(self, introduce):
+        self.base_input(page.home_shop_introduction, introduce)
+
+    # 经营类别
+    def page_click_home_business_category(self):
+        self.base_click(page.home_business_category)
+
+    # 小吃店
+    def page_click_home_business_snack_bar(self):
+        self.base_click(page.home_business_snack_bar)
+
+    # 完成
+    def page_click_home_business_complete(self):
+        self.base_click(page.home_business_complete)
+
+    # 地址
+    def page_click_home_shop_address(self):
+        self.base_click(page.home_shop_address)
+        # 点击选择此位置
+
+    def page_click_position_manage_choice_position(self):
+        self.base_click(page.position_manage_choice_position)
+
+    # 商户电话（选填)
+    def page_click_home_merchant_telephone(self):
+        self.base_click(page.home_merchant_telephone)
+
+    # 删除店铺
+    def page_click_home_dle_stores(self):
+        self.base_click(page.home_dle_stores)
+
+    # 商品管理
+    def page_click_home_stores_administration(self):
+        self.base_click(page.home_stores_administration)
+
+    # 商品
+    def page_click_home_commodity(self):
+        self.base_click(page.home_commodity)
+
+    # 发布按钮
+    def page_click_home_commodity_release(self):
+        self.base_click(page.home_commodity_release)
+
+    # 发布+
+    def page_click_home_release(self):
+        self.base_click(page.home_release)
+
+    # 图文动态
+    def page_click_home_chart_dynamic(self):
+        self.base_click(page.home_chart_dynamic)
+
+    # 选择图片
+    def page_click_home_choice_picture(self):
+        self.base_click(page.home_choice_picture)
+
+    # # 完成
+    def page_click_home_complete(self):
+        self.base_click(page.home_complete)
+
+    # 输入动图信息
+    def page_input_home_input_dynamic_information(self, information):
+        self.base_input(page.home_input_dynamic_information, information)
+
+    # 发布按钮
+    def page_input_home_input_describe(self, describe):
+        self.base_input(page.home_input_describe, describe)
+
+    # 发布按钮
+    def page_click_home_dynamic_release(self):
+        self.base_click(page.home_dynamic_release)
+
     # 组合修改我的家乡业务方法
     def page_my_hometown(self):
         self.base_click(page.hair_letter)
@@ -336,6 +421,7 @@ class PageHometown(Base):
         sleep(1)
         self.base_click(page.add_hometown_submit)
 
+    # 删除动态业务方法
     def page_hometown_delete_dynamic(self):
         self.base_click(page.login_me)
         self.base_click(page.add_hometown_personal_center)
@@ -389,3 +475,38 @@ class PageHometown(Base):
         self.base_click(page.login_register_phone_back)
         self.base_click(page.add_hometown_information_exit)
         # self.base_click(page.login_register_phone_back)
+
+    # 本地好店业务方法
+    def page_local_stores(self, name, introduce):
+        self.driver.implicitly_wait(5)
+        self.base_click(page.hair_letter)
+        self.base_click(page.add_hometown)
+        self.base_click(page.home_shop)
+        self.base_click(page.home_shop_release)
+        self.base_input(page.home_trade_name, name)
+        self.base_input(page.home_shop_introduction, introduce)
+        self.base_click(page.home_business_category)
+        self.base_click(page.home_business_snack_bar)
+        self.base_click(page.home_business_complete)
+        self.base_click(page.home_shop_address)
+        self.base_click(page.position_manage_choice_position)
+        self.driver.swipe(320, 1733, 320, 1460)
+        self.base_click(page.home_commodity_release)
+
+    # 图文动态业务方法
+    def page_chart_dynamic(self, information, describe):
+        self.driver.implicitly_wait(5)
+        self.base_click(page.hair_letter)
+        self.base_click(page.add_hometown)
+        self.base_click(page.home_release)
+        self.base_click(page.home_chart_dynamic)
+        self.base_click(page.login_location)
+        self.base_click(page.login_location)
+        self.base_click(page.home_release)
+        self.base_click(page.home_chart_dynamic)
+        self.base_click(page.home_choice_picture)
+        self.base_click(page.home_complete)
+        self.base_input(page.home_input_dynamic_information, information)
+        sleep(2)
+        self.base_input(page.home_input_describe, describe)
+        self.base_click(page.home_dynamic_release)

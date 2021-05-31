@@ -34,6 +34,6 @@ class TestAddOrder:
         # 关闭driver驱动对象
         GetDriver.quit_driver()
 
-    def test01_chat(self):
-        self.chat = PageIn().page_get_chat()
-        self.chat.page_chat_combination()
+    # def test01_chat(self):
+    #     self.chat = PageIn().page_get_chat()
+    #     self.chat.page_chat_combination()
