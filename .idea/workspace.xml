@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/page_hair_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hair_single.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_add_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_add_order.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/page_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hometown.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_chat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/test_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_hometown.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +52,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/page/page_hometown.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/test_hometown.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
@@ -173,14 +171,9 @@
       <workItem from="1621580888754" duration="597000" />
       <workItem from="1621819976878" duration="1376000" />
       <workItem from="1621848119653" duration="20832000" />
-      <workItem from="1622425391966" duration="6793000" />
-    </task>
-    <task id="LOCAL-00012" summary="取消该测试方法">
-      <created>1611660027577</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1611660027578</updated>
+      <workItem from="1622425391966" duration="6911000" />
+      <workItem from="1622444959591" duration="15581000" />
+      <workItem from="1622700331165" duration="9949000" />
     </task>
     <task id="LOCAL-00013" summary="取消该测试方法">
       <created>1612169271933</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622028467438</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="默认更改列表">
+      <created>1622444927491</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1622444927492</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">

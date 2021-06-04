@@ -570,13 +570,23 @@ home_commodity = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android
 # 发布按钮
 home_commodity_release = By.XPATH, '//*[@text="发布"]'
 
-# --------------------------
+# 家乡风景--------------------------
 
 # 发布+
-home_release = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.widget.Image[1]'
+home_release = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.widget.Image[1]'
 
-# 图文动态
-home_chart_dynamic = By.XPATH, '//*[@text="图文动态"]'
+# 家乡风景
+home_scenery = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View[2]/android.view.View[3]/android.view.View/android.view.View/android.widget.Image'
+
+# 发布家乡风景
+home_release_scenery = By.XPATH, '//*[@text="发布家乡风景"]'
+
+# 选择图片
+home_picture_video = By.XPATH, '//*[@text="图片/视频"]'
+
+# 选照片
+home_choose_photo = By.XPATH, '//*[@text="选照片"]'
+
 
 # 选择图片
 home_choice_picture = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/mRecyclerView"]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.CheckBox[1]'
@@ -585,13 +595,13 @@ home_choice_picture = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/mRecyclerV
 home_complete = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/tv_rightBtn"]'
 
 # 输入动图信息
-home_input_dynamic_information = By.XPATH, '//*[@resource-id="app"]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1]'
+home_input_dynamic_information = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.EditText'
 
 # 输入描述
-home_input_describe = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[4]/android.view.View/android.widget.EditText'
+home_input_describe = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[2]/android.widget.EditText'
 
 # 发布
-home_dynamic_release = By.XPATH, '//*[@text="发布"]'
+home_dynamic_release = By.XPATH, '//*[@text="提交"]'
 
 """以下为挣钱主页元素模块配置数据"""
 

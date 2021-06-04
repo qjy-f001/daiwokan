@@ -28,9 +28,37 @@ class PageHometown(Base):
         self.driver.swipe(x, starty, x, endy, 500)
 
     # 点击 	仅在使用中允许(定位)
-    def page_login_location(self):
-        for x in range(3):
-            self.base_click(page.login_location)
+    def page_login_locations(self):
+        # # for x in range(3):
+        # self.base_get_texts_click(page.login_location())
+        # self.base_get_texts_click("仅在使用中允许")
+        # self.base_click(page.login_location)
+        # self.base_get_texts_click("仅在使用中允许")
+        try:
+            self.base_finds("仅在使用中允许", timeout=2)
+            return True
+        except:
+            return False
+
+    def page_login_location1(self):
+        el = self.page_login_locations()
+        while len(el):
+            if el == True:
+                self.base_click(page.login_location)
+                # self.base_get_texts_click("仅在使用中允许")
+            else:
+                break
+            # for i in el:
+            #     i = self.base_click(page.page_login_locations())
+            #     if i == False:
+            #         break
+
+        #     self.base_click(page.login_location)
+        # elif self.page_login_location() == False:
+        #     break
+
+    # # for x in range(3):
+    # self.base_click(page.login_location)
 
     def page_swipe(self):
         # for x in range(3):
@@ -321,9 +349,9 @@ class PageHometown(Base):
     def page_click_home_release(self):
         self.base_click(page.home_release)
 
-    # 图文动态
-    def page_click_home_chart_dynamic(self):
-        self.base_click(page.home_chart_dynamic)
+    # 家乡风景
+    def page_click_home_scenery(self):
+        self.base_click(page.home_scenery)
 
     # 选择图片
     def page_click_home_choice_picture(self):
@@ -344,6 +372,10 @@ class PageHometown(Base):
     # 发布按钮
     def page_click_home_dynamic_release(self):
         self.base_click(page.home_dynamic_release)
+
+    # 点击 	仅在使用中允许(定位)
+    def page_login_location(self):
+        self.base_click(page.login_location)
 
     # 组合修改我的家乡业务方法
     def page_my_hometown(self):
@@ -413,7 +445,11 @@ class PageHometown(Base):
         self.base_click(page.add_hometown_complete)
         self.base_input(page.add_hometown_input_phone, phone)
         self.base_click(page.add_hometown_up_image)
-        self.page_login_location()
+        # self.page_login_location1()
+
+        self.base_click(page.login_location)
+        self.base_click(page.login_location)
+
         self.base_click(page.add_hometown_take_a_picture)
         self.base_click(page.add_hometown_camera)
         self.base_click(page.add_hometown_shot)
@@ -499,11 +535,15 @@ class PageHometown(Base):
         self.base_click(page.hair_letter)
         self.base_click(page.add_hometown)
         self.base_click(page.home_release)
-        self.base_click(page.home_chart_dynamic)
-        self.base_click(page.login_location)
-        self.base_click(page.login_location)
-        self.base_click(page.home_release)
-        self.base_click(page.home_chart_dynamic)
+        self.base_click(page.home_scenery)
+        # self.base_click(page.home_release)
+        self.base_click(page.home_release_scenery)  # 发布家乡风景
+        self.base_click(page.home_picture_video)  # 选择图片
+
+        # self.base_click(page.login_location)
+        # self.base_click(page.login_location)
+
+        self.base_click(page.home_choose_photo)  # 选照片
         self.base_click(page.home_choice_picture)
         self.base_click(page.home_complete)
         self.base_input(page.home_input_dynamic_information, information)
