@@ -9,9 +9,14 @@ from appium.webdriver.mobilecommand import MobileCommand
 
 import page
 from base.base import Base
+from selenium import webdriver
 
 
 class PageHometown(Base):
+
+    # def __init__(self):
+    #     self.page_login_locations() = login_locations
+
     def switch_h5(self):
         self.driver.execute(MobileCommand.SWITCH_TO_CONTEXT, {"name": "WEBVIEW_com.tencent.mobileqq:mini"})
 
@@ -29,36 +34,36 @@ class PageHometown(Base):
 
     # 点击 	仅在使用中允许(定位)
     def page_login_locations(self):
-        # # for x in range(3):
-        # self.base_get_texts_click(page.login_location())
-        # self.base_get_texts_click("仅在使用中允许")
         # self.base_click(page.login_location)
         # self.base_get_texts_click("仅在使用中允许")
         try:
-            self.base_finds("仅在使用中允许", timeout=2)
+            self.base_finds(page.login_location, timeout=2)
             return True
         except:
             return False
 
     def page_login_location1(self):
-        el = self.page_login_locations()
-        while len(el):
-            if el == True:
-                self.base_click(page.login_location)
-                # self.base_get_texts_click("仅在使用中允许")
+        self.driver.implicitly_wait(5)
+        q = self.page_login_locations()
+        if self.page_login_locations() == True:
+            self.base_click(page.login_location)
+            if q == True:
+                self.page_login_location1()
+                # break
             else:
-                break
-            # for i in el:
-            #     i = self.base_click(page.page_login_locations())
-            #     if i == False:
-            #         break
+                pass
+                # break
+        else:
+            pass
+            # break
+
+        # el = self.base_get_list_text(page.login_location)
+        # for i in range(len(el)):
+        #     self.base_click(page.login_location)
 
         #     self.base_click(page.login_location)
         # elif self.page_login_location() == False:
         #     break
-
-    # # for x in range(3):
-    # self.base_click(page.login_location)
 
     def page_swipe(self):
         # for x in range(3):
@@ -447,8 +452,9 @@ class PageHometown(Base):
         self.base_click(page.add_hometown_up_image)
         # self.page_login_location1()
 
-        self.base_click(page.login_location)
-        self.base_click(page.login_location)
+        # self.base_click(page.login_location)
+        # self.base_click(page.login_location)
+        self.page_login_location1()
 
         self.base_click(page.add_hometown_take_a_picture)
         self.base_click(page.add_hometown_camera)
@@ -526,8 +532,13 @@ class PageHometown(Base):
         self.base_click(page.home_business_complete)
         self.base_click(page.home_shop_address)
         self.base_click(page.position_manage_choice_position)
-        self.driver.swipe(320, 1733, 320, 1460)
+        self.driver.swipe(320, 1800, 320, 1460)
         self.base_click(page.home_commodity_release)
+        # self.base_click(page.home_commodity_release)
+
+        self.base_click(page.position_manage_back)
+        self.base_click(page.home_commodity_signout)
+
 
     # 图文动态业务方法
     def page_chart_dynamic(self, information, describe):
@@ -542,6 +553,7 @@ class PageHometown(Base):
 
         # self.base_click(page.login_location)
         # self.base_click(page.login_location)
+        self.page_login_location1()
 
         self.base_click(page.home_choose_photo)  # 选照片
         self.base_click(page.home_choice_picture)

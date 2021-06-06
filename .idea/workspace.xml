@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/page_add_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_add_order.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/page_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hometown.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_hometown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_add_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test02_add_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_add_skiil.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test03_add_skiil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_campus.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test05_campus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_hair_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test07_hair_single.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test04_hometown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test01_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_position.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test06_position.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_recommend.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test08_recommend.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +61,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/scripts/test04_hometown.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/page/page_hometown.py" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/scripts/test_hometown.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -127,6 +136,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -174,6 +184,7 @@
       <workItem from="1622425391966" duration="6911000" />
       <workItem from="1622444959591" duration="15581000" />
       <workItem from="1622700331165" duration="9949000" />
+      <workItem from="1622863179946" duration="10015000" />
     </task>
     <task id="LOCAL-00013" summary="取消该测试方法">
       <created>1612169271933</created>

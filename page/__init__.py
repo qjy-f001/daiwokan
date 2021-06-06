@@ -570,6 +570,8 @@ home_commodity = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android
 # 发布按钮
 home_commodity_release = By.XPATH, '//*[@text="发布"]'
 
+#
+home_commodity_signout = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]'
 # 家乡风景--------------------------
 
 # 发布+
