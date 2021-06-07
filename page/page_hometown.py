@@ -457,7 +457,7 @@ class PageHometown(Base):
         self.page_login_location1()
 
         self.base_click(page.add_hometown_take_a_picture)
-        self.base_click(page.add_hometown_camera)
+        # self.base_click(page.add_hometown_camera)
         self.base_click(page.add_hometown_shot)
         self.base_click(page.add_hometown_ok_picture)
         sleep(1)

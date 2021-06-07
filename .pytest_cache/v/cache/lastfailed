@@ -1,5 +1,5 @@
 {
-  "scripts/test_chat.py::TestAddOrder::test01_chat": true,
+  "scripts/test04_hometown.py::TestOrderPagination::test06_page_chart_dynamic": true,
   "scripts/test_hair_single.py::TestOrderPagination::()::test3_page_earn_money_order": true,
   "scripts/test_hair_single.py::TestOrderPagination::()::test4": true,
   "scripts/test_hair_single.py::TestOrderPagination::()::test_order_pagination[\\u897f\\u4e8c\\u65d7-0.1-\\u968f\\u4fbf\\u770b\\u770b-\\u5e26\\u6211\\u770b>\\u897f\\u4e8c\\u65d7-\\u5730\\u94c1\\u7ad9]": true,

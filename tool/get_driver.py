@@ -12,7 +12,7 @@ class GetDriver:
             caps = {}
             # 设备信息
             caps['platformName'] = 'Android'
-            caps['platformVersion'] = '10'
+            caps['platformVersion'] = '11'
             caps['deviceName'] = '10826625'
             # # 夜神模拟器设备信息
             # caps['platformName'] = 'Android'

@@ -453,10 +453,10 @@ add_hometown_take_a_picture = By.XPATH, '//*[@text="拍一张"]'
 add_hometown_camera = By.XPATH, '//*[@text="相机"]'
 
 # 拍摄
-add_hometown_shot = By.ID, "com.android.camera:id/v9_shutter_button_internal"
+add_hometown_shot = By.ID, "com.android.camera:id/shutter_button_horizontal"
 
 # 确认图片
-add_hometown_ok_picture = By.ID, "com.android.camera:id/intent_done_apply"
+add_hometown_ok_picture = By.ID, "com.android.camera:id/done_button"
 
 # 点击图片
 add_hometown_up_picture = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/bt_addimage_photo"]'
