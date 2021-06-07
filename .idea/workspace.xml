@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/test04_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test04_hometown.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,13 +167,6 @@
       <workItem from="1622425391966" duration="6911000" />
       <workItem from="1622444959591" duration="15581000" />
       <workItem from="1622700331165" duration="9949000" />
-    </task>
-    <task id="LOCAL-00013" summary="取消该测试方法">
-      <created>1612169271933</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1612169271933</updated>
     </task>
     <task id="LOCAL-00014" summary="取消该测试方法">
       <created>1612171706691</created>
@@ -514,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622444927492</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="默认更改列表">
+      <created>1623030007815</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1623030007816</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">

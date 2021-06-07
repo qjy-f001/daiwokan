@@ -11,6 +11,8 @@ from tool.read_yaml import read_yaml
 from page.page_in import PageIn
 from tool.get_driver import GetDriver
 
+log = GetLog.get_log()
+
 
 class TestOrderPagination:
     # 初始化
@@ -65,4 +67,3 @@ class TestOrderPagination:
         self.hometown = PageIn().page_get_hometown()
         self.hometown.page_chart_dynamic(information, describe)
         self.hometown.page_hometown_delete_dynamic()
-
