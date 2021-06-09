@@ -32,18 +32,18 @@ class TestOrderPagination:
         # 关闭driver驱动对象
         GetDriver.quit_driver()
 
-    # @pytest.mark.parametrize("search,money, demand,expect", get_data())
-    # def test1_order_pagination(self, search, money, demand, expect):
-    #     self.order_pagination = PageIn().page_get_page_hair_single()
-    #     self.order_pagination.page_click_hair_letter()
-    #     self.order_pagination.page_add_billing_home_combination(search, money, demand, expect)
-    #     # 取消订单
-    #     self.hair = PageIn().page_get_page_add_order()
-    #     sleep(1)
-    #     self.hair.page_login_me()
-    #     self.hair.page_click_hair_billing_record()
-    #     sleep(2)
-    #     self.hair.if_order()
+    @pytest.mark.parametrize("search,money, demand,expect", get_data())
+    def test1_order_pagination(self, search, money, demand, expect):
+        self.order_pagination = PageIn().page_get_page_hair_single()
+        self.order_pagination.page_click_hair_letter()
+        self.order_pagination.page_add_billing_home_combination(search, money, demand, expect)
+        # 取消订单
+        self.hair = PageIn().page_get_page_add_order()
+        sleep(1)
+        self.hair.page_login_me()
+        self.hair.page_click_hair_billing_record()
+        sleep(2)
+        self.hair.if_order()
 
     def test2_add_hair(self, money="0.1", demand="随便看看"):
         self.page_order_pagination = PageIn().page_get_page_hair_single()

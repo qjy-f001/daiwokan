@@ -537,6 +537,7 @@ class PageHometown(Base):
         # self.base_click(page.home_commodity_release)
 
         self.base_click(page.position_manage_back)
+        sleep(2)
         self.base_click(page.home_commodity_signout)
 
 

@@ -26,17 +26,17 @@ class TestCampus:
         # 关闭driver驱动对象
         GetDriver.quit_driver()
 
-    def test_campus(self, qh="清华大学"):
-        self.test_high_school = PageIn().page_get_campus()
-        # 修改我的母校
-        self.test_high_school.page_modify_my_school(qh)
-
-    def test_campus_order(self, money="0.1", demand="随便看看"):
-        self.test_high_school = PageIn().page_get_campus()
-        # 导入我的家乡发单业务
-        self.test_high_school.page_my_school_order(money, demand)
-        self.hair = PageIn().page_get_page_add_order()
-        # 删除我的订单
-        self.hair.page_login_me()
-        self.hair.page_click_hair_billing_record()
-        self.hair.if_order()
+    # def test_campus(self, qh="清华大学"):
+    #     self.test_high_school = PageIn().page_get_campus()
+    #     # 修改我的母校
+    #     self.test_high_school.page_modify_my_school(qh)
+    #
+    # def test_campus_order(self, money="0.1", demand="随便看看"):
+    #     self.test_high_school = PageIn().page_get_campus()
+    #     # 导入我的家乡发单业务
+    #     self.test_high_school.page_my_school_order(money, demand)
+    #     self.hair = PageIn().page_get_page_add_order()
+    #     # 删除我的订单
+    #     self.hair.page_login_me()
+    #     self.hair.page_click_hair_billing_record()
+    #     self.hair.if_order()

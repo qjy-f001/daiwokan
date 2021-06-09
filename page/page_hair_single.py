@@ -208,6 +208,7 @@ class PageHairSingle(Base):
 
     # 发单主页地图指定组合业务
     def page_hair_map_assignment(self, money, demand):
+        self.driver.implicitly_wait(2)
         self.base_click(page.hair_letter)
         self.base_click(page.add_billing_home_page)
         self.base_click(page.add_billing_home_use_location)
