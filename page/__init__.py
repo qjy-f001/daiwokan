@@ -34,7 +34,7 @@ login_login_other = By.ID, "com.qjy.teleeye:id/tv_chat_rests_login"
 login_nickname = By.ID, "com.qjy.teleeye:id/tv_info_head_name"
 
 # 点击 配置
-login_setting = By.ID, "com.qjy.teleeye:id/tv_me_setting"
+login_setting = By.ID, "com.qjy.teleeye:id/iv_info_user_setting"
 
 # 点击 点击退出登录
 login_log_out = By.ID, "com.qjy.teleeye:id/rl_config_log_out"

@@ -31,10 +31,10 @@ dwk_login_006:
 dwk_login_007:
   username: "13511112222"
   pwd: "123456 "
-  expect: "密码错误"
+  expect: "密码输入有误，请重新输入"
   success: "2"
 dwk_login_08:
-  username: "13512341234"
+  username: "18011110000"
   pwd: "123456"
   expect: "注册新账号"
   success: "3"

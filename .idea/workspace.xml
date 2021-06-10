@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
+      <change beforePath="$PROJECT_DIR$/.idea/daiwokan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/daiwokan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/add_order.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/add_order.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/login.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test01_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test01_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +55,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/page/page_hometown.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scripts/test04_hometown.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -121,6 +129,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -168,7 +177,42 @@
       <workItem from="1622425391966" duration="6911000" />
       <workItem from="1622444959591" duration="15581000" />
       <workItem from="1622700331165" duration="9949000" />
-      <workItem from="1623309587078" duration="2830000" />
+      <workItem from="1622863179946" duration="10015000" />
+    </task>
+    <task id="LOCAL-00013" summary="取消该测试方法">
+      <created>1612169271933</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612169271933</updated>
+    </task>
+    <task id="LOCAL-00014" summary="取消该测试方法">
+      <created>1612171706691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612171706691</updated>
+    </task>
+    <task id="LOCAL-00015" summary="取消该测试方法">
+      <created>1612236497475</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612236497475</updated>
+    </task>
+    <task id="LOCAL-00016" summary="取消该测试方法">
+      <created>1614304228032</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614304228032</updated>
+    </task>
+    <task id="LOCAL-00017" summary="取消该测试方法">
+      <created>1614304246423</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614304246423</updated>
     </task>
     <task id="LOCAL-00018" summary="取消该测试方法">
       <created>1614686475793</created>
@@ -478,42 +522,7 @@
       <option name="project" value="LOCAL" />
       <updated>1622444927492</updated>
     </task>
-    <task id="LOCAL-00062" summary="默认更改列表">
-      <created>1623030007815</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1623030007816</updated>
-    </task>
-    <task id="LOCAL-00063" summary="默认更改列表">
-      <created>1623030708938</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1623030708938</updated>
-    </task>
-    <task id="LOCAL-00064" summary="默认更改列表">
-      <created>1623070136418</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1623070136418</updated>
-    </task>
-    <task id="LOCAL-00065" summary="默认更改列表">
-      <created>1623218236457</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1623218236457</updated>
-    </task>
-    <task id="LOCAL-00066" summary="默认更改列表">
-      <created>1623312608107</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1623312608107</updated>
-    </task>
-    <option name="localTasksCounter" value="67" />
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
