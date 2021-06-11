@@ -488,8 +488,8 @@ add_hometown_input_phone = By.XPATH, '/hierarchy/android.widget.FrameLayout/andr
 # 提交
 add_hometown_submit = By.XPATH, '//*[@text="提交"]'
 
-# 个人中心
-add_hometown_personal_center = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/rl_info_head_background"]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]'
+# 我的发布
+add_hometown_personal_center = By.XPATH, '//*[@text="我的发布"]'
 
 # 多选按钮
 add_hometown_multiple_choice_button = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
