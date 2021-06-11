@@ -44,11 +44,11 @@ class TestOrderPagination:
     #     sleep(2)
     #     self.hair.if_order()
 
-    def test03_hometown_dynamic(self):
-        self.hometown = PageIn().page_get_hometown()
-        self.hometown.page_my_hometown_dynamic()
-        # self.hometown.page_login_location1()
-        self.hometown.page_hometown_delete_dynamic()
+    # def test03_hometown_dynamic(self):
+    #     self.hometown = PageIn().page_get_hometown()
+    #     self.hometown.page_my_hometown_dynamic()
+    #     # self.hometown.page_login_location1()
+    #     self.hometown.page_hometown_delete_dynamic()
 
     # 关注咨询
     # def test04_hometown_dynamic(self):
@@ -56,12 +56,12 @@ class TestOrderPagination:
     #     self.hometown.page_hometown_consulting()
     #     self.hometown.page_hometown_cancel_consulting()
 
-    # 发布本地好店
-    def test05_hometown_shop(self, name='北京好店1', introduce='12345678901234567890'):
-        self.hometown = PageIn().page_get_hometown()
-        self.hometown.page_local_stores(name, introduce)
-        # self.hometown.page_hometown_cancel_consulting()
-
+    # # 发布本地好店
+    # def test05_hometown_shop(self, name='北京好店1', introduce='12345678901234567890'):
+    #     self.hometown = PageIn().page_get_hometown()
+    #     self.hometown.page_local_stores(name, introduce)
+    #     # self.hometown.page_hometown_cancel_consulting()
+    #
     # 发布本地美景
     def test06_page_chart_dynamic(self, information='12345678901234567890', describe='12345678901234567890'):
         self.hometown = PageIn().page_get_hometown()
