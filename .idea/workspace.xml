@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/add_order.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/add_order.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test08_recommend.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test08_recommend.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,14 +174,7 @@
       <workItem from="1623309587078" duration="2830000" />
       <workItem from="1623381145089" duration="5715000" />
       <workItem from="1623721299572" duration="332000" />
-      <workItem from="1623721654843" duration="1796000" />
-    </task>
-    <task id="LOCAL-00020" summary="取消该测试方法">
-      <created>1614756465532</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1614756465532</updated>
+      <workItem from="1623721654843" duration="2776000" />
     </task>
     <task id="LOCAL-00021" summary="取消该测试方法">
       <created>1615364177059</created>
@@ -517,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623401791859</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="默认更改列表">
+      <created>1623725076772</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1623725076773</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
