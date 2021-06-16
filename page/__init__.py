@@ -578,7 +578,7 @@ home_commodity_signout = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]
 home_release = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.widget.Image[1]'
 
 # 家乡风景
-home_scenery = By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View[2]/android.view.View[3]/android.view.View/android.view.View/android.widget.Image'
+home_scenery = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]'
 
 # 发布家乡风景
 home_release_scenery = By.XPATH, '//*[@text="发布家乡风景"]'
