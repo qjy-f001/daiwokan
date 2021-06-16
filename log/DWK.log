@@ -67,3 +67,72 @@
 2021-06-16 10:18:37,745 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="个人中心"]/android.view.View[2]')
 2021-06-16 10:18:37,747 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
 2021-06-16 10:18:37,946 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]')
+2021-06-16 15:56:27,014 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="ac4e3175-5496-4928-beed-579c5bbd97f6")>
+2021-06-16 15:56:27,016 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:28,422 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_home_dialog_ok')
+2021-06-16 15:56:35,773 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_go_app') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:36,488 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_go_app')
+2021-06-16 15:56:36,490 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-06-16 15:56:38,050 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-06-16 15:56:38,052 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:40,725 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-06-16 15:56:40,728 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_info_head_name') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:42,084 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_info_head_name')
+2021-06-16 15:56:42,088 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:43,464 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_chat_rests_login')
+2021-06-16 15:56:43,465 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="ac4e3175-5496-4928-beed-579c5bbd97f6")>
+2021-06-16 15:56:43,467 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:43,549 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行清空操作
+2021-06-16 15:56:44,906 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_number') 执行 输入：13511112222
+2021-06-16 15:56:44,907 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:45,474 INFO [root] [base.py (base_input:48] - 正在对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行清空操作
+2021-06-16 15:56:46,526 INFO [root] [base.py (base_input:51] - 对元素：('id', 'com.qjy.teleeye:id/et_reginster_phone_code') 执行 输入：123456
+2021-06-16 15:56:46,529 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/tv_register_enter') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:47,145 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/tv_register_enter')
+2021-06-16 15:56:47,147 INFO [root] [base.py (__init__:18] - 获取driver对象：<appium.webdriver.webdriver.WebDriver (session="ac4e3175-5496-4928-beed-579c5bbd97f6")>
+2021-06-16 15:56:47,151 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:48,702 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_letter')
+2021-06-16 15:56:48,705 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="家乡"]') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:51,319 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="家乡"]')
+2021-06-16 15:56:51,322 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.widget.Image[1]') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:52,393 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.widget.Image[1]')
+2021-06-16 15:56:52,396 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:55,628 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]')
+2021-06-16 15:56:55,632 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="发布家乡风景"]') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:57,257 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="发布家乡风景"]')
+2021-06-16 15:56:57,261 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="图片/视频"]') 超时时间：10 访问频率：0.5
+2021-06-16 15:56:58,202 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="图片/视频"]')
+2021-06-16 15:56:58,209 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：2 访问频率：0.5
+2021-06-16 15:56:59,163 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：2 访问频率：0.5
+2021-06-16 15:56:59,231 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-06-16 15:56:59,330 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-06-16 15:56:59,337 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：2 访问频率：0.5
+2021-06-16 15:56:59,390 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：2 访问频率：0.5
+2021-06-16 15:57:00,439 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：10 访问频率：0.5
+2021-06-16 15:57:00,559 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', "//*[@text='仅在使用中允许']")
+2021-06-16 15:57:00,564 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：2 访问频率：0.5
+2021-06-16 15:57:06,575 INFO [root] [base.py (base_finds:32] - 正在查找元素：('xpath', "//*[@text='仅在使用中允许']") 超时时间：2 访问频率：0.5
+2021-06-16 15:57:12,131 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="选照片"]') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:12,473 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="选照片"]')
+2021-06-16 15:57:12,475 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/mRecyclerView"]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.CheckBox[1]') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:13,667 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/mRecyclerView"]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.CheckBox[1]')
+2021-06-16 15:57:13,669 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/tv_rightBtn"]') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:14,730 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="com.qjy.teleeye:id/tv_rightBtn"]')
+2021-06-16 15:57:14,731 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.EditText') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:16,425 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.EditText') 执行清空操作
+2021-06-16 15:57:16,972 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.EditText') 执行 输入：12345678901234567890
+2021-06-16 15:57:18,975 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[2]/android.widget.EditText') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:19,548 INFO [root] [base.py (base_input:48] - 正在对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[2]/android.widget.EditText') 执行清空操作
+2021-06-16 15:57:20,438 INFO [root] [base.py (base_input:51] - 对元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[2]/android.widget.EditText') 执行 输入：12345678901234567890
+2021-06-16 15:57:20,440 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="提交"]') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:21,097 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="提交"]')
+2021-06-16 15:57:21,098 INFO [root] [base.py (base_find:25] - 正在查找元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:24,489 INFO [root] [base.py (base_click:40] - 正在点击元素：('id', 'com.qjy.teleeye:id/iv_tabbar_me')
+2021-06-16 15:57:24,492 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="我的发布"]') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:25,821 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="我的发布"]')
+2021-06-16 15:57:25,825 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:27,225 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]')
+2021-06-16 15:57:27,229 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@text="个人中心"]/android.view.View[2]') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:28,613 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@text="个人中心"]/android.view.View[2]')
+2021-06-16 15:57:28,616 INFO [root] [base.py (base_find:25] - 正在查找元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]') 超时时间：10 访问频率：0.5
+2021-06-16 15:57:29,361 INFO [root] [base.py (base_click:40] - 正在点击元素：('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]')
