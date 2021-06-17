@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test02_add_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test02_add_order.py" afterDir="false" />
-    </list>
+    <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,14 +173,7 @@
       <workItem from="1623721654843" duration="7038000" />
       <workItem from="1623751444615" duration="2775000" />
       <workItem from="1623809793723" duration="543000" />
-      <workItem from="1623810354341" duration="10726000" />
-    </task>
-    <task id="LOCAL-00024" summary="取消该测试方法">
-      <created>1615367456948</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1615367456948</updated>
+      <workItem from="1623810354341" duration="11030000" />
     </task>
     <task id="LOCAL-00025" summary="取消该测试方法">
       <created>1615786961543</created>
@@ -523,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623833170887</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="默认更改列表">
+      <created>1623913204771</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1623913204771</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
