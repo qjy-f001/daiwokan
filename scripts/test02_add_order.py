@@ -2,12 +2,10 @@ import sys
 import os
 
 sys.path.append(os.getcwd())
+from tool.get_log import GetLog
 from time import sleep
 import pytest
-from tool.get_log import GetLog
-
 from tool.read_yaml import read_yaml
-
 from page.page_in import PageIn
 from tool.get_driver import GetDriver
 
@@ -42,4 +40,3 @@ class TestAddOrder:
         self.hair.page_click_hair_billing_record()
         sleep(2)
         self.hair.if_order()
-

@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test02_add_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test02_add_order.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,14 +178,7 @@
       <workItem from="1623721654843" duration="7038000" />
       <workItem from="1623751444615" duration="2775000" />
       <workItem from="1623809793723" duration="543000" />
-      <workItem from="1623810354341" duration="6248000" />
-    </task>
-    <task id="LOCAL-00023" summary="取消该测试方法">
-      <created>1615367373128</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1615367373128</updated>
+      <workItem from="1623810354341" duration="10726000" />
     </task>
     <task id="LOCAL-00024" summary="取消该测试方法">
       <created>1615367456948</created>
@@ -522,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623828089297</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="默认更改列表">
+      <created>1623833170887</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1623833170887</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
