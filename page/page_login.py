@@ -90,6 +90,10 @@ class PageLogin(Base):
     def page_login_register_phone_back(self):
         self.base_click(page.login_register_phone_back)
 
+    # 点击 微信登录
+    def page_login_chat_login(self):
+        self.base_click(page.login_chat_login)
+
     # 退出登陆业务方法
     def page_logout(self):
         log.info("正在执行退出登录业务方法")
@@ -110,7 +114,9 @@ class PageLogin(Base):
         self.page_login_me()
         # 点击 立即登陆
         self.page_login_log_now()
-        self.page_login_other()
+        # 点击 微信登录
+        self.base_click(page.login_chat_login)
+        # self.page_login_other()
 
     # 组合业务方法
     def page_login(self, phone, pwd):

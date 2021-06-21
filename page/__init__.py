@@ -50,6 +50,12 @@ login_register_phone = By.ID, "com.qjy.teleeye:id/tv_register_phone_title"
 
 # 点击 返回
 login_register_phone_back = By.ID, "com.qjy.teleeye:id/tv_action_bar_menu_back"
+
+# 点击 web返回
+login_web_back = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
+
+# 点击 微信登录
+login_chat_login = By.ID, "com.qjy.teleeye:id/ll_chat_login"
 """以下为发单模块配置数据"""
 
 # 点击 首页主页
@@ -588,7 +594,6 @@ home_picture_video = By.XPATH, '//*[@text="图片/视频"]'
 
 # 选照片
 home_choose_photo = By.XPATH, '//*[@text="选照片"]'
-
 
 # 选择图片
 home_choice_picture = By.XPATH, '//*[@resource-id="com.qjy.teleeye:id/mRecyclerView"]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.CheckBox[1]'

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表" />
+    <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_add_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_add_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test02_add_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test02_add_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test04_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test04_hometown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/read_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/read_yaml.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,14 +183,8 @@
       <workItem from="1623721654843" duration="7038000" />
       <workItem from="1623751444615" duration="2775000" />
       <workItem from="1623809793723" duration="543000" />
-      <workItem from="1623810354341" duration="11030000" />
-    </task>
-    <task id="LOCAL-00025" summary="取消该测试方法">
-      <created>1615786961543</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1615786961543</updated>
+      <workItem from="1623810354341" duration="12758000" />
+      <workItem from="1624239618984" duration="5033000" />
     </task>
     <task id="LOCAL-00026" summary="取消该测试方法">
       <created>1615789182361</created>
@@ -518,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623913204771</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="默认更改列表">
+      <created>1623913248796</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1623913248796</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">

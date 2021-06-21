@@ -25,7 +25,7 @@ class TestAddOrder:
         self.login = PageIn().page_get_page_login()
         # 点击同意协议并登陆
         self.login.page_get_into_app()
-        PageIn().page_get_page_login().page_add_skill()
+        # PageIn().page_get_page_login().page_add_skill()
 
     # 结束
     def teardown_class(self):
