@@ -49,7 +49,7 @@ login_sign_out = By.ID, "com.qjy.teleeye:id/iv_chat_back"
 login_register_phone = By.ID, "com.qjy.teleeye:id/tv_register_phone_title"
 
 # 点击 返回
-login_register_phone_back = By.ID, "com.qjy.teleeye:id/tv_action_bar_menu_back"
+login_register_phone_back = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[1]'
 
 # 点击 web返回
 login_web_back = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
