@@ -8,6 +8,7 @@ from page.page_campus import PageCampus
 from page.page_position import PagePosition
 from tool.get_driver import GetDriver
 from page.page_chat import PageChat
+from page.page_commodity import PageCommodity
 
 
 class PageIn:
@@ -49,3 +50,7 @@ class PageIn:
     # 获取 聊天页面对象
     def page_get_chat(self):
         return PageChat(self.driver)
+
+    # 获取 商品页面对象
+    def page_get_commodity(self):
+        return PageCommodity(self.driver)

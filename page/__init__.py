@@ -55,6 +55,9 @@ login_register_phone_back = By.XPATH, '//*[@resource-id="app"]/android.view.View
 login_web_back = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
 
 # 点击 微信登录
+login_check_agreement = By.ID, "com.qjy.teleeye:id/iv_chat_is_agreement"
+
+# 点击 微信登录
 login_chat_login = By.ID, "com.qjy.teleeye:id/ll_chat_login"
 """以下为发单模块配置数据"""
 
@@ -497,11 +500,11 @@ add_hometown_submit = By.XPATH, '//*[@text="提交"]'
 # 我的发布
 add_hometown_personal_center = By.XPATH, '//*[@text="我的发布"]'
 
-# 多选按钮
-add_hometown_multiple_choice_button = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
+# 首个作品
+add_hometown_first_works = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
 
 # 删除动态
-add_hometown_delete_dynamic = By.XPATH, '//*[@text="个人中心"]/android.view.View[2]'
+add_hometown_delete_dynamic = By.XPATH, '//*[@text="删除"]'
 
 # 退出
 add_hometown_sign_out = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]'
@@ -524,6 +527,7 @@ add_hometown_collection = By.XPATH, '//body//div//p[@class="footer-collection"]'
 
 # 关注
 add_hometown_information_collect = By.ID, 'com.qjy.teleeye:id/ll_info_collect_manage'
+
 
 add_hometown_information_zx = By.XPATH, '//body//div[@class="van-tabs__content"]'
 
@@ -578,6 +582,7 @@ home_commodity_release = By.XPATH, '//*[@text="发布"]'
 
 #
 home_commodity_signout = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[2]/android.view.View[1]'
+
 # 家乡风景--------------------------
 
 # 发布+
@@ -750,11 +755,25 @@ chat_portrait = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.
 # 聊一聊
 chat_have_a_chat = By.XPATH, '//*[@text="聊一聊"]'
 
-# resource-id
-# com.qjy.teleeye:id/tv_action_bar_menu_back
-#
-# resource-id
-# com.qjy.teleeye:id/tv_action_bar_menu_back
-#
-# resource-id
-# com.qjy.teleeye:id/tv_action_bar_menu_back
+"""以下为商品	元素模块配置数据"""
+
+# 商品
+commodity_homepage = By.ID, "com.qjy.teleeye:id/iv_tabbar_help"
+
+# 首个商品
+commodity_first_product = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
+
+# 发起拼团
+commodity_launch_group = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[10]/android.view.View[3]'
+
+# 我的订单
+commodity_my_order = By.XPATH, '//*[@text="我的订单"]'
+
+# 首个订单
+commodity_first_order = By.XPATH, '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]'
+
+# 取消订单
+commodity_cancel_order = By.XPATH, '//*[@text="取消订单"]'
+
+# 确认
+commodity_confirm = By.XPATH, '//*[@text="确认"]'

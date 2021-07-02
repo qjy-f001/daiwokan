@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="184a4d1f-99f6-4956-a333-abec7cd87970" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tool/test_airtest001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/page_commodity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test09_commodity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/add_order.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/add_order.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/DWK.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/DWK.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_add_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_add_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_hometown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_in.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test04_hometown.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test04_hometown.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +131,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -212,14 +220,8 @@
       <workItem from="1623810354341" duration="12758000" />
       <workItem from="1624239618984" duration="6406000" />
       <workItem from="1624256702009" duration="26000" />
-      <workItem from="1624256739585" duration="10827000" />
-    </task>
-    <task id="LOCAL-00027" summary="取消该测试方法">
-      <created>1615888285914</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1615888285914</updated>
+      <workItem from="1624256739585" duration="12059000" />
+      <workItem from="1625120620594" duration="8523000" />
     </task>
     <task id="LOCAL-00028" summary="取消该测试方法">
       <created>1615893678584</created>
@@ -557,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624254069702</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="默认更改列表">
+      <created>1624516097990</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1624516097990</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">

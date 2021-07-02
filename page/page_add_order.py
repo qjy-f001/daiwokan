@@ -256,6 +256,7 @@ class PageAddOrder(Base):
         self.base_click(page.hair_order_details_pay_no)
         self.base_click(page.hair_order_details_pay_noo)
         self.base_click(page.hair_determine)
+
         self.base_click(page.hair_return_order_details)
         self.base_click(page.hair_return_Billing_record)
 

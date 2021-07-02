@@ -114,6 +114,7 @@ class PageLogin(Base):
         self.page_login_me()
         # 点击 立即登陆
         self.page_login_log_now()
+        self.base_click(page.login_check_agreement)
         # 点击 微信登录
         self.base_click(page.login_chat_login)
         # self.page_login_other()

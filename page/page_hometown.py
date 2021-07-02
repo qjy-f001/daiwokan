@@ -393,7 +393,6 @@ class PageHometown(Base):
         sleep(2)
         self.base_click(page.add_hometown_bj)
         sleep(2)
-        # self.base_click(page.add_hometown_city)
         self.base_click(page.add_hometown_city_jurisdiction)
         sleep(3)
         self.base_click(page.add_hometown_dongcheng_district)
@@ -401,22 +400,16 @@ class PageHometown(Base):
         self.base_click(page.add_hometown_township)
         sleep(2)
         self.base_click(page.add_hometown_olympic_village_street)
-        # self.driver.implicitly_wait(2)
-        # self.base_click(page.add_hometown_choose_here_as_my_hometown)
 
     # 组合我的家乡页面业务方法
     def page_my_hometown_modify(self):
         self.base_click(page.hair_letter)
         self.base_click(page.add_hometown)
-        # self.base_click(page.add_hometown_icon)
         self.base_click(page.add_hometown_publish_with_order_web)
-        # self.base_click(page.add_hometown_release_order_with_android)
+
 
     # 我的家乡发订单业务
     def page_my_hometown_order(self, money, demand):
-        # self.base_click(page.add_billing_home_billing_time)
-        # sleep(1)
-        # self.base_click(page.hair_btn_pos)
         self.base_input(page.add_billing_home_service_money, money)
         self.driver.implicitly_wait(2)
         self.base_input(page.add_billing_home_demand, demand)
@@ -434,6 +427,7 @@ class PageHometown(Base):
         self.base_click(page.add_hometown_shop_transfer)
         sleep(2)
         self.base_click(page.add_hometown_transfer_shop)
+        sleep(2)
         self.base_click(page.add_hometown_select_store_type)
         self.base_click(page.add_hometown_office_building)
         self.base_click(page.add_hometown_dynamic_yes)
@@ -441,8 +435,7 @@ class PageHometown(Base):
         self.base_input(page.add_hometown_title_options, title)
         self.base_input(page.add_hometown_information_transfer, transfer)
         self.base_input(page.add_hometown_input_area, area)
-        # sleep(1)
-        # self.driver.tap([(343, 1576)])
+        sleep(1)
         self.base_input(page.add_hometown_input_charge, charge)
         self.base_click(page.add_hometown_business)
         self.base_click(page.add_hometown_beverage)
@@ -450,14 +443,8 @@ class PageHometown(Base):
         self.base_click(page.add_hometown_complete)
         self.base_input(page.add_hometown_input_phone, phone)
         self.base_click(page.add_hometown_up_image)
-        # self.page_login_location1()
-
-        # self.base_click(page.login_location)
-        # self.base_click(page.login_location)
         self.page_login_location1()
-
         self.base_click(page.add_hometown_take_a_picture)
-        # self.base_click(page.add_hometown_camera)
         self.base_click(page.add_hometown_shot)
         self.base_click(page.add_hometown_ok_picture)
         sleep(1)
@@ -467,12 +454,12 @@ class PageHometown(Base):
     def page_hometown_delete_dynamic(self):
         self.base_click(page.login_me)
         self.base_click(page.add_hometown_personal_center)
-        self.base_click(page.add_hometown_multiple_choice_button)
+        self.base_click(page.add_hometown_first_works)
         # self.driver.wait_activity(".ui.Activity_Splash", 2)
+        self.driver.swipe(800, 1561, 800, 100, duration=3000)
         self.base_click(page.add_hometown_delete_dynamic)
+        self.base_click(page.commodity_confirm)
         self.base_click(page.add_hometown_sign_out)
-        # self.driver.get_window_size()['height']
-        # driver.manage().window().getSize().width
 
     # 关注咨询
     def page_hometown_consulting(self):
@@ -534,8 +521,6 @@ class PageHometown(Base):
         self.base_click(page.position_manage_choice_position)
         self.driver.swipe(320, 1800, 320, 1460)
         self.base_click(page.home_commodity_release)
-        # self.base_click(page.home_commodity_release)
-
         self.base_click(page.position_manage_back)
         sleep(2)
         self.base_click(page.home_commodity_signout)
@@ -548,14 +533,8 @@ class PageHometown(Base):
         self.base_click(page.add_hometown)
         self.base_click(page.home_release)
         self.base_click(page.home_scenery)
-        # self.base_click(page.home_release)
-        self.base_click(page.home_release_scenery)  # 发布家乡风景
         self.base_click(page.home_picture_video)  # 选择图片
-
-        # self.base_click(page.login_location)
-        # self.base_click(page.login_location)
         self.page_login_location1()
-
         self.base_click(page.home_choose_photo)  # 选照片
         self.base_click(page.home_choice_picture)
         self.base_click(page.home_complete)
